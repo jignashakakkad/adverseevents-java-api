@@ -1,0 +1,23 @@
+<div class="h4"></div>
+<div class='col-md-12'>
+    <div class="panel panel-default" ng-init="rxschartIsCollapsed = false">
+        <div class="panel-heading">
+            <h4 class="panel-title">RxScore Comparison by Drug
+                <button class="pull-right btn btn-xs" ng-click="rxschartIsCollapsed = !rxschartIsCollapsed"><span
+                    class="text-center"
+                    ng-class="{'fa fa-plus': rxschartIsCollapsed, 'fa fa-minus': !rxschartIsCollapsed}"></span>
+                </button>
+            </h4>
+        </div>
+        <div class="panel-body small" collapse="chartIsCollapsed">
+            <div class="col-xs-12">
+                <highchart id="drugCostChart" config="costChartConfig" class="col-md-12"></highchart>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .ngCellText span {
+        margin-left: 0 !important;
+    }
+</style>

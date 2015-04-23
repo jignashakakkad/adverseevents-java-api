@@ -1,0 +1,112 @@
+{
+    "outcomesCosts": [
+        {
+            "field": "aedrug_label",
+            "cellClass": "drugName",
+            "width": "197px",
+            "visible": true,
+            "pinned": true,
+            "displayName": "Product Name(s)",
+            "cellTemplate": "<div class=\"ngCellText pull-left\"><a ui-sref=\"drugs.detail.costs({id:row.getProperty('aedrug_id') })\">{{row.getProperty(col.field) | pascalCaseFilter }}</a></div>"
+        },
+        {
+            "field": "metric_mean_patient_cost_rx",
+            "width": "176px",
+            "visible": true,
+            "displayName": "RxCost Per Prescription",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_drug_price_rx",
+            "width": "244px",
+            "visible": true,
+            "displayName": "Retail Price Per Prescription (2014)",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_sum_annual_costs_rx",
+            "width": "206px",
+            "visible": true,
+            "displayName": "Total Costs Per Prescription",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_sum_costed_rx",
+            "width": "108px",
+            "visible": true,
+            "displayName": "Prescriptions",
+            "cellFilter": "number:0",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | number:0}}</div>"
+        },
+        {
+            "field": "metric_potential_savings_rx",
+            "width": "*",
+            "visible": true,
+            "displayName": "RxCost Savings (Per Rx)",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:0 }}</div>"
+        },
+        {
+            "field": "metric_mean_patient_cost",
+            "width": "*",
+            "visible": false,
+            "displayName": "RxCost Per Patient",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_pctg_event_onlabel_cost",
+            "width": "**",
+            "visible": false,
+            "displayName": "% Costs Unlabeled Risks",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | pctgFilter:2 }}</div>"
+        },
+        {
+            "field": "metric_rate_ime_serious",
+            "width": "*",
+            "visible": false,
+            "displayName": "Serious AE Rate",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | incidenceFilter }}</div>"
+        },
+        {
+            "field": "metric_sum_costed_patient",
+            "visible": false,
+            "displayName": "Annual Patients",
+            "cellFilter": "number:0",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | number:0 }}</div>"
+        },
+        {
+            "field": "metric_mean_cost_otherdrug",
+            "width": "*",
+            "visible": false,
+            "displayName": "Avg. Costs for Other Drugs (Per Patient)",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_mean_cost_otherdrug_rx",
+            "width": "*",
+            "visible": false,
+            "displayName": "Avg. Costs for Other Drugs (Per Rx)",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_sum_annual_costs",
+            "width": "*",
+            "visible": false,
+            "displayName": "Annual RxCost",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:0 }}</div>"
+        },
+        {
+            "field": "metric_potential_savings",
+            "width": "*",
+            "visible": false,
+            "displayName": "RxCost Savings (Per Patient)",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:0 }}</div>"
+        },
+        {
+            "field": "metric_potential_savings_x5",
+            "width": "*",
+            "visible": false,
+            "displayName": "Potential Savings (Per Patient x5)",
+            "cellTemplate": "<div class=\"ngCellText text-center\">{{row.getProperty(col.field) | currency:$:0 }}</div>"
+        }
+    ]
+}

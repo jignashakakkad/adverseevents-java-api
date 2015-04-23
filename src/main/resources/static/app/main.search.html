@@ -1,0 +1,20 @@
+<div class="homePageContainer" id="ColinSearchToolHome" ng-controller="HomeSearchCtrl"
+     ng-hide="$state.current.name !== 'home'" style="margin-top: 0.5em;">
+    <ui-select ng-model="item.selected" theme="bootstrap" reset-search-input="true">
+        <ui-select-match placeholder="Search any drug, company, indication, drug class or mechanism of action.">
+            {{$select.selected.thisName}}
+        </ui-select-match>
+        <ui-select-choices
+                repeat="item in items | propsFilter: {thisName: $select.search, thisClass: $select.search, thisSynonym: $select.search} | limitTo: 20"
+                refresh="refreshItems($select.search)" refresh-delay="1">
+            <ui-select-choice>
+                <span>
+                    <span ng-bind-html="item.thisName | highlight: $select.search"></span>
+                    <span class="text-muted" ng-show="item.thisType === 'Drug'"
+                          ng-bind-html="item.thisClass | highlight: $select.search"></span>
+                    <span class="pull-right text-muted" ng-bind-html="item.thisType"></span>
+                </span>
+            </ui-select-choice>
+        </ui-select-choices>
+    </ui-select>
+</div>

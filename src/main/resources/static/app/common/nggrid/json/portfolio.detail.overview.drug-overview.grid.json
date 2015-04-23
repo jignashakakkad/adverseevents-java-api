@@ -1,0 +1,140 @@
+{
+    "portfolioDrugOverview": [
+            {
+                "field": "product_name",
+                "pinned": true,
+                "width": "169px",
+                "visible": true,
+                "displayName": "Product Name",
+                "cellTemplate": "<div class='ngCellText'><a ui-sref='drugs.detail.overview({id: row.getProperty(\"aedrug_id\")})'>{{row.getProperty(col.field) | titleCase}}</a></p></div>"
+
+            },
+            {
+                "field": "attr_product_fact_brandGeneric",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "140",
+                "visible": true,
+                "displayName": "Branded/Generic"
+            },
+            {
+                "field": "metric_sum_company_userPortfolio_exposed",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'pctgFilter':0",
+                "pinned": false,
+                "width": "178px",
+                "visible": true,
+                "displayName": "Portfolio Co. Exposed"
+            },
+            {
+                "field": "metric_sum_company_exposed",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'pctgFilter':0",
+                "pinned": false,
+                "width": "178px",
+                "visible": true,
+                "displayName": "Total Co. Exposed"
+            },
+            {
+                "field": "metric_pctg_company_userPortfolio_exposed",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'pctgFilter':0",
+                "pinned": false,
+                "width": "161px",
+                "visible": true,
+                "displayName": "Percentage Exposure"
+            },
+            {
+                "field": "metric_fact_product_rxscore",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "140",
+                "visible": true,
+                "displayName": "RxScore",
+                "cellTemplate": "<div ng-class='{\"ngCellText\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"ngCellText\",\"green\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"green\",\"red\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"red\"}'><p>{{row.getProperty(col.field) > 0 ? (row.getProperty(col.field) | number:2) : '-'}}</p></div>"
+            },
+            {
+                "field": "metric_sum_company_userPortfolio_revenue2014",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'currency':$:2",
+                "pinned": false,
+                "visible": true,
+                "displayName": "2014 Revenue Total - Companies"
+            },
+            {
+                "field": "attr_product_aedrugGeneric_name",
+                "cellClass": "centerCellText",
+                "cellFilter": "capitalizeFilter",
+                "pinned": false,
+                "width": "170",
+                "visible": false,
+                "displayName": "Generic Name"
+            },
+            {
+                "field": "attr_product_company_nameList",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "170",
+                "visible": false,
+                "displayName": "Company Names"
+            },
+            {
+                "field": "metric_sum_company_userPortfolio_revenue2013",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'currency':$:2",
+                "pinned": false,
+                "visible": false,
+                "displayName": "2013 Revenue Total - Companies"
+            },
+            {
+                "field": "metric_pctg_company_revenueGrowth",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'pctgFilter':0",
+                "pinned": false,
+                "width": "70",
+                "visible": false,
+                "displayName": "Revenue Growth"
+            },
+            {
+                "field": "metric_sum_product_pscases",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'number':0",
+                "pinned": false,
+                "width": "70",
+                "visible": false,
+                "displayName": "Primary Suspect Cases"
+            },
+            {
+                "field": "attr_product_druggroup_indication",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "170",
+                "visible": false,
+                "displayName": "Primary Indication"
+            },
+            {
+                "field": "attr_product_druggroup_drugclass_primary",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "170",
+                "visible": false,
+                "displayName": "Drug Class"
+            },
+            {
+                "field": "dt_max_data",
+                "width": "100px",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "visible": false,
+                "displayName": "Date Updated"
+            },
+            {
+                "field": "attr_product_fact_approval_date",
+                "width": "100px",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "visible": false,
+                "displayName": "Date Approved"
+            }
+    ]
+}

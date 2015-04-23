@@ -1,0 +1,35 @@
+<!--
+Comment is for only tracking the data population.
+
+http://www.adverseevents.com/api/drugclass/:drugclassid(N01AH)/drug-events
+This URL gives me database Error as below.
+
+Slim Application Error
+SQLSTATE[42S22]: Column not found: 1054 Unknown column
+'q.product_drugname' in 'field list'
+
+-->
+<div class="clearfix"></div>
+<div class="h4"></div>
+<div class="col-md-12">
+    <div class="panel panel-default overviewGridPanel">
+        <div class="panel-heading">
+            <span class="text-muted panel-title">{{title}}</span>
+            <button class="btn btn-info btn-mini restoreSortButton rxSignalSummaryCompanyGrid pull-right"
+                    ng-click="localStorageClear()"
+                    popover-append-to-body="true" popover-trigger="mouseenter"
+                    popover="Reload grid with default sorting order">Restore Default Settings
+            </button>
+        </div>
+        <div>
+            <div class="table-responsive">
+                <div class="gridStyle" ng-grid="incidenceRates.options" id="outcomesgrid"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .ngCellText {
+        text-align: center
+    }
+</style>

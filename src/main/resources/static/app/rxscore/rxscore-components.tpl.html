@@ -1,0 +1,20 @@
+<!-- rxscore-components.open() -->
+
+    <div class="panel panel-default ">
+        <div class="panel-heading"><h4 class="panel-title">{{ Drug.aedrug_name }} RxScore Components</h4></div>
+        <table class="table table-bordered">
+            <tr>
+                <td class="h4">RxScore Component</td>
+                <td class="h4">Pctg of Maximum</td>
+            </tr>
+
+            <tr ng-repeat="component in Drug.rxscore.components">
+                <td>{{  component.component }}</td>
+                <td>{{  component.pctg | number: 2 }} %</td>
+            </tr>
+        </table>
+
+
+    </div>
+<!--rxscore.table component end -->
+<!-- rxscore-components.close() -->

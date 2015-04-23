@@ -1,0 +1,23 @@
+<div class="row row-fluid">
+    <div class="col-sm-12">
+
+        <div class="panel panel-default panel-report">
+            <div class="panel-heading panel-title"><h4 class="text-muted ">Regulatory Information</h4>
+            </div>
+            <div class="panel-body">
+                <div class="row-fluid">
+                    <table class="table ">
+                        <tr class="text-muted strong" ng-repeat="datum in data_regulatory">
+                            <td>{{ datum.alert_dt_utc }}</td>
+                            <td>{{ datum.alert_label }}</td>
+                            <td><a class="btn btn-xs btn-info" target='_new' href="{{ datum.alert_url }}">link</a></td>
+
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

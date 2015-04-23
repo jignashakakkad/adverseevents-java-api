@@ -1,0 +1,9 @@
+<div class='pull-right drug-detail-rxscore' style="background-color: white;" ng-show="!isZero(rxscore)">
+    <div class="pull-right" ng-show="isZero(rxscore)" style="width: 160px; height: 80px; margin-bottom:30px;"><button class="btn btn-xlg btn-default btn-group-justified">N/A</button></div>
+    <div class="pull-right" id="RxScoreGauge" style="width: 300px; height: 220px; margin-top:0000"></div>
+	<div class="text-center">
+		<!--[if lte IE 8]>
+			<span>RxScore: {{ rxscore | number:2 }}</span>
+		<![endif]-->
+	</div>
+</div>

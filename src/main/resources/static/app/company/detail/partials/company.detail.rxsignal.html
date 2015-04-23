@@ -1,0 +1,26 @@
+<div class="clearfix"></div>
+<div class="h4"></div>
+<div class="col-md-12">
+    <div class="row-fluid">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="text-muted panel-title">Company Products - RxSignal Detail</span>
+                <button class="btn btn-default btn-mini btn-info restoreSortButton rxSignalSummaryCompanyGrid pull-right"
+                        ng-click="clearLocalStorage()"
+                        popover-append-to-body="true" popover-trigger="mouseenter"
+                        popover="Reload grid with default sorting order">
+                    Restore Default Settings
+                </button>
+            </div>
+            <div class="jumbotron" ng-show="rxsignal_count == 0"><h4>No RxSignal Data</h4></div>
+            <div ng-grid="gridOptions" class="gridStyle" ng-show="rxsignal_count > 0"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* this pulls all cell text to the left, otherwise it is centered */
+    .ngCellText span {
+        margin-left: 0 !important;
+    }
+</style>

@@ -1,0 +1,58 @@
+<!--
+Comment is for only tracking the data population.
+
+http://www.adverseevents.com/api/drugclass/:drugclassid(N01AH)/drug-events
+This URL gives me database Error as below.
+
+Slim Application Error
+SQLSTATE[42S22]: Column not found: 1054 Unknown column
+'q.product_drugname' in 'field list'
+
+-->
+<div class="clearfix"></div>
+<div class="h4"></div>
+<div class="col-md-12">
+    <div class="panel panel-default overviewGridPanel">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-sm-5">
+                    <span class="text-muted panel-title">{{title}} - {{DrugGroup.dimLabel | titleCase}} <span class='panel-subtext'>(IME Serious/RxSignal Only)</span></span>
+                </div>
+                <div class="col-md-2">
+                    <div class="dropdown">
+                        <button class="btn btn-default btn-mini dropdown-toggle restoreSortButton rxSignalSummaryCompanyGrid pull-right" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                            {{datatype}}
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a ui-sref="druggroup.detail.adevents({datatype:'IR'})">Incidence Rate</a></li>
+                            <li><a ui-sref="druggroup.detail.adevents({datatype:'ROR'})">ROR</a></li>
+                            <li><a ui-sref="druggroup.detail.adevents({datatype:'PS'})">PS Cases</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 pull-right">
+                    <button class="btn btn-info btn-mini restoreSortButton rxSignalSummaryCompanyGrid pull-right"
+                            ng-click="localStorageClear(['id'])"
+                            popover-append-to-body="true" popover-trigger="mouseenter"
+                            popover="Reload grid with default sorting order">
+                        Restore Default Settings
+                    </button>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div>
+            <div class="table-responsive ng-grid-outcome">
+                <div class="gridStyle" ng-grid="adEventsGridOptions" id="adeventsgrid"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .ngCellText {
+        text-align: center
+    }
+</style>

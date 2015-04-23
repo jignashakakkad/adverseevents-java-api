@@ -1,0 +1,17 @@
+<div class="h1"><h1>{{ ListCtrl.title }}</h1></div>
+<table class="table table-striped table-bordered">
+
+    <tr class="h4">
+        <td>Drug Group Name</td>
+        <td>Primary Suspect Cases</td>
+        <td><span class="pull-left">Top Adverse Event</span> </td>
+        <td><span class="pull-left">Top Drug</span> </td>
+    </tr>
+
+    <tr ng-repeat="DrugGroup in ListCtrl.drugGroupList | limitTo:50">
+        <td><a ui-sref="druggroup.detail.overview({id: DrugGroup.termCode})">{{ DrugGroup.termName }}</a></td>
+        <td>{{ DrugGroup.termCount | number:0 }}</td>
+        <td>{{ DrugGroup.topMetric.event[0].termName }}</td>
+        <td>{{ DrugGroup.topMetric.drug[0].termName }}</td>
+    </tr>
+</table>

@@ -1,0 +1,19 @@
+<div class='col-sm-12 col-xs-12 col-md-6 pull-right'>
+	<div class='panel panel-default portfolio-overflow'>
+		<div class='panel-heading'>
+			<h4 class='panel-title'>{{ PortView.portfolioTitle }} Drugs</h4>
+		</div>
+		<table class="table table-striped">
+			<tbody>
+				<tr class='panel-body' ng-repeat='drug in PortView.drugs | orderBy: thisName.substring(1,4) '>
+					<div class='empty-portfolio' ng-show='PortView.drugs.length === 0 || !PortView.drugs.length'>Add drugs using the search bar in the upper left</div>
+					<td>
+						<div>{{ ::drug.content_entity_label }}</div>
+						<span class='search-result-generic text-muted'>{{ ::drug.content_entity_synonym }}</span>
+					</td>
+					<td><btn class='btn btn-sm btn-warning pull-right' ng-click='removePortfolioItem(drug)'>Delete</btn></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

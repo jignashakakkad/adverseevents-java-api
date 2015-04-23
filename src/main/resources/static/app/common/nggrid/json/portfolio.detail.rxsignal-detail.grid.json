@@ -1,0 +1,147 @@
+{
+    "portfolioRxSignal": [
+        {
+            "field": "product_drugname",
+            "width": "200px",
+            "visible": true,
+            "pinned": true,
+            "displayName": "Product Name",
+            "cellTemplate": "<div class='ngCellText'><a ui-sref='drugs.detail.rxsignal({id: row.getProperty(\"aedrug_id\")})'>{{row.getProperty(col.field) | titleCase}}</a></div>"
+        },
+        {
+            "field": "metric_sum_company_userPortfolio_exposed",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number'",
+            "width": "100px",
+            "visible": true,
+            "displayName": "Portfolio Co. Exposed"
+        },
+        {
+            "field": "metric_sum_company_exposed",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number'",
+            "width": "100px",
+            "visible": true,
+            "displayName": "Total Co. Exposed"
+        },
+        {
+            "field": "metric_pctg_company_userPortfolio_exposed",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'pctgFilter':2",
+            "width": "100px",
+            "visible": true,
+            "displayName": "Percentage Exposure"
+        },
+        {
+            "field": "reac",
+            "width": "206px",
+            "visible": true,
+            "displayName": "Adverse Event",
+            "cellTemplate": "<div class='ngCellText'><p>{{row.getProperty(col.field)}} <span popover-append-to-body='true' popover='Designated Medical Event' popover-trigger='mouseenter' class=\"badge dmeBadge btn-danger active\" ng-show='row.getProperty(\"DME\") == \"DME\"'>DME</span></p></div>"
+        },
+        {
+            "field": "RxSignal",
+            "cellClass": "centerCellText",
+            "width": "102px",
+            "visible": true,
+            "displayName": "RxSignal",
+            "cellTemplate": "<div class='ngCellText' ng-class='{\"green\" : row.getProperty(\"RxSignal\") == \"Not Active\",\"red\" : row.getProperty(\"RxSignal\") == \"Active\",\"yellow\" : row.getProperty(\"RxSignal\") == \"Watchlist\" }'><p>{{ row.getProperty(col.field) }}</p></div>"
+        },
+        {
+            "field": "IME",
+            "cellClass": "centerCellText",
+            "width": "152px",
+            "visible": false,
+            "displayName": "IME Serious",
+            "cellTemplate": "<div class='ngCellText' ng-class='{\"green\" : row.getProperty(\"IME\") == \"Not Serious\",\"red\" : row.getProperty(\"IME\") == \"Serious\" }'><p>{{ row.getProperty(col.field) }}</p></div>"
+        },
+        {
+            "field": "DME",
+            "cellClass": "centerCellText",
+            "width": "184px",
+            "visible": false,
+            "displayName": "DME",
+            "cellTemplate": "<div class= 'ngCellText' ng-class='{\"green\" : row.getProperty(\"DME\") == \"Not DME\",\"red\" : row.getProperty(\"DME\") == \"DME\" }'><p>{{ row.getProperty(col.field) }}</p></div>"
+        },
+        {
+            "field": "Disease_Related",
+            "cellClass": "centerCellText",
+            "width": "114px",
+            "visible": false,
+            "displayName": "Disease Related",
+            "cellTemplate": "<div title='Disease Related' class='ngCellText' ng-class='{\"red\" : row.getProperty(\"Disease_Related\") == \"No\",\"green\" : row.getProperty(\"Disease_Related\") == \"Yes\" }'><p>{{ row.getProperty(col.field) }}</p></div>"
+        },
+        {
+            "field": "On_Off",
+            "cellClass": "centerCellText",
+            "width": "114px",
+            "visible": false,
+            "displayName": "On Label",
+            "cellTemplate": "<div class='ngCellText' ng-class='{\"green\" : row.getProperty(\"On_Off\") == \"Labeled\",\"red\" : row.getProperty(\"On_Off\") == \"Not Labeled\" }'><p>{{ row.getProperty(col.field) }}</p></div>"
+        },
+        {
+            "field": "Section",
+            "cellClass": "centerCellText",
+            "width": "114px",
+            "visible": false,
+            "displayName": "Label Section",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field)}}</div>"
+        },
+        {
+            "field": "ROR",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number':2",
+            "width": "75px",
+            "visible": true,
+            "displayName": "ROR"
+        },
+        {
+            "field": "PRR",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number':2",
+            "width": "100px",
+            "visible": false,
+            "displayName": "PRR"
+        },
+        {
+            "field": "PS",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number':0",
+            "width": "120px",
+            "visible": true,
+            "displayName": "Primary Suspect Cases"
+        },
+        {
+            "field": "PS_PCT",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter",
+            "width": "100px",
+            "visible": false,
+            "displayName": "Primary Suspect Percentage"
+        },
+        {
+            "field": "Total",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number':0",
+            "width": "100px",
+            "visible": false,
+            "displayName": "Total Cases"
+        },
+        {
+            "field": "Total_PCT",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter",
+            "width": "100px",
+            "visible": false,
+            "displayName": "Total PCT"
+        },
+        {
+            "field": "metric_cumulativeIncidence",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'incidenceFilter'",
+            "width": "86px",
+            "visible": true,
+            "displayName": "Incidence"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+<div class="row row-fluid">
+    <div class="col-sm-12">
+
+        <div class="panel panel-default panel-report" style="margin-bottom: 0;">
+            <div class="panel-heading panel-title"><h4 class="text-muted ">Regulatory Information</h4>
+            </div>
+            <div class="panel-body">
+                <div class="row-fluid" style="min-height: 50px !important;">
+                    <div class="col-md-12">
+                        <table class="table table-condensed">
+                            <tr class="strong table-noborder" ng-if="data_regulatory.length">
+                                <td>{{ data_regulatory[0].app_dt_utc }} - {{ Drug.aedrug_name }} Approval</td>
+                            </tr>
+                            <tr class="strong table-noborder" ng-if="data_regulatory.length" ng-repeat="datum in data_regulatory">
+                                <td ng-class="{'alert-regulatory': datum.is_blackbox == '1', 'alert-regulatory': datum.alert_code == '1'}">
+
+                                        {{ datum.alert_dt_utc }} - {{ Drug.aedrug_name }}
+                                        <span ng-if="$index === 0">Initial </span>
+                                        <span ng-if="$index === 1">Secondary </span>
+                                        FDA Alert - ({{ datum.alert_label }})
+                                        <span
+                                              ng-show="datum.is_blackbox == '1'"> - <span class="label label-danger"> Boxed Warning</span></span>
+                                        <a class="strong" style="color: #4682b4;" target='_new' href="{{ datum.alert_url }}"> - link
+                                            <i class="fa fa-share-square"></i></a>
+
+                                </td>
+                            </tr>
+                            <tr class="table-noborder" ng-hide="data_regulatory.length">
+                                <td><h5 class="text-muted">No FDA Alerts for {{ Drug.aedrug_name }}</h5></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

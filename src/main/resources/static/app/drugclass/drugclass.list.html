@@ -1,0 +1,17 @@
+<div class="h1"><h1>{{ Title }}</h1></div>
+<table class="table table-striped table-bordered">
+
+    <tr class="h4">
+        <td>Drug Class Name</td>
+        <td>Primary Suspect Cases</td>
+        <td><span class="pull-left">Top Adverse Event</span> </td>
+        <td><span class="pull-left">Top Drug</span> </td>
+    </tr>
+
+    <tr ng-repeat="Item in ListItems">
+        <td><a href="http://www.adverseevents.com/drugclass.php?termCode={{ Item.termCode }}">{{ Item.termName }}</a></td>
+        <td>{{ Item.termCount | number:0 }}</td>
+        <td>{{ Item.topMetric.event[0].termName }}</td>
+        <td>{{ Item.topMetric.drug[0].termName }}</td>
+    </tr>
+</table>

@@ -1,0 +1,20 @@
+<div class="h1"><h1>Top Drugs by Active Signal</h1></div>
+<table class="table table-striped table-bordered">
+
+    <tr class="h4">
+        <td>Brand Name</td>
+
+        <td>Active RxSignal Events</td>
+
+        <td>Top Events</td>
+    </tr>
+
+    <tr ng-repeat="Drug in ListItems | orderBy: '-metric_active' | limitTo: 50">
+        <td><a ui-sref="drugs.detail.rxsignal({ id:Drug.aedrug_id })">{{ Drug.aedrug_brandname }}</a></td>
+
+        <td>{{ Drug.metric_active | number:0 }}</td>
+
+        <td>{{ Drug.list_events }}
+        </td>
+    </tr>
+</table>

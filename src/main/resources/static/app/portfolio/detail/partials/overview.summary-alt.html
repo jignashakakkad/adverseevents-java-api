@@ -1,0 +1,108 @@
+<!-- for use as alternative to header button dropdown
+<div class="row overview-dropdown-row">
+    <div class="col-md-5">
+        <div class="outcomes-dropdown pull-left">
+            <div class="dropdown">
+                <button class="btn btn-default btn-mini dropdown-toggle restoreSortButton"
+                    type="button" data-toggle="dropdown"
+                    popover-append-to-body="true" popover-trigger="mouseenter"
+                    popover="Select overview data to display">
+                    {{ overviewdata }}
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a ui-sref="portfolio.detail.overview({overviewdata:'company'})">Company Overview</a></li>
+                    <li><a ui-sref="portfolio.detail.overview({overviewdata:'drug-overview'})">Drug Overview</a></li>
+                    <li><a ui-sref="portfolio.detail.overview({overviewdata:'drug-detail'})">Drug Detail</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="row">
+    <div class="col-md-5">
+        <div class="panel panel-default" ng-init="isCollapsed = false">
+            <div class="panel-heading">
+                <h4 class="panel-title">Summary
+                    <button class="pull-right btn btn-xs" ng-click="isCollapsed = !isCollapsed"><span
+                            class="text-center"
+                            ng-class="{'fa fa-plus': isCollapsed, 'fa fa-minus': !isCollapsed}"></span></button>
+                </h4>
+            </div>
+            <div class="panel-body small" collapse="isCollapsed">
+                <div class="col-xs-12">
+                    <table class="table  table-responsive  table-bordered">
+                        <tr>
+                            <td>Simple Avg. RxScore</td>
+                            <td>{{ Summary.Metrics.metric_average_rxscore.label }}</td>
+                        </tr>
+                        <tr>
+                            <td popover-append-to-body="true" popover-trigger="mouseenter" popover="{{ toolTipper('Weighted Rxscore') }}">
+                                Weighted Rxscore by 2013 Revs
+                            </td>
+                            <td>
+                                {{ Summary.Metrics.metric_rxscore_2013.label }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Weighted Rxscore by 2012 Revs</td>
+                            <td>{{ Summary.Metrics.metric_rxscore_2012.label }}</td>
+                        </tr>
+                        <tr>
+                            <td>Total Primary Suspect Cases</td>
+                            <td>{{ Summary.Drug.metric_total_pscount.label | number }}</td>
+                        </tr>
+                        <tr>
+                            <td>Active RxSignal ADE</td>
+                            <td>{{ Summary.Drug.metric_total_rxsignal.label | number }}</td>
+                        </tr>
+                    </table>
+
+
+                    <table class="table   table-responsive table-bordered">
+                        <tr>
+                            <td>Drug with highest RxScore</td>
+                            <td>{{ Summary.Drug.metric_top_rxscore.label | titleCase }}</td>
+                        </tr>
+                        <tr>
+                            <td>Drug with highest Sales</td>
+                            <td>{{ Summary.Drug.metric_top_sales.label | titleCase }}</td>
+                        </tr>
+                    </table>
+                    <table class="table  table-responsive table-bordered">
+                        <tr>
+                            <td>Class with highest RxScore</td>
+                            <td>{{ Summary.Class.metric_top_rxscore.label }}</td>
+                        </tr>
+                        <tr>
+                            <td>Class with highest Sales</td>
+                            <td>{{ Summary.Class.metric_top_sales.label }}</td>
+                        </tr>
+                        <tr>
+                            <td>Average RxScore Rank in Class<br/>(1 = Safest)</td>
+                            <td>{{ Summary.Class.metric_avg_rank.label }}</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Indication with highest RxScore</td>
+                            <td>{{ Summary.Indication.metric_top_rxscore.label }}</td>
+                        </tr>
+                        <tr>
+                            <td>Indication with highest Sales</td>
+                            <td>{{ Summary.Indication.metric_top_sales.label }}</td>
+                        </tr>
+                        <tr>
+                            <td>Average RxScore Rank in Indication<br/> (1 = Safest)</td>
+                            <td>{{ Summary.Indication.metric_avg_rank.label }}</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ui-view="overview-top"></div>
+</div>
+

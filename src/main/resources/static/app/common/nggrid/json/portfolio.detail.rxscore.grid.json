@@ -1,0 +1,58 @@
+{
+    "portfolioRxScore": [
+        {
+            "field": "product_drugname",
+            "width": "233px",
+            "visible": true,
+            "pinned": true,
+            "displayName": "Product Name(s)",
+            "cellTemplate": "<div class='ngCellText'><a ui-sref='drugs.detail.overview({id: row.getProperty(\"aedrug_id\")})'>{{row.getProperty(col.field) | titleCase}}</a></div>"
+        },
+        {
+            "field": "dt_approval",
+            "cellClass": "centerCellText",
+            "width": "117px",
+            "visible": true,
+            "displayName": "Approval Date",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) | date:'MM/dd/yyyy' }}</div>"
+        },
+        {
+            "field": "metric_rxscore",
+            "cellClass": "centerCellText",
+            "width": "79px",
+            "visible": true,
+            "displayName": "RxScore",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) > 0 ? row.getProperty(col.field) : '-'}}</div>"
+        },
+        {
+            "field": "class_drugclass_label",
+            "width": "188px",
+            "visible": true,
+            "displayName": "Drug Class",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field)}}</div>"
+        },
+        {
+            "field": "metric_drugclass_rank",
+            "cellClass": "centerCellText",
+            "width": "149px",
+            "visible": true,
+            "displayName": "Rank in Drug Class",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) > 0 ? (row.getProperty(col.field) | number:0) : '-'}}</div>"
+        },
+        {
+            "field": "class_indication",
+            "width": "186px",
+            "visible": true,
+            "displayName": "Primary Indication",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field)}}</div>"
+        },
+        {
+            "field": "metric_indication_rank",
+            "cellClass": "centerCellText",
+            "width": "*",
+            "visible": true,
+            "displayName": "Rank in Indication",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) > 0 ? (row.getProperty(col.field) | number:0) : '-'}}</div>"
+        }
+    ]
+}

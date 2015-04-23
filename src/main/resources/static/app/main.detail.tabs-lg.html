@@ -1,0 +1,8 @@
+<tabset id="bsnav-tabs" justified="true" class="nav-tabs-report">
+    <tab ng-repeat="tab in tabs"  active="tab.active" ui-sref="{{ tab.sref }}"  disabled="tab.disabled">
+        <tab-heading ui-sref="{{ tab.sref }}" class="h4">
+            <span class="text-sans-serif" style="white-space: nowrap;padding-left:9px;padding-right:9px;"><i class="{{ tab.icon }}"></i> {{ tab.heading }}</span>
+        </tab-heading>
+    </tab>
+</tabset>
+

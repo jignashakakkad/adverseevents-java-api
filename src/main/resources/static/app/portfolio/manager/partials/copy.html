@@ -1,0 +1,34 @@
+<span ng-controller="PortfolioModalCtrl">
+    <!--todo move to a partial or into $templateCache -->
+    <script type="text/ng-template" id="myModalContent2.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Copy {{ CreateView.portfolioTitle }}</h3>
+        </div>
+        <form name='eventForm' method="POST">
+            <div class="modal-body">
+                <input id='create-new-portfolio-input' ng-init='CreateView.portfolios.portName = (CreateView.Portfolio.label + " Copy"); 'class='form-control' ng-model='CreateView.portfolios.portName'
+                       placeholder='{{ CreateView.portfolioTitle }} name' ng-required='true' maxlength="35" focus-me="true">
+               <span class="help-inline" ng-show="CreateView.notUnique">{{ CreateView.portfolioTitle }} name in use</span>
+                <!--
+                Private/Group selection to be used in future versions
+                <div ng-init="radioModel = 'Right'; CreateView.portfolios.groupSelection = false" class="btn-group">
+                    <label class="btn btn-primary" ng-model="radioModel" ng-click='CreateView.portfolios.groupSelection = true' btn-radio="'Left'">Group</label>
+                    <label class="btn btn-primary" ng-model="radioModel" ng-click='CreateView.portfolios.groupSelection = false' btn-radio="'Right'">Private</label>
+                </div>
+                -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" ng-click="copyPortfolio(CreateView.portfolios.portName)"
+                        ng-disabled="eventForm.$invalid || CreateView.notUnique" id='portfolio-modal-create-button'>
+                    Create
+                </button>
+                <button class="btn btn-warning" ng-click="cancel()" id='portfolio-modal-cancel-button'>Cancel</button>
+            </div>
+        </form>
+    </script>
+	<button class='btn btn-primary btn-sm copy-portfolio pull-right'
+	    id='portfolio-copy-button'
+	    ng-click="open('sm', 2)">
+	<i class="fa fa-copy"></i> Copy
+	</button>
+</span>

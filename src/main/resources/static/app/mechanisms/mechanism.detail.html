@@ -1,0 +1,19 @@
+<div id="drugs-drugdetail" class="container" >
+    <div class="panel panel-default">
+        <div class="panel-heading report">
+            <div class="h3 report-header">
+                <div class="title pull-left">
+                    {{ Drug.aedrug_name }} Drug Report
+                    <div class="text-upper panel-heading"><span class="h3">{{ Metrics.counts.primary | number }} Primary Suspect Cases</div>
+                    <div class="text-upper  panel-heading" style="margin-top:-0.5em"><span class="h4">Data updated {{ Drug.history[0].max_date_received }}</div>
+                </div>
+                <div ui-view="report-header-right"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div ui-view="nav-tabs"></div>
+        <div ui-view="tabcontent" class="tabContentDrug"></div>
+        <div class="col-md-12" id="drugs.detail"></div>
+        <div class="panel-body"></div>
+    </div>
+</div>

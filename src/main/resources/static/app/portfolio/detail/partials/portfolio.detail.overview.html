@@ -1,0 +1,47 @@
+<div class="h4"></div>
+<div class="col-md-12 col-lg-12">
+    <div id="overview-topv2-uiview" ui-view="overview-topv2"></div>
+</div>
+<div class="col-md-12">
+    <div class="panel panel-default overviewGridPanel">
+        <div class="panel-heading">
+            <span class="text-muted panel-title">{{ overview.gridTitle }} </span>
+            <button class="btn btn-info btn-mini restoreSortButton restoreSortOverviewCompanyGrid pull-right" ng-click="localStorageClear()" popover-append-to-body="true" popover-trigger="mouseenter" popover="Reload grid with default sorting order">
+                Restore Default Settings
+            </button>
+        </div>
+        <div class="gridStyleAdaptive" ng-grid="{{overview.gridModel}}.options" id="portfolio-overview-grid"></div>
+    </div>
+</div>
+
+
+<style>
+    .gridStyle {
+        height: 800px !important;
+    }
+
+    .ngCellText span {
+        margin-left: 0 !important;
+    }
+</style>
+
+<style type='text/css'>
+    #overview-topv2-uiview tr td {
+        background-color: #f5f5f5;
+        font-size: .9em;
+    }
+
+    #overview-topv2-uiview tr td + td {
+        background-color: #fff;
+        font-size: .9em;
+    }
+
+    #overview-topv2-uiview tr td + td + td {
+        background-color: #fff;
+        font-size: .9em;
+    }
+
+    .restoreSortOverviewCompanyGrid {
+
+    }
+</style>

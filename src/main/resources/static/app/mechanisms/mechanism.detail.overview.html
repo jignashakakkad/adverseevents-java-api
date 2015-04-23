@@ -1,0 +1,281 @@
+<!-- overview -->
+<div class="col-md-12 col-lg-12">
+
+
+<!-- overview.description -->
+<div class="col-md-12">
+    <div class="h4 invisible"></div>
+    <div class="row row-fluid">
+        <div class="col-md-12">
+            <div class="row row-fluid">
+                <div class="panel panel-default panel-report">
+                    <div class="panel-heading panel-title"><h4 class="text-muted ">Drug Description</h4></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-12">
+            <div class="container-wide">
+                <div class="row row-fluid">
+                    <div class="panel-body strong"><span
+                            class="text-muted">{{ Drug.aedrug_text }}</span></div>
+                    <div class="panel-body"><span class="text-muted ">Through {{ Drug.history[0].max_date_received  }} there have been {{ Metrics.counts.primary | number}} cases where {{ Drug.aedrug_name }} has been reported as the primary suspect drug.</span></div>
+                </div>
+            </div>
+        </div>
+
+
+<!--./overview.description -->
+
+
+<!-- ./overview-regulatory-->
+
+<!--   <div class="col-md-12">
+     <--overview.regulatory
+      <div class="row row-fluid" id="drugdetail-overview-names">
+          <div class="row row-fluid">
+
+              <div class="col-sm-12">
+
+                  <div class="panel panel-default panel-report">
+                      <div class="panel-heading panel-title"><h4 class="text-muted ">Regulatory History</h4></div>
+                      <div class="panel-body">
+                          <div class="row-fluid">
+                              <div class="col-xs-4">
+                                  <h4 class="text-success">Approvals</h4>
+                                  <div class="alert alert-success">
+                                      January 1, 2012: <span class="text-muted">Initial Approval</span>
+                                  <span class="small text-success pull-right"><i class="fa  btn small fa-link"></i></span>
+                                  </div>
+                                  <div class="alert alert-success">
+                                      June 1, 2013: <span class="text-muted">Secondary Approval</span>
+                                  <span class="small text-success pull-right"><i class="fa  btn small fa-link"></i></span>
+                                  </div>
+                              </div>
+
+                              <div class="col-xs-4">
+                                  <h4 class="text-warning">Risk Related</h4>
+                                  <div class="alert alert-info alert-error error">December 21, 2012:
+                                      <span class="text-muted">Safety Labeling - Dosage</span>
+
+                                      <span class="small text-danger pull-right">Link</span>
+                                  </div>
+                                  <div class="alert alert-warning alert-error error">January 04, 2013:
+                                      <span class="text-muted">  Safety Labeling - Warning</span>
+
+                                      <span class="small text-danger pull-right">Link</span>
+                                  </div>
+                              </div>
+                              <div class="col-xs-4">
+                                  <h4>Substantial Risk</h4>
+                                  <div class="alert alert-danger alert-error error">August 4, 2014: <span
+                                          class="text-muted">Drug Safety Communication</span>
+                                      <span class="small text-danger pull-right">Link</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <pager></pager>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+-->
+<div class="row">
+    <!-- FIRST BLOCK: indi, moa - drugclass -->
+    <!--overview-names-->
+    <div class="col-md-4">
+
+        <div class="row row-fluid" id="overview-indications">
+            <div class="row row-fluid">
+                <div class="col-sm-12">
+
+                    <div class="panel panel-default panel-report">
+                        <div class="panel-heading panel-title"><h4 class="text-muted ">Indications</h4></div>
+                        <div class="panel-body">
+                            <div class="row-fluid">
+                                <table class="table table-striped table-bordered">
+                                    <tr ng-repeat="term in Drug.indications">
+                                        <td><a ui-sref="indication.detail">{{ term.label }}</a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--./overview-names-->
+    <!--overview-drugclass-->
+    <div class="col-md-4">
+
+        <div class="row row-fluid" id="drugdetail-overview-drugclass">
+            <div class="row row-fluid">
+                <div class="col-sm-12">
+
+                    <div class="panel panel-default panel-report">
+                        <div class="panel-heading panel-title"><h4 class="text-muted ">Drug Classes</h4></div>
+                        <div class="panel-body">
+                            <div class="row-fluid">
+                                <table class="table table-striped table-bordered">
+                                    <tr ng-repeat="term in Drug.drugclasses">
+                                        <td><a ui-sref="drugclass.detail">{{ term.label }}</a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--./overview-drugclass-->
+    <!--overview-mechanisms-->
+    <div class="col-md-4">
+        <div class="row row-fluid" id="drugdetail-overview-mechanisms">
+            <div class="row row-fluid">
+                <div class="col-sm-12">
+
+                    <div class="panel panel-default panel-report">
+                        <div class="panel-heading panel-title"><h4 class="text-muted ">Mechanism of Action</h4></div>
+                        <div class="panel-body">
+                            <div class="row-fluid">
+                                <table class="table table-striped table-bordered">
+                                    <tr ng-repeat="term in Drug.mechanisms">
+                                        <td><a ui-sref="drugclass.detail">{{ term.label }}</a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--./overview-indication-->
+<!-- END OF FIRST BLOCK: indi, moa - drugclass -->
+
+<!-- Second BLOCK: indi, moa - drugclass -->
+<!--overview-names-->
+<div class="row">
+<div class="col-md-4">
+
+    <div class="row row-fluid" id="drugdetail-overview-names">
+        <div class="row row-fluid">
+            <div class="col-sm-12">
+
+                <div class="panel panel-default panel-report">
+                    <div class="panel-heading panel-title"><h4 class="text-muted ">Generic Name</h4></div>
+                    <div class="panel-body">
+                        <div class="row-fluid">
+                            <table class="table table-striped table-bordered">
+                                <tr ng-repeat="term in Drug.indications">
+                                    <td><a ui-sref="indication.detail">{{ term.label }}</a></td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--./overview-names-->
+<!--overview-drugclass-->
+<div class="col-md-4">
+
+    <div class="row row-fluid" id="drugdetail-overview-drugclass">
+        <div class="row row-fluid">
+            <div class="col-sm-12">
+
+                <div class="panel panel-default panel-report">
+                    <div class="panel-heading panel-title"><h4 class="text-muted ">Report Demographics</h4></div>
+                    <div class="panel-body">
+                        <div class="row-fluid">
+                            <table class="table table-striped table-bordered">
+                                <tr ng-repeat="term in Drug.drugclasses">
+                                    <td><a ui-sref="drugclass.detail">{{ term.label }}</a></td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--./overview-drugclass-->
+<!--overview-mechanisms-->
+<div class="col-md-4">
+    <div class="row row-fluid" id="drugdetail-fdanames">
+        <div class="row row-fluid">
+            <div class="col-sm-12">
+
+                <div class="panel panel-default panel-report">
+                    <div class="panel-heading panel-title"><h4 class="text-muted ">FDA Listed Names</h4></div>
+                    <div class="panel-body">
+                        <div class="row-fluid">
+                            <table class="table table-striped table-bordered">
+                                <tr ng-repeat="term in Drug.fdanames | limitTo:showQuantity">
+                                    <td><a ui-sref="drugclass.detail">{{ term.label }} ({{ term.freq | number }})</a></td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--./overview-indication-->
+<!-- END OF FIRST BLOCK: indi, moa - drugclass -->
+</div>
+</div>
+<!-- overview-chart-timeseries-->
+<div class="col-md-12">
+    <div class="row row-fluid">
+
+        <div class="col-md-12">
+            <div class="row row-fluid">
+                <div class="panel panel-default panel-report">
+                    <div class="panel-heading panel-title"><h4 class="text-muted ">Timeline Chart</h4></div>
+                    <div class="panel-body">
+                        <div class="container-fluid">
+                            <div class="jumbotron"><h4 class="report-chart-mockup text-center text-muted">
+                                Timeline Chart<br/><span
+                                    class="fa fa-5x fa-bar-chart-o"></span></h4></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ./overview-chart-timeseries-->
+</div>
+
+<!-- ./overview -->

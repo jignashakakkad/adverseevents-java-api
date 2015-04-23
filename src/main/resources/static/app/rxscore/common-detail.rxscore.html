@@ -1,0 +1,35 @@
+<!-- rxscore@common template -->
+
+<div id="tab-rxscore" class="col-md-12 col-lg-12">
+    <div class="h4 invisible"></div>
+        <!-- for when we have no rxscore or is disabled -->
+        <div class="col-md-12" ng-hide="is_enabled">
+            <div class="container">
+            <h4 class="text-center text-muted">No RxScore data for {{ Drug.aedrug_name }}</h4>
+                </div>
+        </div>
+         <!--end disabled msg -->
+        <div class="col-md-4" id="rxscore-top-nav" ng-show="is_enabled">
+                <div class="panel panel-default ">
+                    <div class="panel-heading"><h4 class="panel-title">Comparison Options</h4></div>
+                    <div class="panel-body">
+                        <div ui-view="rxscore-nav"></div>
+                    </div>
+                </div>
+                <div ui-view="rxscore-components" ng-show="false"></div>
+        </div>
+        <div class="col-md-8" ng-show="is_enabled">
+            <div class="row">
+                <div ui-view="rxscore-comparative-chart"></div>
+            </div>
+            <div class="row" id="tab-rxscore-top" ng-show="false">
+                <div ui-view="rxscore-components-chart"></div>
+            </div>
+        </div>
+
+
+</div>
+<!--// live datagrid -->
+
+
+

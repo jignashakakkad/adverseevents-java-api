@@ -1,0 +1,48 @@
+{
+    "portfolioNews": [
+        {
+            "field": "event_dt",
+            "width": "133px",
+            "visible": true,
+            "pinned": true,
+            "displayName": "Date",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) | date:'MMMM d, y' }}</div>"
+        },
+        {
+            "field": "product_drugname",
+            "width": "141px",
+            "visible": true,
+            "displayName": "Product",
+            "cellTemplate": "<div class='ngCellText'><a ui-sref='drugs.detail.overview({id: row.getProperty(\"aedrug_id\")})'>{{row.getProperty(col.field) | titleCase}}</a></div>"
+        },
+        {
+            "field": "metric_pctg_company_userPortfolio_exposed",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number'",
+            "width": "100px",
+            "visible": true,
+            "displayName": "Portfolio Co. Exposed"
+        },
+        {
+            "field": "alert_type",
+            "width": "522px",
+            "visible": true,
+            "displayName": "Headline",
+            "cellTemplate": "<div class='ngCellText'><a target='_blank' href='{{row.getProperty(\"alert_url\")}}'>{{ row.getProperty(col.field) }}</a></div>"
+        },
+        {
+            "field": "event_type",
+            "width": "*",
+            "visible": true,
+            "displayName": "Event Type",
+            "cellTemplate": "<div class='ngCellText'>{{ row.getProperty(col.field) }}</div>"
+        },
+        {
+            "field": "attr_product_company_nameList",
+            "cellClass": "centerCellText",
+            "width": "150px",
+            "visible": false,
+            "displayName": "Company Names"
+        }
+    ]
+}

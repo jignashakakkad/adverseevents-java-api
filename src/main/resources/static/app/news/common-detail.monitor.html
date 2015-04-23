@@ -1,0 +1,53 @@
+<!-- common-detail-monitor-->
+
+<div class="col-md-12 col-lg-12" id="dsm-overview" style="min-height: 300px;">
+
+    <div class="panel panel-primary " style="margin-top: 35px;">
+        <div class="panel-heading">
+                <h1 class="panel-title">Drug Safety Monitor: Analysis and Insight -
+                <strong >{{ featureName }}</strong></h1>
+        </div>
+
+        <div class="panel-body">
+
+            <div ng-hide="articleContent.posts.length">
+                No Drug Safety Monitor news articles for this item.
+            </div>
+
+            <accordion close-others="true">
+                <accordion-group ng-repeat="item in articleContent.posts" is-open="item.shown == 1">
+                    <accordion-heading is-open=item.shown data-group-id={{item.post_id}}>
+                        <div class="label label-default" style="float:left;">{{item.post_date | date}}</div>
+                        <div class="col-sm-10 col-xs-7"><a>{{item.post_title}}</a></div>
+                        <div class="pull-right"><i class="glyphicon"
+                                                   ng-class="{'glyphicon-chevron-down': item.shown, 'glyphicon-chevron-right': !item.shown}" style="padding-top: 0;"></i></div>
+
+                        <div class="clearfix"></div>
+                    </accordion-heading>
+                    <div class="blog-post" data-post={{item.post_id}} id="blog-post-{{item.post_id}}">
+                        <div ng-if="item.post_topic.length" ng-bind-html="item.post_topic"></div>
+
+                        <div  ng-if="item.topics_drug.length">
+                            <p><strong>Drugs Covered:</strong> {{ item.topics_drug }} </p>
+                            <p ng-if="item.topics_indication.length"><strong>Indications Covered:</strong> {{ item.topics_indication }} </p>
+                            <p ng-if="item.topics_drugclass.length"><strong>Drug Classes Covered:</strong> {{ item.topics_drugclass }} </p>
+                            <p ng-if="item.topics_mechanism.length"><strong>MoA Covered:</strong> {{ item.topics_mechanism }} </p>
+                        </div>
+                        <!-- intel-->
+                        <div  ng-if="item.post_intel.length"><p><strong>Actionable Intelligence: </strong><span ng-bind-html="item.post_intel"></span></div>
+                        <!--//intel-->
+
+                        <div ng-bind-html="item.post_content  | to_trusted"></div>
+                        <!--<div class="pull-right"><i class="glyphicon glyphicon-print" ng-click="printArticle(\'blog-post-{{group.id}}\')"></i> </div>-->
+                    </div>
+                </accordion-group>
+            </accordion>
+        </div>
+    </div>
+    <!-- END MODULE MIGRATION -->
+
+    </div>
+</div>
+
+
+<!-- ./drugdetail-monitor-->

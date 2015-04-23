@@ -1,0 +1,48 @@
+{
+    "incidenceRates": [
+        {
+            "field": "product_drugname",
+            "cellClass": "drugName",
+            "width": "220px",
+            "visible": true,
+            "pinned": true,
+            "displayName": "Product Name(s)",
+            "cellTemplate": "<div class='ngCellText pull-left'><a ui-sref='drugs.detail.rxsignal({id:row.getProperty(\"aedrug_id\") })'>{{row.getProperty(col.field) | pascalCaseFilter }}</a></div>"
+        },
+        {
+            "field": "metric_icumulative_serious",
+            "width": "220px",
+            "visible": true,
+            "cellFilter": "incidenceFilter",
+            "displayName": "Serious Outcome Rate",
+            "cellTemplate": "<div ng-class='{\"ngCellText\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"ngCellText\",\"green\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"green\",\"red\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"red\"}'><p>{{ row.getProperty(col.field) | incidenceFilter}}</p></div>"
+
+        },
+        {
+            "field": "metric_icumulative_hosp",
+            "width": "220px",
+            "cellFilter": "incidenceFilter",
+            "visible": true,
+            "displayName": "Hospitalization Rate",
+            "cellTemplate": "<div ng-class='{\"ngCellText\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"ngCellText\",\"green\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"green\",\"red\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"red\"}'><p>{{ row.getProperty(col.field) | incidenceFilter}}</p></div>"
+
+        },
+        {
+            "field": "metric_icumulative_ime",
+            "width": "220px",
+            "cellFilter": "incidenceFilter",
+            "visible": true,
+            "displayName": "IME Serious Rate",
+            "cellTemplate": "<div ng-class='{\"ngCellText\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"ngCellText\",\"green\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"green\",\"red\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"red\"}'><p>{{ row.getProperty(col.field) | incidenceFilter}}</p></div>"
+        },
+        {
+            "field": "metric_icumulative_dme",
+            "width": "*",
+            "cellFilter": "incidenceFilter",
+            "visible": true,
+            "displayName": "DME Serious Rate",
+            "cellTemplate": "<div ng-class='{\"ngCellText\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"ngCellText\",\"green\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"green\",\"red\" : formatIncidenceRate(col.field, row.getProperty(col.field)) == \"red\"}'><p>{{ row.getProperty(col.field) | incidenceFilter}}</p></div>"
+
+        }
+    ]
+}

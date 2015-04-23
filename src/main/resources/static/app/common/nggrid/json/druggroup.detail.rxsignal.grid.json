@@ -1,0 +1,63 @@
+{
+    "rxsignalSummary": [
+        {
+            "field": "product_drugnames",
+            "visible": true,
+            "width": 300,
+            "pinned": true,
+            "displayName": "Product Name(s)",
+            "cellTemplate": "<div class='ngCellText'><a ui-sref='drugs.detail.rxsignal({id: row.getProperty(\"aedrug_id\")})'>{{row.getProperty(col.field) | pascalCaseFilter}}</a></div>"
+        },
+        {
+            "field": "evaluate_productRevenue2013",
+            "displayName": "2013 Revenue",
+            "cellFilter": "number:2",
+            "visible": true
+        },
+        {
+            "field": "metric_rxsignal_active",
+            "displayName": "Active RxSignal",
+            "cellFilter": "number:0",
+            "visible": true
+        },
+        {
+            "field": "metric_rxsignal_watchlist",
+            "displayName": "Watchlist RxSignal",
+            "width": "160",
+            "cellFilter": "number:0",
+            "visible": true
+        },
+        {
+            "field": "metric_reac",
+            "displayName": "Total (Active/Watchlist)",
+            "width": "180",
+            "cellFilter": "number:0",
+            "visible": true
+        },
+        {
+            "field": "ROR",
+            "width": 90,
+            "cellFilter": "number:2",
+            "visible": true,
+            "displayName": "Avg. ROR"
+        },
+        {
+            "field": "PRR",
+            "visible": false,
+            "cellFilter": "number:2",
+            "displayName": "Avg. PRR"
+        },
+        {
+            "field": "metric_rxsignal_ime",
+            "displayName": "IME Serious",
+            "cellFilter": "number:0",
+            "visible": false
+        },
+        {
+            "field": "metric_rxsignal_dme",
+            "displayName": "DME",
+            "cellFilter": "number:0",
+            "visible": true
+        }
+    ]
+}

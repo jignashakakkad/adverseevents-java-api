@@ -1,0 +1,19 @@
+<div class='col-md-6'>
+	<div class='panel panel-default portfolio-overflow'>
+		<div class='panel-heading'>
+			<h4 class='panel-title'>{{ PortView.portfolioTitle }} Companies</h4>
+		</div>
+		<table class="table table-striped">
+			<tbody>
+				<tr class='panel-body' ng-repeat='company in PortView.companies | orderBy:content_entity_label'>
+					<div class='empty-portfolio' ng-show='PortView.companies.length === 0 || !PortView.companies.length'>Add companies using the search bar in the upper left</div>
+					<td>
+						<div>{{ company.content_entity_label }}</div>
+						<span class='search-result-generic text-muted'>{{ company.content_entity_subtype }} company</span>
+					</td>
+					<td><btn class='btn btn-sm btn-warning pull-right' ng-click='removePortfolioItem(company)'>Delete</btn></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

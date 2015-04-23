@@ -1,0 +1,8 @@
+<tabset justified="true" class="nav-tabs-report">
+    <tab ng-repeat="tab in tabs" ui-sref-disable="tab.disabled" active="tab.active" ui-sref="{{ tab.sref }}" disabled="tab.disabled">
+        <tab-heading>
+            <i class="{{ tab.icon }}"></i> {{ tab.heading }}
+        </tab-heading>
+    </tab>
+</tabset>
+

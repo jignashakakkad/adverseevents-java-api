@@ -1,0 +1,17 @@
+<div class='container'>
+    <div class='panel panel-default'>
+        <div class='panel-heading report'>
+            <h1 class='port-title port-manager-header title custom-inline'>{{ portfolioName }} Manager</h1>
+            <span ui-view="create"></span>
+        </div>
+        <div class='panel-body'>
+        	<div class='row'>
+	       		<div class='col-md-12'>
+	      			<div class='no-portfolios'>
+	      				<h3>No {{ portfolioName | pluralizePortfolio }}! Click Create New to get started.</h3>
+                    </div>
+	        	</div>
+        	</div>
+        </div>
+    </div>
+</div>

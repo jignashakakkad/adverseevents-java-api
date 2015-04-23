@@ -1,0 +1,185 @@
+<!-- overview -->
+<div class="col-md-12 col-lg-12">
+    <!-- overview.description -->
+    <div class="h4 invisible"></div>
+    <div class="row row-fluid">
+        <div class="col-md-12">
+            <div class="row row-fluid">
+                <div class="panel panel-default panel-report">
+                    <div class="panel-heading panel-title"><h4 class="text-muted ">Drug Description</h4></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="container-wide">
+            <div class="row row-fluid">
+                <div class="panel-body strong" style="margin-left: -10px; margin-right: -10px;"><span
+                        class="">{{ Drug.aedrug_text }}</span></div>
+                <div class="panel-body" style="margin-left: -10px; margin-right: -10px;"><span class=" ">Through {{ data_updated  }} there have been <strong>{{ Metrics.counts.primary | number}}</strong> cases where {{ Drug.aedrug_name }} has been reported as the primary suspect drug.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--./overview.description -->
+    <div class="row" ui-view="regulatory"></div>
+
+    <div class="row" id="table-generic-demographics-fda-names">
+        <table class="table table-bordered table-striped table-responsive" style="margin-bottom: 0;">
+            <tr class="panel-heading panel-title odd">
+                <td><h4 class="text-muted ">Companies</h4></td>
+                <td><h4 class="text-muted ">Report Demographics</h4></td>
+                <td><h4 class="text-muted ">FDA Listed Names ({{ Drug.fdanames.length }})</h4></td>
+            </tr>
+            <tr>
+                <td id="overview-generic">
+                    <div class="row-fluid">
+                        <table class="table table-condensed">
+                            <tr ng-repeat="item in Companies" class="table-noborder" ng-if="Companies.length">
+                                <td>
+                                    <a ui-sref="company.detail.overview({id: item.id})">{{item.label}}</a>
+                                    <span>
+                                        <span class="label label-primary" ng-show="item.application.appl_type=='N'">
+                                            NDA
+
+                                        </span>
+                                        <span class="label label-default" ng-show="item.application.appl_type=='A'">
+                                            ANDA
+
+                                        </span>
+                                        <span class="label label-primary" ng-show="item.application.appl_type=='B'">
+                                            BLA
+
+                                        </span>
+                                    </span>
+                                    <span style="margin-left:2px;" ng-hide="item.application.appl_type == 'A'">
+                                        <span class="label label-success">{{item.rela_tag}}</span>
+                                    </span>
+
+
+                                </td>
+                            </tr>
+                            <tr ng-show="Companies.length > 10">
+                                <td class="text-right"><a class="btn btn-xs btn-primary" ng-click="cshowAll()">{{     showAllText }}</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td id="overview-demographics">
+                    <div class="row-fluid">
+                        <div class="row-fluid">
+                            <table class="table table-condensed table-responsive">
+
+                                <tr class="table-noborder">
+                                    <td class="table-noborder">Average age</td>
+                                    <td>{{ Drug.demographics[0].avg_age | number }}</td>
+                                </tr>
+                                <tr class="table-noborder">
+                                    <td>Gender</td>
+                                    <td> {{ Drug.demographics[0].pct_m | number }}% M, {{ Drug.demographics[0].pct_f |  number }}% F
+                                    </td>
+                                </tr>
+                                <tr class="table-noborder">
+                                    <td>Duration of treatment</td>
+                                    <td> {{ Drug.demographics[0].avg_dur | number }} Days</td>
+                                </tr>
+
+
+                            </table>
+
+                        </div>
+                    </div>
+                </td>
+                <td id="overview-fda-names">
+                    <div class="row-fluid">
+                        <table class="table table-condensed">
+                            <tr ng-repeat="term in Drug.fdanames | limitTo: showQuantity" class="table-noborder">
+                                <td>{{ term.label }}</td>
+                            </tr>
+                            <tr>
+                                <td class="text-right"><a class="btn btn-xs btn-primary" ng-click="showAll()">{{   showText }}</a></td>
+
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="panel-heading panel-title odd">
+                <td><h4 class="text-muted ">Mechanism of action</h4></td>
+                <td><h4 class="text-muted ">Drug Classes</h4></td>
+                <td><h4 class="text-muted ">Indications</h4></td>
+            </tr>
+            <tr>
+                <td id="moa">
+                    <div class="row-fluid">
+                        <table class="table">
+                            <tr ng-repeat="term in Drug.mechanisms" class="table-noborder">
+                                <td>{{ term.label }}</td>
+                                <td><a ui-sref="druggroup.detail.overview({type:'mechanism',id:'{{term.id}}' })" target='_new'
+                                       class="btn btn-xs btn-warning">View Report</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td id="drugclass">
+                    <div class="row-fluid">
+                        <table class="table">
+                            <tr ng-repeat="term in Drug.drugclasses" class="table-noborder">
+                                <td>{{ term.label }}</td>
+                                <td><a ui-sref="druggroup.detail.overview({type:'drugclass',id:'{{term.id}}' })"
+                                       target='_new' class="btn btn-xs btn-warning">View Report</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td id="indications">
+                    <table class="table">
+                        <tr ng-repeat="term in indicationsArray | orderBy:'sort_order'" class="table-noborder">
+                            <td>
+                                <small class="text-muted"> {{term.sort_order}}.</small>
+                                {{ term.label }}
+                            </td>
+
+                            <td><a ui-sref="druggroup.detail.overview({id:'{{term.id}}',type:'indication'})"
+                                   target='_new' class="btn btn-xs btn-warning">View Report</a></td>
+                        </tr>
+                    </table>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+
+    <div class="row">
+    <highchart id="chart1" config="chartConfig" class="col-md-12"></highchart>
+    </div>
+</div>
+
+
+<!-- overview-chart-timeseries
+<div class="col-md-12">
+    <div class="row row-fluid">
+        <div class="col-md-12">
+            <div class="row row-fluid">
+                <div class="panel panel-default panel-report">
+                    <div class="panel-heading panel-title"><h4 class="text-muted ">Timeline Chart</h4></div>
+                    <div class="panel-body">
+                        <div class="container-fluid">
+                            <div class="jumbotron"><h4 class="report-chart-mockup text-center text-muted">
+                                Timeline Chart<br/><span
+                                    class="fa fa-5x fa-bar-chart-o"></span></h4></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+<!-- ./overview-chart-timeseries-->
+
+
+<!-- ./overview -->
+

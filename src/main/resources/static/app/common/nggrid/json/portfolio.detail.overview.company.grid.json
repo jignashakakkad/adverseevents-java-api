@@ -1,0 +1,109 @@
+{
+    "portfolioCompanyOverview": [
+            {
+                "field": "company_name",
+                "pinned": true,
+                "width": "220px",
+                "visible": true,
+                "displayName": "Company Name",
+                "cellTemplate": "<div class='ngCellText'><a ui-sref='company.detail.overview({id: row.getProperty(\"company_id\")})'>{{row.getProperty(col.field) | titleCase}}</a></p></div>"
+            },
+            {
+                "field": "metric_fact_aggregate_rxscore",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "162px",
+                "visible": true,
+                "displayName": "Aggregate RxScore (2014)",
+                "cellTemplate": "<div ng-class='{\"ngCellText\" : formatMinMax(col.field, row.getProperty(col.field)) == \"ngCellText\",\"green\" : formatMinMax(col.field, row.getProperty(col.field)) == \"green\",\"red\" : formatMinMax(col.field, row.getProperty(col.field)) == \"red\"}'><p>{{row.getProperty(col.field) | emptyCellFilter:'number':2}}</p></div>"
+            },
+            {
+                "field": "metric_string_pctg_aggregate_rxscore_rank",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'pctgFilter':2",
+                "pinned": false,
+                "width": "83px",
+                "visible": true,
+                "displayName": "% Rank (Aggregate RxScore)"
+            },
+            {
+                "field": "metric_mean_rxscore",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "140px",
+                "visible": true,
+                "displayName": "Average RxScore",
+                "cellTemplate": "<div ng-class='{\"ngCellText\" : formatMinMax(col.field, row.getProperty(col.field)) == \"ngCellText\",\"green\" : formatMinMax(col.field, row.getProperty(col.field)) == \"green\",\"red\" : formatMinMax(col.field, row.getProperty(col.field)) == \"red\"}'><p>{{row.getProperty(col.field) | emptyCellFilter:'number':2}}</p></div>"
+            },
+            {
+                "field": "metric_pctg_mean_rxscore_rank",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "199px",
+                "visible": true,
+                "displayName": "% Rank (Average RxScore)"
+            },
+            {
+                "field": "metric_fact_mean_rxscore_rank_byIndication",
+                "cellClass": "centerCellText",
+                "pinned": false,
+                "width": "165px",
+                "visible": true,
+                "displayName": "Avg. RxScore Rank in Indication"
+            },
+            {
+                "field": "metric_sum_product_revenue",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'currency':$:2",
+                "pinned": false,
+                "width": "135px",
+                "visible": true,
+                "displayName": "Product Revenues"
+            },
+            {
+                "field": "metric_sum_rxsignal_active",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'number':0",
+                "pinned": false,
+                "width": "140px",
+                "visible": false,
+                "displayName": "Active RxSignals"
+            },
+            {
+                "field": "metric_mean_rxsignal_active",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'number':0",
+                "pinned": false,
+                "width": "200px",
+                "visible": false,
+                "displayName": "Active RxSignals Per Drug"
+            },
+            {
+                "field": "metric_sum_rxsignal_activeDme",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'number':0",
+                "pinned": false,
+                "width": "129px",
+                "visible": false,
+                "displayName": "DME Signals"
+            },
+            {
+                "field": "metric_mean_rxsignal_activeDme",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'number':2",
+                "pinned": false,
+                "width": "177px",
+                "visible": false,
+                "displayName": "DME Signals Per Drug"
+            },
+            {
+                "field": "metric_sum_product_application",
+                "cellClass": "centerCellText",
+                "cellFilter": "emptyCellFilter:'number'",
+                "pinned": false,
+                "width": "140px",
+                "visible": false,
+                "displayName": "Approved Drugs"
+            }
+    ]
+}

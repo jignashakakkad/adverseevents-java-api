@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" xmlns="http://www.w3.org/1999/html" id="ng-app"
+      ng-app="AdverseEventsExplorer.main">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8">
+        <title>Adverse Events</title>
+        <link href="temp/app.css" type="text/css" rel="stylesheet">
+        <link href="temp/bootstrapoverrides.css" type="text/css" rel="stylesheet">
+        <link href="bower_components/angular-xeditable/dist/css/xeditable.css" rel="stylesheet">
+        <link rel="stylesheet" href="bower_components/angular-simple-spinner/angular-simple-spinner.css">
+
+        <script>
+            if (typeof console === "undefined") {
+                this.console = {log: function () {
+                    }};
+            }
+        </script>
+        <!--[if lte IE 8]>
+        <script src="vendor/polyfill/es5.js"></script>
+        <script src="vendor/polyfill/web.js"></script>
+        <script src="bower_components/json2/json2.js"></script>
+        <script src="vendor/jpillora/xdomain.js" slave="http://example.org/proxy.html"></script>
+        <script src="vendor/jpillora/xhook.js" slave="http://example.org/proxy.html"></script>
+        <script>
+
+            document.createElement('ng-include');
+            document.createElement('ng-pluralize');
+            document.createElement('ng-view');
+            document.createElement('ui-view');
+            document.createElement('ui-tabs');
+
+
+        if (!('createElementNS' in HTMLDocument.prototype)) {
+            HTMLDocument.prototype.createElementNS = function(ns, name) {
+                if (ns) throw "sorry, this browser does not support namespaces";
+                return HTMLDocument.prototype.createElement.call(this, name);
+            };
+        }
+
+
+            // Tabset directives
+            document.createElement('tabs');
+            document.createElement('tabset');
+            document.createElement('tab');
+            document.createElement('tab-heading');
+
+            document.createElement('ui-select');
+            document.createElement('ui-select-match');
+            document.createElement('ui-select-choices');
+            document.createElement('ui-select-choice');
+
+            // Tree viewer directive
+            document.createElement('abn-tree');
+
+            // Highcharts directive IE8 Compat
+            document.createElement('highchart');
+
+            // For accordion directive in Monitor/News tabs
+            document.createElement('accordion');
+            document.createElement('accordion-group');
+            document.createElement('accordion-heading');
+
+            // Optionally these for CSS
+            document.createElement('ng:include');
+            document.createElement('ng:pluralize');
+            document.createElement('ng:view');
+            document.createElement('ui:view');
+            document.createElement('ui:sref');
+            document.createElement('abn:tree');
+            document.createElement('ui-select:match');
+            document.createElement('ui-select:choices');
+            document.createElement('ui:select:choices');
+            document.createElement('ui:select:match');
+            document.createElement('ui-select:choice');
+
+        </script>
+
+        <![endif]-->
+
+
+
+        <link href="temp/app.css" type="text/css" rel="stylesheet">
+        <link href="temp/print.css" type="text/css" rel="stylesheet">
+
+        <!-- ngToast popup notifications -->
+        <link rel="stylesheet" href="bower_components/ngtoast/dist/ngToast.min.css">
+
+        <link href="vendor/angular-ui/ng-grid/ng-grid.custom.min.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/bootstrap-social.css" rel="stylesheet">
+        <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="bower_components/angular-ui-select/dist/select.css" rel="stylesheet">
+        <link href="assets/css/aexicons.css" rel="stylesheet">
+        <link href="bower_components/c3/c3.css" type="text/css" rel="stylesheet">
+        <link href="bower_components/angular-bootstrap-nav-tree/dist/abn_tree.css" type="text/css" rel="stylesheet">
+
+        <!-- Livereload script for development only (stripped during dist build) -->
+
+        <!-- TEST -->
+
+        <!-- JS from Bower Components -->
+
+        <script src="bower_components/jquery/jquery.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="vendor/highstock.ie8.js"></script>
+            <![endif]-->
+        <!--[if (gte IE 9) | (!IE)]><!-->
+        <script src="vendor/highstock.nofill.min.js"></script>
+        <!--<![endif]-->
+
+
+        <!-- injector:js -->
+        <script src="/tests/fixtures/grunt-auth-cookies.js"></script>
+        <!-- endinjector -->
+
+
+
+    </head>
+    <body>
+        <iframe id="csvDownloadFrame", style="display:none"></iframe>
+        <script src="bower_components/d3/d3.js"></script>
+        <script src="bower_components/crossfilter/crossfilter.js"></script>
+        <script src="bower_components/moment/min/moment.min.js"></script>
+        <script src="bower_components/raven-js/dist/raven.min.js"></script>
+        <script src="bower_components/lodash/lodash.min.js"></script>
+        <script src="vendor/c3.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+        <!-- Required only when are dealing with mock data        -->
+        <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+
+        <script src="bower_components/angular-ui-utils/ui-utils.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="bower_components/angular-ui-select/dist/select.js"></script>
+        <!-- custom ng-grid for css etc. -->
+        <script src="vendor/angular-ui/ng-grid/ng-grid-2.0.12.debug.custom.js"></script>
+        <script src="bower_components/raven-js/plugins/angular.js"></script>
+
+        <!-- x editable for inline title editing -->
+        <script src="bower_components/angular-xeditable/dist/js/xeditable.js"></script>
+
+        <!-- ngToast for popup notifications -->
+        <script src="vendor/ngToast.min.js"></script>
+
+        <script src="bower_components/restangular/dist/restangular.js"></script>
+        <script src="bower_components/angular-fullscreen/src/angular-fullscreen.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+        <script src="bower_components/ui-router-extras/release/ct-ui-router-extras.min.js"></script>
+        <script src="bower_components/highcharts-ng/dist/highcharts-ng.min.js"></script>
+        <script src="bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
+        <script src="bower_components/angular-bootstrap-nav-tree/dist/abn_tree_directive.js"></script>
+        <script src="bower_components/angular-simple-spinner/angular_simple_spinner.js"></script>
+        <script src="vendor/ng-csv/build/ng-csv.js"></script>
+
+        <!-- Add New Bower Component JS Above -->
+
+        <!--[if lte IE 8]>
+        <script type='text/javascript' src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <script type='text/javascript' src="bower_components/respond/src/respond.js"></script>
+        <![endif]-->
+
+        <!-- Main App JS -->
+        <script src="app/core/dataservice.js"></script>
+
+
+        <script src="app/rxsignal/rxsignal.js"></script>
+        <script src="app/rxsignal/rxsignal-chart-controller.js"></script>
+        <script src="common/services/rxsignalService.js"></script>
+        <script src="common/services/dsmService.js"></script>
+
+        <!-- toast services -->
+        <script src="common/services/toastService.js"></script>
+
+        <script src="common/directives/popoverHtmlUnsafe/popoverHtmlUnsafe.js"></script>
+
+        <script src="app/lib/aex.utils.js"></script>
+        <script src="app/lib/aex.constants.js"></script>
+        <script src="app/lib/aex.mocks.js"></script>
+
+
+        <!--<script src="temp/templates.js"></script>
+
+         TEMPLATE CACHE -->
+        <!-- <script src="temp/templates.js"></script> -->
+        <!-- -->
+        <script src="common/services/dsmService.js"></script>
+
+        <script src="app/outcomes/outcomes.js"></script>
+        <script src="app/news/news.js"></script>
+        <script src="app/indications/indications.js"></script>
+        <script src="app/mechanisms/mechanisms.js"></script>
+
+        <script src="app/events/events.js"></script>
+        <script src="app/list.js"></script>
+        <script src="app/users/users.js"></script>
+
+        <script src="app/indications/indications-controller.js"></script>
+
+        <!-- For selectize IE8 -->
+        <script src="vendor/argusoft/selectize.js"></script>
+
+        <!-- portfolio -->
+        <script src="app/portfolio/users/portfolio.users.js"></script>
+        <script src="app/portfolio/utils/portfolio.utils.module.js"></script>
+        <script src="app/portfolio/listener/portfolio.listener.module.js"></script>
+        <script src="app/portfolio/portfolio-directives.js"></script>
+        <script src="app/portfolio/portfolio.js"></script>
+
+        <script src="app.js"></script>
+        <script src="app/main.js"></script>
+
+        <script src="app/news/news.js"></script>
+        <script src="app/news/news.controller.js"></script>
+        <script src="app/drug/drugs.js"></script>
+        <script src="app/drug/drugs.list.js"></script>
+        <script src="app/drug/drug.detail.js"></script>
+        <script src="app/drug/drug.detail.overview.js"></script>
+        <script src="app/drug/drug.detail.monitor.js"></script>
+        <script src="app/drug/drug.detail.outcomes.js"></script>
+        <script src="app/drug/drug.detail.outcomes.services.js"></script>
+        <script src="app/drug/drug.detail.rxsignal.js"></script>
+        <script src="app/drug/drug.detail.rxsignal.services.js"></script>
+        <script src="app/drug/drug.detail.rxscore.js"></script>
+        <script src="app/drug/drug.detail.cases.js"></script>
+        <script src="app/drug/drug.detail.costs.ctrl.js"></script>
+        <script src="app/drug/drug.detail.costs.services.js"></script>
+        <script src="app/drug/drug.detail.modal.ctrl.js"></script>
+
+        <script src="app/rxscore/rxscore-chart-gauge.js"></script>
+        <script src="app/mechanisms/mechanisms.list.js"></script>
+        <script src="common/filters/PropsFilter.js"></script>
+        <script src="common/filters/incidenceFilter.js"></script>
+        <script src="common/filters/incidenceFilterMetrics.js"></script>
+        <script src="common/filters/pascalCasesFilter.js"></script>
+        <script src="common/filters/capitalizeFilter.js"></script>
+        <script src="common/filters/drugclassLabel.js"></script>
+        <script src="common/filters/to_trusted.js"></script>
+        <script src="common/filters/outcomesFilter.js"></script>
+        <script src="common/filters/pctgFilter.js"></script>
+        <script src="common/filters/pluralizePortfolio.js"></script>
+        <script src="common/filters/emptyCellFilter.js"></script>
+        <script src="common/services/overviewService.js"></script>
+        <script src="common/directives/showHide.js"></script>
+
+        <script src="app/drug/drug-timeline.js"></script>
+        <script src="app/company/company.js"></script>
+
+        <!-- Commmon module -->
+        <script src="app/common/common.js"></script>
+        <script src="app/common/controller/common.tab.controller.js"></script>
+        <script src="app/common/controller/common.cost.modal.controller.js"></script>
+        <script src="app/common/controller/common.localstorage.controller.js"></script>
+        <script src="app/common/service/common.tab.service.js"></script>
+        <script src="app/common/service/common.tooltip.service.js"></script>
+        <script src="app/common/service/common.interceptor.js"></script>
+        <script src="app/common/plugin/ng-grid.plugins.js"></script>
+
+        <!--Common Rxscore Module -->
+        <script src="app/common/rxscore/rxscore.common.js"></script>
+        <script src="app/common/rxscore/model/rxscore.model.js"></script>
+        <script src="app/common/rxscore/service/rxscore.service.js"></script>
+        <script src="app/common/rxscore/controller/rxscore.controllers.js"></script>
+
+        <!--Common NGGRID  Module -->
+        <script src="app/common/nggrid/json/nggrid.constants.js"></script>
+        <script src="app/common/nggrid/service/nggrid.service.js"></script>
+        <script src="app/common/nggrid/model/nggrid.model.js"></script>
+        <script src="app/common/nggrid/controller/nggrid.controller.js"></script>
+
+        <!-- Common Tooltip module -->
+        <script src="app/common/tooltip/model/tooltip.model.js"></script>
+        <script src="app/common/tooltip/service/tooltip.service.js"></script>
+        <script src="app/common/tooltip/controller/tooltip.controller.js"></script>
+
+        <!-- DrugGroup -->
+        <script src="app/druggroup/druggroup.js"></script>
+        <script src="app/druggroup/service/druggroup.services.js"></script>
+        <script src="app/druggroup/list/druggroup.list.js"></script>
+        <script src="app/druggroup/list/druggroup.list.controller.js"></script>
+        <script src="app/druggroup/detail/druggroup.detail.js"></script>
+        <script src="app/druggroup/detail/druggroup.detail.controller.js"></script>
+
+        <script src="app/druggroup/detail/services/druggroup.detail.outcomes.service.js"></script>
+        <script src="app/druggroup/detail/services/druggroup.detail.monitor.service.js"></script>
+        <script src="app/druggroup/detail/services/druggroup.detail.reporting.service.js"></script>
+        <script src="app/druggroup/detail/services/druggroup.detail.adevents.service.js"></script>
+        <script src="app/druggroup/detail/services/druggroup.detail.overview.chart.service.js"></script>
+        <script src="app/druggroup/detail/services/druggroup.detail.overview.grid.service.js"></script>
+        <script src="app/druggroup/detail/services/druggroup.detail.rxsignal.summary.service.js"></script>
+        <script src="app/druggroup/detail/services/druggroup.detail.cost.service.js"></script>
+        <!-- Below Service is just for mock -->
+        <!--<script src="app/druggroup/detail/services/mockservice.js"></script>-->
+
+        <script src="app/druggroup/detail/controllers/druggroup.detail.adevents.ctrl.js"></script>
+        <script src="app/druggroup/detail/controllers/druggroup.detail.monitor.ctrl.js"></script>
+        <script src="app/druggroup/detail/controllers/druggroup.detail.outcomes.ctrl.js"></script>
+        <script src="app/druggroup/detail/controllers/druggroup.detail.overview.ctrl.js"></script>
+        <script src="app/druggroup/detail/controllers/druggroup.detail.reporting.ctrl.js"></script>
+        <script src="app/druggroup/detail/controllers/druggroup.detail.rxscore.ctrl.js"></script>
+        <script src="app/druggroup/detail/controllers/druggroup.detail.rxsignalsummary.ctrl.js"></script>
+        <script src="app/druggroup/detail/controllers/druggroup.detail.cost.ctrl.js"></script>
+
+
+
+        <!-- portfolio -->
+        <script src="app/portfolio/users/portfolio.users.js"></script>
+        <script src="app/portfolio/listener/portfolio.listener.module.js"></script>
+        <script src="app/portfolio/portfolio-directives.js"></script>
+        <script src="app/portfolio/portfolio.js"></script>
+
+        <!-- portfolio detail pages -->
+        <script src="app/portfolio/detail/services/portfolio.detail.services.js"></script>
+        <script src="app/portfolio/detail/portfolio.detail.js"></script>
+        <script src="app/portfolio/detail/portfolio.detail.ctrl.js"></script>
+        <script src="app/portfolio/detail/services/tooltipService.js"></script>
+
+        <!-- portfolio detail controllers -->
+        <script src="app/portfolio/detail/portfolio.detail.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.outcomes.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.overview.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.rxsignal.summary.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.rxsignal.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.rxscore.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.rxscore.meter.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.news.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.indication.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.drugclass.ctrl.js"></script>
+        <script src="app/portfolio/detail/controllers/portfolio.detail.reporting.ctrl.js"></script>
+
+        <!-- portfolio detail services -->
+        <script src="app/portfolio/detail/services/portfolio.detail.indication.service.js"></script>
+        <script src="app/portfolio/detail/services/portfolio.detail.drugclass.service.js"></script>
+        <script src="app/portfolio/detail/services/portfolio.detail.rxscore.service.js"></script>
+        <script src="app/portfolio/detail/services/portfolio.detail.reporting.service.js"></script>
+        <script src="app/portfolio/detail/services/portfolio.detail.outcomes.service.js"></script>
+        <script src="app/portfolio/detail/services/portfolio.detail.news.service.js"></script>
+        <script src="app/portfolio/detail/services/portfolio.detail.rxsignal.summary.service.js"></script>
+        <script src="app/portfolio/detail/services/portfolio.detail.rxsignal.service.js"></script>
+        <script src="app/portfolio/detail/services/portfolio.detail.overview.service.js"></script>
+
+        <!-- new portfolio manager service -->
+        <script src="app/portfolio/manager/portfolio-manager-directives.js"></script>
+        <script src="app/portfolio/manager/services/portfolio.manager.service.js"></script>
+        <script src="app/portfolio/manager/services/portfolio.manager.uiservice.js"></script>
+
+        <!-- portfolio manager -->
+        <script src="app/portfolio/manager/portfolio-manager.js"></script>
+        <script src="app/portfolio/manager/controllers/portfolio-manager-items-ctrl.js"></script>
+
+        <!-- port-service instatiates services module, must be before other port manager services -->
+        <script src="app/portfolio/manager/services/port-service.js"></script>
+        <script src="app/portfolio/manager/services/data-resource.js"></script>
+        <script src="app/portfolio/manager/services/new-port-service.js"></script>
+        <script src="app/portfolio/manager/controllers/portfolio-manager-dropdown-ctrl.js"></script>
+        <script src="app/portfolio/manager/controllers/portfolio-manager-modal-ctrl.js"></script>
+        <script src="app/portfolio/manager/controllers/portfolio-manager-ctrl.js"></script>
+
+        <!-- company modules -->
+        <script src="app/company/services/company.services.js"></script>
+        <script src="app/company/filters/titleCase.js"></script>
+        <script src="app/company/services/company.services.js"></script>
+
+        <!-- company controllers -->
+        <script src="app/company/detail/company.detail.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.outcomes.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.overview.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.rxsignal.summary.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.rxsignal.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.rxscore.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.rxscore.meter.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.news.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.reporting.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.drugclass.ctrl.js"></script>
+        <script src="app/company/detail/controllers/company.detail.indication.ctrl.js"></script>
+        <script src="app/company/list/company.list.ctrl.js"></script>
+
+        <!-- company services -->
+        <script src="app/company/detail/services/company.detail.overview.services.js"></script>
+        <script src="app/company/detail/services/company.detail.rxsignal.services.js"></script>
+        <script src="app/company/detail/services/company.detail.rxsignal.summary.services.js"></script>
+        <script src="app/company/detail/services/company.detail.news.services.js"></script>
+        <script src="app/company/detail/services/company.detail.reporting.services.js"></script>
+        <script src="app/company/detail/services/company.detail.outcomes.services.js"></script>
+        <script src="app/company/detail/services/company.detail.rxscore.services.js"></script>
+        <script src="app/company/detail/services/company.detail.indication.services.js"></script>
+        <script src="app/company/detail/services/company.detail.drugclass.services.js"></script>
+
+        <script src="common/directives/chart-rxscore-drug.js"></script>
+        <script src="common/directives/MappedNames.js"></script>
+        <script src="common/directives/ui-sref-disable.js"></script>
+        <script src="common/filters/toHtmlList.js"></script>
+        <script src="common/filters/casesFilter.js"></script>
+        <script src="common/filters/filterMultiple.js"></script>
+        <script src="common/filters/filterUnique.js"></script>
+        <script src="common/filters/pctgFilter.js"></script>
+        <script src="app/rxscore/rxscore.js"></script>
+        <script src="app/drug/RxscoreDrugController.js"></script>
+        <script src="app/drug/RxscoreDrugChartController.js"></script>
+
+        <!-- Indication module JSs -->
+        <script src="app/company/services/tooltipService.js"></script>
+        <script src="app/company/filters/titleCase.js"></script>
+
+        <!-- Drugclass module JSs -->
+        <script src="app/drugclass/drugclass.js"></script>
+        <script src="app/drugclass/drugclass-controller.js"></script>
+
+        <!-- <script src="app/indications/drug.detail.monitor.js"></script>
+        <script src="app/indications/drug.detail.outcomes.js"></script>
+        <script src="app/indications/drug.detail.rxsignal.js"></script>
+        <script src="app/indications/drug.detail.rxscore.js"></script>
+        -->
+
+        <!-- Add New Component JS Above -->
+        <!--root.open-->
+        <div id="root">
+            <!--nav-top.open -->
+            <div id="nav-content">
+                <div ui-view="nav"></div>
+            </div>
+            <!--nav.close-->
+
+            <!-- toast container -->
+            <toast></toast>
+            <!-- load spinner -->
+            <div simple-spinner>
+                <!-- icon/animation of your choice below -->
+                <span class="btn btn-lg btn-primary">
+                    <i class="fa fa-circle-o-notch fa-spin"></i> Loading...
+                </span>
+            </div>
+            <!--VIEW.MAIN.OPEN()-->
+            <div class="container full-width-container">
+                <div class="col-md-12" id="root-outer"  ng-controller="BaseCtrl">
+                    <div class="well-md"></div>
+                    <div ui-view="main" id="main"></div>
+                </div>
+            </div>
+            <!--VIEW.MAIN.CLOSE()  -->
+
+        </div>
+        <!-- root.close -->
+        <!-- footer.open -->
+        <div ui-view="footer"></div>
+        <!-- footer.close -->
+        <!--START HELP DESK FLOATER BUTTON -->
+
+        <script type="text/javascript" src="vendor/freshdesk.freeshwidget.js"></script>
+        <script type="text/javascript">
+            FreshWidget.init("", {"queryString": "&widgetType=popup&formTitle=Help+Desk&submitThanks=Thank+you+for+your+inquiry.+A+Product+Specialist+is+reviewing+your+request+and+will+respond+ASAP.+", "widgetType": "popup", "buttonType": "text", "buttonText": "Help Desk", "buttonColor": "white", "buttonBg": "#4D91CD", "alignment": "2", "offset": "235px", "submitThanks": "Thank you for your inquiry. A Product Specialist is reviewing your request and will respond ASAP. ", "formHeight": "500px", "url": "https://adverseevents.freshdesk.com"});
+        </script>
+        <!-- END HELP DESK FLOATER BUTTON -->
+    </body>
+</html>

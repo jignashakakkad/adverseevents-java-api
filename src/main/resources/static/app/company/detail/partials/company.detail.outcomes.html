@@ -1,0 +1,43 @@
+<div class="clearfix"></div>
+<div class="h4"></div>
+<div class="col-md-12">
+    <div class="panel panel-default overviewGridPanel">
+        <div class="panel-heading">
+            <span class="text-muted panel-title">{{title}}</span>
+            <button class="btn btn-info btn-mini restoreSortButton rxSignalSummaryCompanyGrid pull-right"
+                    ng-click="clearLocalStorage()"
+                    popover-append-to-body="true" popover-trigger="mouseenter"
+                    popover="Reload grid with default sorting order">Restore Default Settings
+            </button>
+            <div class="outcomes-dropdown pull-right">
+                <div class="dropdown">
+                    <button class="btn btn-default btn-mini dropdown-toggle restoreSortButton"
+                        type="button" data-toggle="dropdown"
+                        popover-append-to-body="true" popover-trigger="mouseenter"
+                        popover="Choose for which year to display data">
+                        {{ datayear }}
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a ui-sref="company.detail.outcomes({datayear:'cumulative'})">Cumulative Data</a></li>
+                        <li><a ui-sref="company.detail.outcomes({datayear:'2014'})">2014</a></li>
+                        <li><a ui-sref="company.detail.outcomes({datayear:'2013'})">2013</a></li>
+                        <li><a ui-sref="company.detail.outcomes({datayear:'2012'})">2012</a></li>
+                        <li><a ui-sref="company.detail.outcomes({datayear:'2011'})">2011</a></li>
+                        <li><a ui-sref="company.detail.outcomes({datayear:'2010'})">2010</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="table-responsive">
+                <div class="gridStyle" ng-grid="gridOptions" id="outcomesgrid"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .ngCellText {
+        text-align: center
+    }
+</style>

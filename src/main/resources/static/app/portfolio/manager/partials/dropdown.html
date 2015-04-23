@@ -1,0 +1,23 @@
+<div class='col-sm-1 col-md-1 col-lg-1 pull-right dropdown-container'>
+    <tabset class='dropdown-tab'>
+        <!-- dropdown tab -->
+        <tab class='pull-right'>
+            <tab-heading>
+                <div>
+                    <!-- Simple dropdown -->
+                <span class="dropdown" dropdown on-toggle="toggled(open)">
+                  <a href class="dropdown-toggle" dropdown-toggle
+                     ng-click='showMenu = ! showMenu' ng-class="{'disabled': PortView.tabs.length < 10}">
+                      <i class="fa fa-align-justify"></i>
+                  </a>
+                  <ul class="dropdown-menu port-dropdown-menu" ng-show='showMenu && PortView.tabs.length > 9'>
+                      <li ng-repeat="choice in dropdown.items = ((PortView.tabs | filter:q:strict))" ng-if="$index > 8">
+                          <a ui-sref="portfolio.manager.edit({portId: choice.id})">{{ choice.label }}</a>
+                      </li>
+                  </ul>
+                </span>
+                </div>
+            </tab-heading>
+        </tab>
+    </tabset>
+</div>

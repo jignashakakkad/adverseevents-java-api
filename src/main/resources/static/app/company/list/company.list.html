@@ -1,0 +1,15 @@
+<!-- <div cg-busy='statePromise'></div> -->
+<div class="h1"><h1>Companies</h1>
+</div>
+<table class="table table-striped table-bordered">
+    <table class="table table-striped table-bordered">
+        <tr class="h4">
+            <td>Company Name</td>
+            <td>Drugs owned</td>
+        </tr>
+        <tr ng-repeat="Item in List">
+            <td><a ui-sref="company.detail.overview({ id:Item.id})">{{ Item.label }} <span ng-show="Item.parent_ticker.length"> ({{ Item.parent_ticker }})</span> </a></td>
+            <td>{{ Item.metric_applications_count  }}</td>
+        </tr>
+    </table>
+</table>

@@ -1,0 +1,261 @@
+[
+    {
+        "originalColDefs": [
+            {
+                "field": "product_name",
+                "pinned": true,
+                "width": "300",
+                "visible": true,
+                "displayName": "Product Name(s)",
+                "cellTemplate": "<div class=\"ngCellText\">{{row.getProperty(col.field) | titleCase}}</div>"
+
+            },
+            {
+                "field": "product_genericName",
+                "pinned": false,
+                "width": "140",
+                "visible": true,
+                "cellFilter": "lowercase",
+                "displayName": "Generic"
+            },
+            {
+                "field": "lead_partner",
+                "pinned": false,
+                "width": "140",
+                "visible": true,
+
+                "displayName": "Lead Company"
+            },
+            {
+                "field": "other_partners",
+                "pinned": false,
+                "width": "140",
+                "visible": true,
+
+                "displayName": "Partner Companies"
+            },
+            {
+                "field": "appl_exclusivity",
+                "pinned": false,
+                "width": "95",
+                "visible": true,
+                "displayName": "Branded/Generic"
+            },
+            {
+                "field": "parent",
+                "pinned": false,
+                "width": "90",
+                "visible": false,
+                "displayName": "AE Parent Company"
+            },
+            {
+                "field": "parent_id",
+                "pinned": false,
+                "width": "60",
+                "visible": false,
+                "displayName": "AE ParentID"
+            },
+            {
+                "field": "subsidiary_company",
+                "pinned": false,
+                "width": "90",
+                "visible": false,
+                "displayName": "AE Subsidiary"
+            },
+            {
+                "field": "subsidiary_id",
+                "pinned": false,
+                "visible": false,
+                "displayName": "AE  SubsidiaryID"
+            },
+            {
+                "field": "subisidary_fda_name",
+                "pinned": false,
+                "visible": false,
+                "displayName": "FDA Applicant"
+            },
+            {
+                "field": "appl_mkt_status_label",
+                "pinned": false,
+                "visible": false,
+                "displayName": "FDA Status"
+            },
+            {
+                "field": "application_number",
+                "pinned": false,
+                "visible": false,
+                "displayName": "FDA Application No.(s)"
+            },
+            {
+                "field": "aedrug_id",
+                "pinned": false,
+                "visible": false,
+                "displayName": "AE Drug_id"
+            },
+            {
+                "field": "BrandName",
+                "pinned": false,
+                "width": "90",
+                "visible": false,
+                "displayName": "AE BrandName"
+            },
+
+            {
+                "field": "appl_type",
+                "pinned": false,
+                "visible": false,
+                "displayName": "FDA App. Type (N=NDA; A=ANDA)"
+            },
+            {
+                "field": "evaluate_productName",
+                "pinned": false,
+                "width": "95",
+                "visible": false,
+                "displayName": "Evaluate Drug"
+            },
+            {
+                "field": "evaluate_companyName",
+                "pinned": false,
+                "width": "95",
+                "visible": false,
+                "displayName": "Evaluate Company"
+            },
+            {
+                "field": "evaluate_productRevenue2013",
+                "cellFilter": "number:2",
+                "pinned": false,
+                "width": "80",
+                "visible": true,
+                "displayName": "2013 Revenue"
+            },
+            {
+                "field": "evaluate_productRevenue2012",
+                "cellFilter": "number:2",
+                "pinned": false,
+                "width": "70",
+                "visible": false,
+                "displayName": "2012 Revenue"
+            },
+            {
+                "field": "metric_pscount",
+                "pinned": false,
+                "visible": true,
+                "width": "80",
+                "cellFilter": "number",
+                "displayName": "Primary Suspect Cases"
+            },
+            {
+                "field": "metric_rxscore",
+                "pinned": false,
+                "visible": true,
+                "width": "60",
+                "cellFilter": "number:2",
+                "displayName": "RxScore"
+            },
+            {
+                "field": "class_indication",
+                "pinned": false,
+                "visible": true,
+                "displayName": "Primary Indication"
+            }
+
+
+        ]
+    },
+    {
+        "prodColDefs": [
+            {
+                "field": "product_name",
+                "pinned": true,
+                "width": "140",
+                "visible": true,
+                "cellFilter": "titleCase",
+                "displayName": "Product Name(s)"
+            },
+            {
+                "field": "product_genericName",
+                "pinned": false,
+                "width": "140",
+                "visible": true,
+                "cellFilter": "lowercase",
+                "displayName": "Generic"
+            },
+            {
+                "field": "lead_partner",
+                "pinned": false,
+                "width": "140",
+                "visible": true,
+
+                "displayName": "Lead Company"
+            },
+            {
+                "field": "other_partners",
+                "pinned": false,
+                "width": "140",
+                "visible": true,
+
+                "displayName": "Partner Companies"
+            },
+            {
+                "field": "appl_exclusivity",
+                "pinned": false,
+                "width": "95",
+                "visible": true,
+                "displayName": "Branded/Generic"
+            },
+            {
+                "field": "subsidiary_company",
+                "pinned": false,
+                "width": "90",
+                "visible": false,
+                "displayName": "AE Subsidiary"
+            },
+            {
+                "field": "subisidary_fda_name",
+                "pinned": false,
+                "visible": false,
+                "displayName": "FDA Applicant"
+            },
+            {
+                "field": "evaluate_productRevenue2013",
+                "cellFilter": "number:2",
+                "pinned": false,
+                "width": "80",
+                "visible": true,
+                "displayName": "2013 Revenue"
+            },
+            {
+                "field": "evaluate_productRevenue2012",
+                "cellFilter": "number:2",
+                "pinned": false,
+                "width": "70",
+                "visible": false,
+                "displayName": "2012 Revenue"
+            },
+            {
+                "field": "metric_pscount",
+                "pinned": false,
+                "visible": true,
+                "width": "80",
+                "cellFilter": "number",
+                "displayName": "Primary Suspect Cases"
+            },
+            {
+                "field": "metric_rxscore",
+                "pinned": false,
+                "visible": true,
+                "width": "60",
+                "cellFilter": "number:2",
+                "displayName": "RxScore"
+            },
+            {
+                "field": "class_indication",
+                "pinned": false,
+                "visible": true,
+                "displayName": "Primary Indication"
+            }
+
+
+        ]
+    }
+]

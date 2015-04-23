@@ -1,0 +1,35 @@
+<div id="drugs-drugdetail" class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading report">
+            <div class="h3 report-header">
+                <div id="drugdetail-report-header" class="title pull-left">
+                    {{ Drug.aedrug_name }} Drug Report <span id="title-suffix">{{TitleSuffix}}</span>
+                    <div class='drug-report-header-container'>
+                        <div class='drug-report-data'>
+                            <span class="header-label h4" id="drugdetail-generic-label">Generic Name: <span class="h4" id="drugdetail-generic-value">{{ Drug.aedrug_generic }}</span></span>
+                        </div>
+                        <div class='drug-report-data'>
+                            <div class='primary-suspect-cases'>
+                            <span class="header-label h4" id="drugdetail-cases-label">Primary Suspect Cases:</span>
+                            <span class="h4" id="drugdetail-cases-value">{{ Metrics.counts.primary | number }}</span>
+                            </div>
+                            <div class='data-complete-through'>
+                            <div class='drug-report-data'>
+                                <span class="header-label h4" id="drugdetail-date-label">Data Complete Through: <span class="h4" id="drugdetail-date-value"> {{ data_updated }}</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ui-view="report-header-right" class="report-header-right"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div ui-view="nav-tabs" class="nav-tabs-drugs"></div>
+        <div class="pull-left tabContentPrint"><a href=""  onClick="window.print();return false"><i class="fa fa-print"></i></a></div>
+        <div ui-view="tabcontent" class="tabContentDrug"></div>
+        <div class="panel-body"></div>
+    </div>
+    <div>
+    </div>
+</div>

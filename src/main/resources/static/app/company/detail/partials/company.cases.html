@@ -1,0 +1,111 @@
+<!-- cases -->
+<div class="col-md-12 col-lg-12">
+    <!-- cases -->
+
+
+    <div class="h4 invisible"></div>
+    <div class="row row-fluid">
+        <div class="col-md-12">
+            <div class="row row-fluid">
+                <div class="panel panel-default panel-report">
+                    <div class="panel-heading panel-title"><h4 class="text-muted ">Individual Case Safety Report
+                        Browser</h4></div>
+                    <div class="panel-body">
+
+                        <div>
+                            <div class="col-sm-3">
+                                <div class="panel panel-default panel-report">
+                                    <div class="panel-heading panel-title"><h5 class="text-muted ">Filter
+                                        Data Source</h5></div>
+                                    <div class="panel-body">
+                                        <select class="input-sm"  ng-model="caseFilter.selectedSource">
+                                            <option value="1">All Sources</option>
+                                            <option value="FOIA">FOIA</option>
+                                            <option value="FAERS">FAERS</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="panel panel-default panel-report">
+                                    <div class="panel-heading panel-title"><h5 class="text-muted ">Filter
+                                        Gender</h5></div>
+                                    <div class="panel-body">
+                                        <select class="input-sm"  ng-model="caseFilter.selectedGender">
+                                            <option value="1">All Genders</option>
+                                            <option value="M">Male</option>
+                                            <option value="F">Female</option>
+                                            <option value="NS">Unknown</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="panel panel-default panel-report">
+                                    <div class="panel-heading panel-title"><h5 class="text-muted ">Filter
+                                        Reporters</h5></div>
+                                    <div class="panel-body">
+                                        <select class="input-sm"  ng-model="caseFilter.selectedOccp">
+                                            <option value="1">All Reporters</option>
+                                            <option value="MD">Physician</option>
+                                            <option value="PH">Pharmacist</option>
+                                            <option value="OT">Other Healthcare Professional</option>
+                                            <option value="LW">Lawyer</option>
+                                            <option value="CN">Consumers</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="panel panel-default panel-report">
+                                    <div class="panel-heading panel-title"><h5 class="text-muted ">Filter
+                                        Outcomes</h5></div>
+                                    <div class="panel-body">
+                                        <select class="input-sm"  ng-model="caseFilter.selectedOutc" ng-options="outcome.outc_cod as outcomeName(outcome.outc_cod) for outcome in caseFilter.outcomes "></select>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <table class="table  table-bordered">
+                            <thead class="text-danger h5">
+                            <th>ICSR #</th>
+                            <th>Case (Patient) ID</th>
+                            <th>Date</th>
+                            <th>Gender</th>
+                            <th>Age</th>
+                            <th>Events</th>
+                            <th>Outcomes</th>
+
+                            <th>Reporters</th>
+                            <th>Source</th>
+
+                            </thead>
+                            <tr ng-repeat="row in CaseList">
+                                <td><a href="http://adverseevents.com/caseprofile.php?id={{ row.case_isr }}">{{ row.case_isr  }}</a></td>
+                                <td>{{ row.case_id  }}</td>
+                                <td>{{ row.fda_dt | date }}</td>
+                                <td>{{ genderName(row.gender) }}</td>
+                                <td>{{ row.patient.age | number }} {{ row.patient.age_unit }}</td>
+                                <td ng-bind-html="row.reacs | toHtmlList"></td>
+                                <td ng-bind-html="outcomeName(row.outcomes[0].outc_cod)"></td>
+                                <td ng-bind-html="reporterName(row.occp_cod)"></td>
+                                <td>{{ row.case_source }}</td>
+                            </tr>
+                            <tr ng-hide="CaseList.length">
+                                <td colspan="9"><div class="jumbotron text-center"><h4 class="text-muted"><i class="fa fa-warning text-muted fa-1x"></i> No Cases Found</h4></div> </td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- ./cases -->

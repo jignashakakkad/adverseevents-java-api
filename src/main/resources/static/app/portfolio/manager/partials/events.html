@@ -1,0 +1,21 @@
+<div class='col-md-6'>
+	<div class='panel panel-default'>
+		<div class='panel-heading'>
+			<h4 class='panel-title'>Portfolio Events</h4>
+		</div>
+		<div class='panel-body'>
+			<table class='table'>
+				<thead>
+					<th>Product/Company</th>
+					<th>Headline</th>
+				</thead>
+				<tbody ng-repeat='event in events'>
+					<tr>
+						<td><a href='#'>{{ event.product }}</a></td>
+						<td><a href='#'>{{ event.headline }}</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

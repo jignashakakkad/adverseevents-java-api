@@ -1,0 +1,31 @@
+<div ui-view="login"></div>
+<div ng-if="!PortView.tabs.length">
+    <div ui-view="no-portfolios"></div>
+</div>
+<div class='container' ng-show="PortView.tabs.length">
+    <div class='panel panel-default'>
+        <div class='panel-heading report'>
+            <div class="container-fluid">
+                <h1 class='port-title port-manager-header title custom-inline'>{{PortView.portfolioTitle }} Manager</h1>
+                <span ui-view="create"></span>
+                <div class="title port-title custom-inline pull-right">
+                </div>
+            </div>
+        </div>
+        <div class='panel-body'>
+            <div class='col-sm-11 col-md-11 col-lg-11 tabset-container'>
+                <tabset>
+                    <tab ng-repeat="tab in PortView.tabs" ng-if="$index < 9" active="tab.active" disabled="tab.disabled" ui-sref="portfolio.manager.edit({portId:tab.id})">
+                        <tab-heading ui-sref="portfolio.manager.edit({portId:tab.id})">
+                            {{ tab.label }}
+                        </tab-heading>
+                    </tab>
+                </tabset>
+            </div>
+            <div ui-view="dropdown"></div>
+            <div ui-view='results'></div>
+            <div ui-view='companies'></div>
+            <div ui-view='drugs'></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<button class='btn btn-danger btn-lg launch-portfolio pull-right'
+        ng-class='{disabled: !PortView.enableLaunchButton, formulary: PortView.portfolioTitle=="Formulary" }'
+        ui-sref="portfolio.detail.overview({id:PortView.Portfolio.id})">
+    <i class="fa fa-folder-open"></i> Launch {{ PortView.portfolioTitle }}
+</button>
+<h3 class='port-title-editable custom-inline'>
+    <a editable-text='PortView.Portfolio.label' e-maxlength="35" onbeforesave="checkDupes($data)" onaftersave="updatePortfolioLabel()">
+        {{ PortView.Portfolio.label || 'empty' }}
+    </a>
+</h3>
+<span class='label group-tag {{PortView.activeTab.groupLabel}}'>{{ PortView.activeTab.group }}</span>
+<br>
+<button class='btn btn-warning btn-sm delete-portfolio pull-right'
+        id='portfolio-delete-button'
+        ng-click="deletePortfolio(PortView.Portfolio)"
+        confirm="Are you sure you want to delete {{PortView.Portfolio.label}}?">
+    <i class="fa fa-remove"></i> Delete
+</button>
+<span ui-view="copy"></span>
+<div class='row search-bar-row'>
+	<div class='col-md-6 col-sm-8 search-bar-col'>
+		<input ng-model='searchInput' ng-change='refreshItems(searchInput)' class='form-control' id='portfolio-search-bar' placeholder='Search drugs/companies/subsidiaries to add to this {{portfolioName}}' autofocus>
+	</div>
+</div>
+<br>
+<div class='col-md-6'>
+	<div class='panel panel-default results-overflow'>
+		<div class='panel-heading'>
+			<h4 class='panel-title'>Search Results</h4>
+		</div>
+		<table class="table table-striped">
+			<tbody>
+				<tr class='panel-body' ng-repeat='item in PortView.items | filter: searchInput' >
+					<div class='no-results ' ng-hide='PortView.items.length > 0'>No results</div>
+					<td>
+						<div class='search-result-name'>{{ item.thisName }}</div>
+						<span class='search-result-generic text-muted' ng-if='item.thisType === "Drug"'>{{ item.thisSynonym }}</span>
+						<span class='search-result-generic text-muted' ng-if='item.thisType === "Company"'>{{ item.thisSubType.toLowerCase() }} company</span>
+					</td>
+					<td ng-hide='item.isAdded'><btn class='btn btn-sm btn-primary pull-right add-to-port-btn' ng-click="[item.isAdded = !item.isAdded, addToPortfolio(item)]">Add</btn></td>
+					<td ng-show="item.isAdded"><btn class='btn btn-sm btn-primary pull-right add-to-port-btn disabled'>Added</btn></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

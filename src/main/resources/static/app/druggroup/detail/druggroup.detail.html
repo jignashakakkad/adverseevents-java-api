@@ -1,0 +1,65 @@
+<!-- Webservice not found to get single record and getting data from overview.
+Json format does not have any information regarding name -
+Even not able to get metrics from
+http://www.adverseevents.com/api/drugclass/J01MA/metrics
+
+I am able to get Metrics form http://www.adverseevents.com/lev/api/drugclass/J01MA/metrics
+
+for a single functionality do we need to use two different web service urls?
+-->
+
+<div id="drugclass-detail" class="container" >
+    <div id="fullscreenonly" fullscreen="isFullScreen">
+        <div class="panel panel-default">
+            <div class="report rxoutcome-panel">
+                <div class="h3 report-header">
+                    <div class="title pull-left">
+                        RxOutcome 
+                        <div class='header-label h4 druggroup-title' id="outcome-label">
+                            {{ DrugGroup.parentResource.route | pascalCaseFilter | drugclassLabel }} Report:
+                            <span class='h4'> {{ DrugGroup.dimLabel }}</span>
+                        </div>
+                        <div class="text-upper  panel-heading" style="margin-top:-0.5em"><span class="h4"></span></div>
+                        <!-- hide ps count for now. data is weird via experimental SQL queries.
+                         <div class="text-upper panel-heading"><span class="h3">{{ DrugGroup.pscount | number }} Primary Suspect Cases</div>
+                         <div class="text-upper  panel-heading" style="margin-top:-0.5em"><span class="h4">Data updated {{ Drugclass.history[0].max_date_received }}</div>
+                        -->
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="rxoutcome-buttons">
+                    <div class="form-group inline">
+                        <button ng-click="goFullScreenViaWatcher()" class="btn btn-primary"><i class="fa aexicon-desktop"></i></button>
+                        <button ng-click="localStorageClearAll()" class="btn btn-primary">Reset Grids</button>
+                    </div>
+                </div>
+            </div>
+            <div ui-view="nav-tabs"></div>
+            <div class="pull-left tabContentPrint"><a href=""  onClick="window.print();return false"><i class="fa fa-print"></i></a></div>
+            <div ui-view="tabcontent" class="tabContentDrug"></div>
+            <div class="col-md-12" id="druggroup.detail"></div>
+            <div class="panel-body"></div>
+        </div>
+    </div>
+</div>
+<style>
+    .c3-circle {
+        opacity: 0.8 !important;
+    }
+    .tabContentPrint {
+        padding-top: 1px;
+        padding-left: 20px;
+        padding-right: 0px;
+        margin-right: 0px;;
+    }
+    .tabContentPrint i{
+        margin-right: 26px !important;
+        font-size: 22px !important;
+        color: #000 !important;
+    }
+
+
+
+
+
+</style>

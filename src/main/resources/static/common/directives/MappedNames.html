@@ -1,0 +1,23 @@
+<div class="row row-fluid" id="drugdetail-overview-drugclass">
+    <div class="row row-fluid">
+        <div class="col-sm-12">
+
+            <div class="panel panel-default panel-report">
+                <div class="panel-heading panel-title"><h4 class="text-muted ">Drug Classes</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="row-fluid">
+                        <table class="table  ">
+                            <tr ng-repeat="term in termNames">
+                                <td><a href="{{ term.id }}">{{ term.label }}</a></td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

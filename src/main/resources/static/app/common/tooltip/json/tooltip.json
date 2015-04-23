@@ -1,0 +1,367 @@
+[
+    {
+        "key": "Weighted Rxscore",
+        "value": "Weighted Rxscore is the ...",
+        "module": "common"
+    },
+    {
+        "key": "Product Name(s)",
+        "value": "Product Name(s) placeholder text...",
+        "module": "common"
+    },
+    {
+        "key": "2013 Revenue",
+        "value": "2013 Revenue",
+        "module": "common"
+    },
+    {
+        "key": "Primary Suspect Cases",
+        "value": "Explanatory Tip Text for Primary Suspect Cases",
+        "module": "common"
+    },
+    {
+        "key": "Generic",
+        "value": "Generic popover placeholder text...",
+        "module": "common"
+    },
+    {
+        "key": "Generic Competition",
+        "value": "Generic Competition",
+        "module": "common"
+    },
+    {
+        "key": "AE Parent Company",
+        "value": "AE Parent Company placeholder",
+        "module": "common"
+    },
+    {
+        "key": "Branded/Generic",
+        "value": "Explanatory Tip Text for Branded/Generic",
+        "module": "common"
+    },
+    {
+        "key": "Generic",
+        "value": "Generic popover placeholder text...",
+        "module": "common"
+    },
+    {
+        "key": "Primary Indication",
+        "value": "Primary Indication means...",
+        "module": "common"
+    },
+    {
+        "key": "RxScore",
+        "value": "Explanatory Tip Text for RxScore",
+        "module": "common"
+    },
+    {
+        "key": "RxSignal",
+        "value": "AEI’s proprietary signaling system which predicts future drug label changes.  “Active” means the signal is active and the adverse event shown will likely be added to the drug’s label in the future.",
+        "module": "common"
+    },
+    {
+        "key": "IME",
+        "value": "Serious according to the IME (Important Medical Event) list created by the EudraVigilance Expert Working Group (EV - EWG).",
+        "module": "common"
+    },
+    {
+        "key": "Adverse Event",
+        "value": "MedDRA Adverse Event",
+        "module": "common"
+    },
+    {
+        "key": "Branded/Generic",
+        "value": "Explanatory Tip Text for Branded/Generic",
+        "module": "common"
+    },
+    {
+        "key": "Generic",
+        "value": "Generic popover placeholder text...",
+        "module": "common"
+    },
+    {
+        "key": "Generic Competition",
+        "value": "Generic Competition",
+        "module": "common"
+    },
+    {
+        "key": "AE Parent Company",
+        "value": "AE Parent Company placeholder",
+        "module": "common"
+    },
+    {
+        "key": "Branded/Generic",
+        "value": "Explanatory Tip Text for Branded/Generic",
+        "module": "common"
+    },
+    {
+        "key": "Generic",
+        "value": "Generic popover placeholder text...",
+        "module": "common"
+    },
+    {
+        "key": "Adverse Event",
+        "value": "MedDRA Adverse Event",
+        "module": "common"
+    },
+    {
+        "key": "Adverse Event",
+        "value": "Explanatory Tip Text for Suspect Cases Here",
+        "module": "common"
+    },
+    {
+        "key": "RxSignal",
+        "value": "AEI’s proprietary signaling system which predicts future drug label changes.  “Active” means the signal is active and the adverse event shown will likely be added to the drug’s label in the future.",
+        "module": "common"
+    },
+    {
+        "key": "IME",
+        "value": "Serious according to the IME (Important Medical Event) list created by the EudraVigilance Expert Working Group (EV - EWG).",
+        "module": "common"
+    },
+    {
+        "key": "IME Serious",
+        "value": "Serious according to the IME (Important Medical Event) list created by the EudraVigilance Expert Working Group (EV - EWG). ",
+        "module": "common"
+    },
+    {
+        "key": "DME",
+        "value": "Event shown is on the Designated Medical Event list, the most serious type of event as classified by the FDA.  ",
+        "module": "common"
+    },
+    {
+        "key": "Disease Related",
+        "value": "Adverse Event listed is the actual disease or condition which the drug is indicated to treat.  ",
+        "module": "common"
+    },
+    {
+        "key": "On Label",
+        "value": "The event shown or equivalent of the event shown is either on or off the latest drug label.",
+        "module": "common"
+    },
+    {
+        "key": "Label Section",
+        "value": "These are the distinct FDA Structured Product Label sections of the drugs label where this term occurs as a know side effect.",
+        "module": "common"
+    },
+    {
+        "key": "ROR",
+        "value": "Score which measures the relative occurrence of this adverse event with this drug compared to this adverse event’s relative occurrence with all other drugs in the database.  ",
+        "module": "common"
+    },
+    {
+        "key": "PRR",
+        "value": "Measures the relative occurrence of adverse event with drug compared to adverse event’s relative occurrence with all other drugs in the database. Slightly less sensitive alternative to ROR statistic",
+        "module": "common"
+    },
+    {
+        "key": "Cases",
+        "value": "Number of case reports where adverse event was associated with this drug and the reporter listed the drug as the primary suspected cause.",
+        "module": "common"
+    },
+    {
+        "key": "PS PCT",
+        "value": "Primary Suspect Cases for adverse event as a percentage of all Primary Suspect Case Reports for the Drug.",
+        "module": "common"
+    },
+    {
+        "key": "Total Cases",
+        "value": "The number of case reports where this adverse event was associated with this drug.  ",
+        "module": "common"
+    },
+    {
+        "key": "Total PCT",
+        "value": "Total Cases for adverse event as a percentage of the Total Case Reports for the Drug.",
+        "module": "common"
+    },
+    {
+        "key": "Incidence 2012",
+        "value": "Annual incidence rate of this adverse event (primary suspect cases only) for 2012.",
+        "module": "common"
+    },
+    {
+        "key": "Incidence 2011",
+        "value": "Annual incidence rate of this adverse event (primary suspect cases only) for 2011.",
+        "module": "common"
+    },
+    {
+        "key": "Incidence 2013",
+        "value": "Annual incidence rate of this adverse event (primary suspect cases only) for 2013.",
+        "module": "common"
+    },
+    {
+        "key": "Incidence",
+        "value": "Avg Annual incidence rate of this adverse event over the last 3 full calendar years based on patient population data supplied by Evaluate Limited.   ",
+        "module": "common"
+    },
+    {
+        "key": "Adverse Event",
+        "value": "Explanatory Tip Text for Suspect Cases Here",
+        "module": "common"
+    },
+    {
+        "key": "RxSignal",
+        "value": "AEI’s proprietary signaling system which predicts future drug label changes.  “Active” means the signal is active and the adverse event shown will likely be added to the drug’s label in the future.",
+        "module": "common"
+    },
+    {
+        "key": "IME",
+        "value": "Serious according to the IME (Important Medical Event) list created by the EudraVigilance Expert Working Group (EV - EWG).",
+        "module": "common"
+    },
+    {
+        "key": "IME Serious",
+        "value": "Serious according to the IME (Important Medical Event) list created by the EudraVigilance Expert Working Group (EV - EWG). ",
+        "module": "common"
+    },
+    {
+        "key": "DME",
+        "value": "Event shown is on the Designated Medical Event list, the most serious type of event as classified by the FDA.  ",
+        "module": "common"
+    },
+    {
+        "key": "Disease Related",
+        "value": "Adverse Event listed is the actual disease or condition which the drug is indicated to treat.  ",
+        "module": "common"
+    },
+    {
+        "key": "On Label",
+        "value": "The event shown or equivalent of the event shown is either on or off the latest drug label.",
+        "module": "common"
+    },
+    {
+        "key": "Label Section",
+        "value": "These are the distinct FDA Structured Product Label sections of the drugs label where this term occurs as a know side effect.",
+        "module": "common"
+    },
+    {
+        "key": "ROR",
+        "value": "Score which measures the relative occurrence of this adverse event with this drug compared to this adverse event’s relative occurrence with all other drugs in the database.  ",
+        "module": "common"
+    },
+    {
+        "key": "PRR",
+        "value": "Explanatory Tip Text  Here",
+        "module": "common"
+    },
+    {
+        "key": "Cases",
+        "value": "Number of case reports where adverse event was associated with this drug and the reporter listed the drug as the primary suspected cause.",
+        "module": "common"
+    },
+    {
+        "key": "PS PCT",
+        "value": "Primary Suspect Cases for adverse event as a percentage of all Primary Suspect Case Reports for the Drug.",
+        "module": "common"
+    },
+    {
+        "key": "Total Cases",
+        "value": "The number of case reports where this adverse event was associated with this drug.  ",
+        "module": "common"
+    },
+    {
+        "key": "Total PCT",
+        "value": "Total Cases for adverse event as a percentage of the Total Case Reports for the Drug.",
+        "module": "common"
+    },
+    {
+        "key": "2012 Incidence",
+        "value": "Annual incidence rate of this adverse event (primary suspect cases only) for 2012.",
+        "module": "common"
+    },
+    {
+        "key": "2011 Incidence",
+        "value": "Annual incidence rate of this adverse event (primary suspect cases only) for 2011.",
+        "module": "common"
+    },
+    {
+        "key": "2013 Incidence",
+        "value": "Annual incidence rate of this adverse event (primary suspect cases only) for 2013.",
+        "module": "common"
+    },
+    {
+        "key": "Incidence",
+        "value": "Avg Annual incidence rate of this adverse event over the last 3 full calendar years based on patient population data supplied by Evaluate Limited.   ",
+        "module": "common"
+    },
+    {
+        "key": "RxCost per Patient",
+        "value": "Average expected downstream cost for each patient exposed to the medication.",
+        "module": "druggroup.detail.costs"
+    },
+    {
+        "key": "Annual Patients",
+        "value": "Average annual number of patients exposed to the medication during the latest five year period. Source: Evaluate Pharma",
+        "module": "druggroup.detail.costs"
+    },
+    {
+        "key": "Drug Price (2014)",
+        "value": "Annual Price of the drug per patient in the latest calendar year. Source: Evaluate Pharma",
+        "module": "druggroup.detail.costs"
+    },
+    {
+        "key": "RxCost Savings",
+        "value": "Amount of potential annual savings by using the average drug in the indication instead of the subject medication.",
+        "module": "druggroup.detail.costs"
+    },
+    {
+        "key": "Annual RxCost",
+        "value": "Average cost of treating the adverse event multiplied by the number of patients who experience such event where the event was the highest costed event out all of those experienced by the patient.",
+        "module": "druggroup.detail.costs"
+    },
+    {
+        "key": "Serious AE Rate",
+        "value": "The rate of patients who experience a serious adverse event after taking the medication. Source: EUDRA Important Medical Events",
+        "module": "druggroup.detail.costs"
+    },
+    {
+        "key": "Avg. RxCost (Other Drugs)",
+        "value": "Average cost per patient of all other drugs in the indication (or class or using the same mechanism of action) excluding the subject medication.",
+        "module": "druggroup.detail.costs"
+    },
+    {
+        "key": "RxCost Savings (x5)",
+        "value": "Amount of potential annual savings by using the average drug in the indication instead of the subject medication enhanced by a factor of 5 to reflect potential under - reporting of adverse events.",
+        "module": "druggroup.detail.costs"
+    },
+    {
+        "key":"Adverse Event",
+        "value":"MedDRA Adverse Event",
+        "module":"drugs.detail.costs"
+    },
+    {
+        "key":"On Label",
+        "value":"Whether the adverse event listed is currently on or off the drug’s label.",
+        "module":"drugs.detail.costs"
+    },
+    {
+        "key":"Cases",
+        "value":"Number of cases reported for a given adverse event during the previous 5-year period. If multiple adverse events were reported for the same patient, only the highest costing (according to the HCUP survey) was used in this calculation.  Additionally, the drug must have been listed as the “primary suspect” for the reported adverse event.",
+        "module":"drugs.detail.costs"
+    },
+    {
+        "key":"Incidence",
+        "value":"Amount of times a given adverse event was reported as a “primary suspect” during the previous 5-year period divided by number of patients exposed to the drug.  If multiple adverse events were reported for the same patient, only the highest costing (according to the HCUP survey) was used in this calculation.",
+        "module":"drugs.detail.costs"
+    },
+    {
+        "key":"RxCost Per Adverse Event",
+        "value":"Average Cost of treating the adverse event listed according to the Healthcare Cost and Utilization Project (HCUP) (2012).",
+        "module":"drugs.detail.costs"
+    },
+    {
+        "key":"Total RxCost",
+        "value":"Average cost of treating the adverse event multiplied by the number of patients who experience such event where the event was the highest costed event out all of those experienced by the patient.",
+        "module":"drugs.detail.costs"
+    },
+    {
+        "key":"Primary Suspects",
+        "value":"Primary suspect number of reports",
+        "module":"common"
+    },
+    {
+        "key":"All Suspects",
+        "value":"All suspect number of reports",
+        "module":"common"
+    }
+]

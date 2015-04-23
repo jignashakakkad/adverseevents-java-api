@@ -1,0 +1,66 @@
+<div id="company-detail" class="container"  >
+    <div id="fullscreenonly" fullscreen="isFullScreen">
+    <div class="panel panel-default">
+        <div class="custom-panel-heading report">
+            <div class="h3 report-header header-margin">
+                <div id="portfoliodetail-report-header" class="report-header-container pull-left">
+                    <div class="text-upper">
+                        <!-- end as of -->
+                        <div id="portfolio-page-title">
+                          {{ PortfolioObject.label }}
+                            <!--Add xeditable here-->
+                            <!--Moves generic name up a little-->
+                        </div>
+                        <div ui-view="notImportant" onload=" "  style="margin-top: 11px;" >
+                        </div>
+                    </div>
+                </div>
+                <!-- rxscore here -->
+                <div class='portfolio-rxscore-container'>
+                    <div ui-view="report-header-right" class="report-header-right"></div>
+                </div>
+            </div>
+            <div class="pull-left header-edit-buttons">
+                <div class="form-group inline">
+                    <!-- Print to PDF button to go here for v1.1 -->
+                    <button ng-click="goFullScreenViaWatcher()" class="btn btn-primary"><i class="fa aexicon-desktop"></i></button>
+                    <a class="btn btn-primary" ui-sref="portfolio.manager.edit({portId:$state.params.id})">Edit {{ portfolioName }}</a>
+
+                    <!-- TODO replace localStorageClear() with a better fn that accepts the module name to only clear for this module - not whole site) -->
+                    <button ng-click="localStorageClear()" class="btn btn-primary">Reset Grids</button>
+                    <div class="dropdown portfolio-header-dropdown" ng-if="$state.includes('portfolio.detail.overview')">
+                        <button class="btn btn-primary btn-mini dropdown-toggle"
+                            type="button" data-toggle="dropdown"
+                            popover-append-to-body="true" popover-trigger="mouseenter"
+                            popover="Select overview data to display">
+                            {{ overviewdata }}
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu portfolio-dropdown-menu" role="menu">
+                            <li><a ui-sref="portfolio.detail.overview({overviewdata:'company'})">Company Overview</a></li>
+                            <li><a ui-sref="portfolio.detail.overview({overviewdata:'drug-overview'})">Drug Overview</a></li>
+                            <li><a ui-sref="portfolio.detail.overview({overviewdata:'drug-detail'})">Drug Detail</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+            <div ui-view="nav-tabs"></div>
+            <div ui-view="tabcontent" class="tabContentDrug"></div>
+
+        <div class="panel-body"></div>
+    </div>
+    </div>
+</div>
+
+<style>
+    .c3-circle {
+        opacity: 0.8 !important;
+    }
+
+    #drugdetail-report-header a {
+        font-size: .55em !important;
+    }
+</style>

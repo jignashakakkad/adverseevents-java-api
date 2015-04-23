@@ -1,0 +1,83 @@
+{
+    "portfolioRxSignalSummary": [
+        {
+            "field": "product_drugnames",
+            "width": "181px",
+            "visible": true,
+            "pinned": true,
+            "displayName": "Product Name(s)",
+            "cellTemplate": "<div class='ngCellText'><a ui-sref='drugs.detail.rxsignal({id: row.getProperty(\"aedrug_id\")})'>{{row.getProperty(col.field) | titleCase}}</a></div>"
+        },
+        {
+            "field": "metric_sum_company_userPortfolio_exposed",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number'",
+            "width": "100px",
+            "visible": true,
+            "displayName": "Portfolio Co. Exposed"
+        },
+        {
+            "field": "metric_sum_company_exposed",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number'",
+            "width": "105px",
+            "visible": true,
+            "displayName": "Total Co. Exposed"
+        },
+        {
+            "field": "metric_pctg_company_userPortfolio_exposed",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'pctgFilter':2",
+            "width": "100px",
+            "visible": true,
+            "displayName": "Percentage Exposure"
+        },
+        {
+            "field": "evaluate_productRevenue2014",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'currency':$:2",
+            "width": "112px",
+            "visible": true,
+            "displayName": "2014 Revenue"
+        },
+        {
+            "field": "metric_rxsignal_active",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number':0",
+            "width": "124px",
+            "visible": true,
+            "displayName": "Active RxSignal"
+        },
+        {
+            "field": "metric_rxsignal_watchlist",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number':0",
+            "width": "145px",
+            "visible": true,
+            "displayName": "Watchlist RxSignal"
+        },
+        {
+            "field": "metric_reac",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number':0",
+            "width": "172px",
+            "visible": true,
+            "displayName": "Total (Active/Watchlist)"
+        },
+        {
+            "field": "metric_rxsignal_dme",
+            "cellClass": "centerCellText",
+            "cellFilter": "emptyCellFilter:'number':0",
+            "width": "*",
+            "visible": true,
+            "displayName": "DME"
+        },
+        {
+            "field": "company_names",
+            "cellClass": "centerCellText",
+            "width": "150px",
+            "visible": false,
+            "displayName": "Company Names"
+        }
+    ]
+}

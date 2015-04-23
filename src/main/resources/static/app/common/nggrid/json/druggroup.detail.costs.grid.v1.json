@@ -1,0 +1,82 @@
+{
+    "outcomesCosts": [
+        {
+            "field": "aedrug_label",
+            "cellClass": "drugName",
+            "width": "20%",
+            "visible": true,
+            "pinned": true,
+            "displayName": "Product Name(s)",
+            "cellTemplate": "<div class='ngCellText pull-left'><a ui-sref='drugs.detail.costs({id:row.getProperty(\"aedrug_id\") })'>{{row.getProperty(col.field) | pascalCaseFilter }}</a></div>"
+        },
+        {
+            "field": "metric_mean_patient_cost",
+            "width": "*",
+            "visible": true,
+            "displayName": "RxCost per Patient",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_pctg_event_onlabel_cost",
+            "width": "**",
+            "visible": false,
+            "displayName": "% Costs Unlabeled Risks",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field)}}</div>"
+        },
+        {
+            "field": "metric_rate_ime_serious",
+            "width": "*",
+            "visible": false,
+            "displayName": "Serious AE Rate",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field) | incidenceFilter }}</div>"
+        },
+        {
+            "field": "metric_sum_costed_patient",
+            "visible": true,
+            "displayName": "Annual Patients",
+            "cellFilter": "number:0"
+        },
+        {
+            "field": "metric_mean_cost_otherdrug",
+            "width": "*",
+            "visible": false,
+            "displayName": "Avg. RxCost (Other Drugs)",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_sum_annual_costs",
+            "width": "*",
+            "visible": true,
+            "displayName": "Annual RxCost",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field) | currency:$:2 }}</div>"
+        },
+        {
+            "field": "metric_potential_savings",
+            "width": "*",
+            "visible": true,
+            "displayName": "RxCost Savings",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field) | currency:$:0 }}</div>"
+        },
+        {
+            "field": "metric_potential_savings_x5",
+            "width": "*",
+            "visible": false,
+            "displayName": "RxCost Savings (x5)",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field) | currency:$:0 }}</div>"
+        },
+        {
+            "field": "list_offlabel_top",
+            "width": "*",
+            "visible": false,
+            "displayName": "Top Non - Labeled AE",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field)}}</div>"
+        },
+        {
+            "field": "list_onlabel_top",
+            "width": "*",
+            "visible": false,
+            "displayName": "Top Labeled AE",
+            "cellTemplate": "<div class='ngCellText text-center'>{{row.getProperty(col.field)}}</div>"
+        }
+    ]
+}

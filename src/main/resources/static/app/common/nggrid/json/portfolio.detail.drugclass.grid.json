@@ -1,0 +1,44 @@
+{
+    "portfolioDrugclass": [
+        {
+            "field": "dimLabel",
+            "width": "352px",
+            "visible": true,
+            "pinned": true,
+            "displayName": "Drug Class",
+            "cellTemplate": "<div class='ngCellText'><a ui-sref='druggroup.detail.overview({type:\"drugclass\", id:\"{{row.getProperty(\"dimCode\")}}\"})'>{{row.getProperty(col.field)}}</a></div>"
+        },
+        {
+            "field": "metric_drugcount",
+            "cellClass": "centerCellText",
+            "width": "141px",
+            "visible": true,
+            "displayName": "Number of Drugs",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) > 0 ? row.getProperty(col.field) : '-'}}</div>"
+        },
+        {
+            "field": "metric_weighted_rxscore",
+            "cellClass": "centerCellText",
+            "width": "142px",
+            "visible": true,
+            "displayName": "Average RxScore",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) > 0 ? row.getProperty(col.field) : '-'}}</div>"
+        },
+        {
+            "field": "metrics.metric_reduced_totalsignals",
+            "cellClass": "centerCellText",
+            "width": "174px",
+            "visible": true,
+            "displayName": "# RxSignal Active ADE",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) > 0 ? row.getProperty(col.field) : '-'}}</div>"
+        },
+        {
+            "field": "metrics.metric_reduced_pscount",
+            "cellClass": "centerCellText",
+            "width": "*",
+            "visible": true,
+            "displayName": "RxSignal ADE Primary Suspect Cases",
+            "cellTemplate": "<div class='ngCellText'>{{row.getProperty(col.field) > 0 ? (row.getProperty(col.field) | number:0) : '-'}}</div>"
+        }
+    ]
+}

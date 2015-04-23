@@ -1,0 +1,4306 @@
+[
+    {
+        "aedrug_id":1,
+        "aedrug_brandname":"CLARINEX",
+        "metric_total":24,
+        "metric_active":13,
+        "metric_watchlist":11,
+        "list_events":"Pancreatitis acute, Ventricular fibrillation, Dermatitis bullous"
+    },
+    {
+        "aedrug_id":2,
+        "aedrug_brandname":"UROXATRAL",
+        "metric_total":21,
+        "metric_active":12,
+        "metric_watchlist":9,
+        "list_events":"Hepatitis acute, Sudden death, Agranulocytosis"
+    },
+    {
+        "aedrug_id":6,
+        "aedrug_brandname":"PLAVIX",
+        "metric_total":63,
+        "metric_active":19,
+        "metric_watchlist":44,
+        "list_events":"Haemolytic anaemia, Sudden death, Blindness transient"
+    },
+    {
+        "aedrug_id":9,
+        "aedrug_brandname":"SANDIMMUNE",
+        "metric_total":62,
+        "metric_active":41,
+        "metric_watchlist":21,
+        "list_events":"Haemolytic anaemia, Respiratory failure, Aplastic anaemia"
+    },
+    {
+        "aedrug_id":10,
+        "aedrug_brandname":"PRISTIQ",
+        "metric_total":9,
+        "metric_active":7,
+        "metric_watchlist":2,
+        "list_events":"Coeliac disease, Glaucoma, Anger"
+    },
+    {
+        "aedrug_id":13,
+        "aedrug_brandname":"CYMBALTA",
+        "metric_total":35,
+        "metric_active":10,
+        "metric_watchlist":25,
+        "list_events":"Hepatitis acute, Phaeochromocytoma, Retinal detachment"
+    },
+    {
+        "aedrug_id":21,
+        "aedrug_brandname":"REVLIMID",
+        "metric_total":19,
+        "metric_active":1,
+        "metric_watchlist":18,
+        "list_events":"Spinal fracture, Colitis ischaemic, Renal impairment"
+    },
+    {
+        "aedrug_id":23,
+        "aedrug_brandname":"LEVAQUIN",
+        "metric_total":36,
+        "metric_active":11,
+        "metric_watchlist":25,
+        "list_events":"Deafness bilateral, Deafness neurosensory, Sudden hearing loss"
+    },
+    {
+        "aedrug_id":28,
+        "aedrug_brandname":"AMBIEN",
+        "metric_total":37,
+        "metric_active":14,
+        "metric_watchlist":23,
+        "list_events":"Hepatic encephalopathy, Neuroleptic malignant syndrome, Delirium"
+    },
+    {
+        "aedrug_id":29,
+        "aedrug_brandname":"ELOXATIN",
+        "metric_total":66,
+        "metric_active":45,
+        "metric_watchlist":21,
+        "list_events":"Intravascular haemolysis, Sudden death, Respiratory failure"
+    },
+    {
+        "aedrug_id":33,
+        "aedrug_brandname":"ELITEK",
+        "metric_total":7,
+        "metric_active":7,
+        "metric_watchlist":0,
+        "list_events":"Renal failure acute, Renal failure, Cardiac arrest"
+    },
+    {
+        "aedrug_id":34,
+        "aedrug_brandname":"REBIF",
+        "metric_total":87,
+        "metric_active":44,
+        "metric_watchlist":43,
+        "list_events":"Deafness transitory, Deafness unilateral, Deafness bilateral"
+    },
+    {
+        "aedrug_id":39,
+        "aedrug_brandname":"PROGRAF",
+        "metric_total":27,
+        "metric_active":14,
+        "metric_watchlist":13,
+        "list_events":"Liver transplant, Intravascular haemolysis, Hepatic failure"
+    },
+    {
+        "aedrug_id":42,
+        "aedrug_brandname":"AVASTIN",
+        "metric_total":33,
+        "metric_active":13,
+        "metric_watchlist":20,
+        "list_events":"Optic ischaemic neuropathy, Sudden death, Intestinal infarction"
+    },
+    {
+        "aedrug_id":44,
+        "aedrug_brandname":"TARCEVA",
+        "metric_total":22,
+        "metric_active":6,
+        "metric_watchlist":16,
+        "list_events":"Acute respiratory failure, Respiratory failure, Sudden death"
+    },
+    {
+        "aedrug_id":56,
+        "aedrug_brandname":"LO/OVRAL",
+        "metric_total":3,
+        "metric_active":1,
+        "metric_watchlist":2,
+        "list_events":"Hepatitis, Aspartate aminotransferase increased, Alanine aminotransferase increased"
+    },
+    {
+        "aedrug_id":77,
+        "aedrug_brandname":"ZIAGEN",
+        "metric_total":63,
+        "metric_active":41,
+        "metric_watchlist":22,
+        "list_events":"Pancreatitis necrotising, Hepatic necrosis, Hepatitis fulminant"
+    },
+    {
+        "aedrug_id":87,
+        "aedrug_brandname":"ADDERALL XR",
+        "metric_total":13,
+        "metric_active":8,
+        "metric_watchlist":5,
+        "list_events":"Self injurious behaviour, Intentional self-injury, Suicidal ideation"
+    },
+    {
+        "aedrug_id":104,
+        "aedrug_brandname":"FOSRENOL",
+        "metric_total":39,
+        "metric_active":21,
+        "metric_watchlist":18,
+        "list_events":"Sudden death, Pancreatitis acute, Pancreatitis"
+    },
+    {
+        "aedrug_id":107,
+        "aedrug_brandname":"TEGRETOL",
+        "metric_total":70,
+        "metric_active":31,
+        "metric_watchlist":39,
+        "list_events":"Aplasia pure red cell, Hepatic necrosis, Haemolytic anaemia"
+    },
+    {
+        "aedrug_id":109,
+        "aedrug_brandname":"LIALDA",
+        "metric_total":2,
+        "metric_active":1,
+        "metric_watchlist":1,
+        "list_events":"Respiratory failure, Chest pain"
+    },
+    {
+        "aedrug_id":111,
+        "aedrug_brandname":"DAYTRANA",
+        "metric_total":7,
+        "metric_active":4,
+        "metric_watchlist":3,
+        "list_events":"Accidental exposure, Mood swings, Restlessness"
+    },
+    {
+        "aedrug_id":112,
+        "aedrug_brandname":"VYVANSE",
+        "metric_total":13,
+        "metric_active":8,
+        "metric_watchlist":5,
+        "list_events":"Self injurious behaviour, Suicidal ideation, Intentional self-injury"
+    },
+    {
+        "aedrug_id":117,
+        "aedrug_brandname":"VIDAZA",
+        "metric_total":40,
+        "metric_active":26,
+        "metric_watchlist":14,
+        "list_events":"Colitis ischaemic, Respiratory failure, Pulmonary fibrosis"
+    },
+    {
+        "aedrug_id":135,
+        "aedrug_brandname":"KUVAN",
+        "metric_total":8,
+        "metric_active":6,
+        "metric_watchlist":2,
+        "list_events":"Nephrolithiasis, Staphylococcal infection, Anger"
+    },
+    {
+        "aedrug_id":147,
+        "aedrug_brandname":"ORENCIA",
+        "metric_total":13,
+        "metric_active":1,
+        "metric_watchlist":12,
+        "list_events":"Extravasation, Acute respiratory failure, Pulmonary fibrosis"
+    },
+    {
+        "aedrug_id":154,
+        "aedrug_brandname":"ABELCET",
+        "metric_total":7,
+        "metric_active":7,
+        "metric_watchlist":0,
+        "list_events":"Pancytopenia, Neutropenia, Coma"
+    },
+    {
+        "aedrug_id":156,
+        "aedrug_brandname":"ABILIFY",
+        "metric_total":6,
+        "metric_active":3,
+        "metric_watchlist":3,
+        "list_events":"Serotonin syndrome, Muscle twitching, Hallucination"
+    },
+    {
+        "aedrug_id":157,
+        "aedrug_brandname":"ZYTIGA",
+        "metric_total":25,
+        "metric_active":9,
+        "metric_watchlist":16,
+        "list_events":"Septic shock, Dementia, Myocardial ischaemia"
+    },
+    {
+        "aedrug_id":188,
+        "aedrug_brandname":"ACETADOTE",
+        "metric_total":4,
+        "metric_active":4,
+        "metric_watchlist":0,
+        "list_events":"Cardiac arrest, Infusion related reaction, Liver function test abnormal"
+    },
+    {
+        "aedrug_id":191,
+        "aedrug_brandname":"TYLENOL W/CODEINE",
+        "metric_total":53,
+        "metric_active":32,
+        "metric_watchlist":21,
+        "list_events":"Deafness neurosensory, Completed suicide, Hepatic necrosis"
+    },
+    {
+        "aedrug_id":192,
+        "aedrug_brandname":"VICODIN",
+        "metric_total":12,
+        "metric_active":2,
+        "metric_watchlist":10,
+        "list_events":"Completed suicide, Cardiac arrest, Hepatic necrosis"
+    },
+    {
+        "aedrug_id":193,
+        "aedrug_brandname":"FIORICET",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Completed suicide, Coma, Cardiac arrest"
+    },
+    {
+        "aedrug_id":194,
+        "aedrug_brandname":"PERCOCET",
+        "metric_total":18,
+        "metric_active":9,
+        "metric_watchlist":9,
+        "list_events":"Hepatic encephalopathy, Coma, Cardiac arrest"
+    },
+    {
+        "aedrug_id":195,
+        "aedrug_brandname":"ULTRACET",
+        "metric_total":22,
+        "metric_active":11,
+        "metric_watchlist":11,
+        "list_events":"Agranulocytosis, Pancreatitis acute, Deafness"
+    },
+    {
+        "aedrug_id":212,
+        "aedrug_brandname":"SORIATANE",
+        "metric_total":19,
+        "metric_active":10,
+        "metric_watchlist":9,
+        "list_events":"Renal impairment, Hepatic failure, Squamous cell carcinoma"
+    },
+    {
+        "aedrug_id":215,
+        "aedrug_brandname":"RECLAST",
+        "metric_total":63,
+        "metric_active":23,
+        "metric_watchlist":40,
+        "list_events":"Amyotrophic lateral sclerosis, Spinal fracture, Hip fracture"
+    },
+    {
+        "aedrug_id":232,
+        "aedrug_brandname":"AVELOX",
+        "metric_total":25,
+        "metric_active":8,
+        "metric_watchlist":17,
+        "list_events":"Liver transplant, Sudden death, Hepatorenal syndrome"
+    },
+    {
+        "aedrug_id":235,
+        "aedrug_brandname":"ACTIQ",
+        "metric_total":9,
+        "metric_active":6,
+        "metric_watchlist":3,
+        "list_events":"Completed suicide, Neoplasm malignant, Coma"
+    },
+    {
+        "aedrug_id":238,
+        "aedrug_brandname":"metric_activeLLA",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Arrhythmia"
+    },
+    {
+        "aedrug_id":239,
+        "aedrug_brandname":"ACTOPLUS MET",
+        "metric_total":6,
+        "metric_active":4,
+        "metric_watchlist":2,
+        "list_events":"Septic shock, Renal failure acute, Renal failure"
+    },
+    {
+        "aedrug_id":240,
+        "aedrug_brandname":"ACTOS",
+        "metric_total":63,
+        "metric_active":29,
+        "metric_watchlist":34,
+        "list_events":"Hepatic necrosis, Sudden death, Hepatitis fulminant"
+    },
+    {
+        "aedrug_id":250,
+        "aedrug_brandname":"ILARIS",
+        "metric_total":11,
+        "metric_active":5,
+        "metric_watchlist":6,
+        "list_events":"Respiratory failure, Gastrointestinal haemorrhage, Cytolytic hepatitis"
+    },
+    {
+        "aedrug_id":251,
+        "aedrug_brandname":"ACZONE",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Swelling face"
+    },
+    {
+        "aedrug_id":257,
+        "aedrug_brandname":"HUMIRA",
+        "metric_total":13,
+        "metric_active":5,
+        "metric_watchlist":8,
+        "list_events":"Small intestinal perforation, Intestinal perforation, Accidental exposure to product"
+    },
+    {
+        "aedrug_id":261,
+        "aedrug_brandname":"ADCIRCA",
+        "metric_total":10,
+        "metric_active":6,
+        "metric_watchlist":4,
+        "list_events":"Respiratory failure, Renal failure, Cardiac failure"
+    },
+    {
+        "aedrug_id":263,
+        "aedrug_brandname":"ADDERALL",
+        "metric_total":19,
+        "metric_active":10,
+        "metric_watchlist":9,
+        "list_events":"Serotonin syndrome, Intentional self-injury, Suicidal ideation"
+    },
+    {
+        "aedrug_id":278,
+        "aedrug_brandname":"DOXIL",
+        "metric_total":36,
+        "metric_active":18,
+        "metric_watchlist":18,
+        "list_events":"Pancytopenia, Acute respiratory distress syndrome, Acute respiratory failure"
+    },
+    {
+        "aedrug_id":279,
+        "aedrug_brandname":"ANDROGEL",
+        "metric_total":9,
+        "metric_active":6,
+        "metric_watchlist":3,
+        "list_events":"Coronary artery occlusion, Erectile dysfunction, Ejaculation disorder"
+    },
+    {
+        "aedrug_id":284,
+        "aedrug_brandname":"ADVAIR",
+        "metric_total":12,
+        "metric_active":2,
+        "metric_watchlist":10,
+        "list_events":"Pulmonary fibrosis, Lung neoplasm malignant, Acute respiratory failure"
+    },
+    {
+        "aedrug_id":289,
+        "aedrug_brandname":"ADVATE",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Bacteraemia"
+    },
+    {
+        "aedrug_id":309,
+        "aedrug_brandname":"AFINITOR",
+        "metric_total":30,
+        "metric_active":8,
+        "metric_watchlist":22,
+        "list_events":"Bone marrow failure, Renal impairment, Hepatorenal syndrome"
+    },
+    {
+        "aedrug_id":312,
+        "aedrug_brandname":"INLYTA",
+        "metric_total":8,
+        "metric_active":2,
+        "metric_watchlist":6,
+        "list_events":"Encephalopathy, Candida infection, Cardiac failure"
+    },
+    {
+        "aedrug_id":313,
+        "aedrug_brandname":"PREVACID",
+        "metric_total":50,
+        "metric_active":24,
+        "metric_watchlist":26,
+        "list_events":"Disseminated intravascular coagulation, Optic ischaemic neuropathy, Hepatic necrosis"
+    },
+    {
+        "aedrug_id":338,
+        "aedrug_brandname":"CELEXA",
+        "metric_total":32,
+        "metric_active":17,
+        "metric_watchlist":15,
+        "list_events":"Deafness transitory, Deafness neurosensory, Deafness bilateral"
+    },
+    {
+        "aedrug_id":358,
+        "aedrug_brandname":"COMBIVENT",
+        "metric_total":6,
+        "metric_active":4,
+        "metric_watchlist":2,
+        "list_events":"Lung neoplasm malignant, Hip fracture, Coronary artery occlusion"
+    },
+    {
+        "aedrug_id":375,
+        "aedrug_brandname":"ALDURAZYME",
+        "metric_total":12,
+        "metric_active":10,
+        "metric_watchlist":2,
+        "list_events":"Blindness, Convulsion, Cytomegalovirus infection"
+    },
+    {
+        "aedrug_id":376,
+        "aedrug_brandname":"AMEVIVE",
+        "metric_total":10,
+        "metric_active":2,
+        "metric_watchlist":8,
+        "list_events":"Nephrolithiasis, Dermatitis exfoliative, Respiratory failure"
+    },
+    {
+        "aedrug_id":386,
+        "aedrug_brandname":"INTRON A",
+        "metric_total":32,
+        "metric_active":16,
+        "metric_watchlist":16,
+        "list_events":"Liver transplant, Bone marrow failure, Hepatic necrosis"
+    },
+    {
+        "aedrug_id":397,
+        "aedrug_brandname":"ALIMTA",
+        "metric_total":51,
+        "metric_active":27,
+        "metric_watchlist":24,
+        "list_events":"Acute respiratory failure, Respiratory failure, Acute respiratory distress syndrome"
+    },
+    {
+        "aedrug_id":450,
+        "aedrug_brandname":"TAMBOCOR",
+        "metric_total":24,
+        "metric_active":15,
+        "metric_watchlist":9,
+        "list_events":"Pulmonary fibrosis, Completed suicide, Renal impairment"
+    },
+    {
+        "aedrug_id":451,
+        "aedrug_brandname":"BENICAR",
+        "metric_total":41,
+        "metric_active":18,
+        "metric_watchlist":23,
+        "list_events":"Hepatitis acute, Toxic epidermal necrolysis, Sudden death"
+    },
+    {
+        "aedrug_id":459,
+        "aedrug_brandname":"LOTRONEX",
+        "metric_total":8,
+        "metric_active":1,
+        "metric_watchlist":7,
+        "list_events":"Intestinal infarction, Acute respiratory distress syndrome, Blindness unilateral"
+    },
+    {
+        "aedrug_id":461,
+        "aedrug_brandname":"ALOXI",
+        "metric_total":5,
+        "metric_active":4,
+        "metric_watchlist":1,
+        "list_events":"Convulsion, Loss of consciousness, Infusion related reaction"
+    },
+    {
+        "aedrug_id":467,
+        "aedrug_brandname":"ALPHAGAN P",
+        "metric_total":3,
+        "metric_active":1,
+        "metric_watchlist":2,
+        "list_events":"Intraocular pressure increased, Palpitations, Myalgia"
+    },
+    {
+        "aedrug_id":473,
+        "aedrug_brandname":"XANAX",
+        "metric_total":33,
+        "metric_active":13,
+        "metric_watchlist":20,
+        "list_events":"Respiratory arrest, Cardiac arrest, Coeliac disease"
+    },
+    {
+        "aedrug_id":477,
+        "aedrug_brandname":"ALTABAX",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Skin discolouration"
+    },
+    {
+        "aedrug_id":478,
+        "aedrug_brandname":"ALTACE",
+        "metric_total":58,
+        "metric_active":24,
+        "metric_watchlist":34,
+        "list_events":"Aplasia pure red cell, Pulmonary fibrosis, Hepatic encephalopathy"
+    },
+    {
+        "aedrug_id":481,
+        "aedrug_brandname":"BENICAR HCT",
+        "metric_total":9,
+        "metric_active":4,
+        "metric_watchlist":5,
+        "list_events":"Blood potassium decreased, Colitis, Erectile dysfunction"
+    },
+    {
+        "aedrug_id":483,
+        "aedrug_brandname":"MEVACOR",
+        "metric_total":19,
+        "metric_active":10,
+        "metric_watchlist":9,
+        "list_events":"Amyotrophic lateral sclerosis, Renal failure acute, Paralysis"
+    },
+    {
+        "aedrug_id":489,
+        "aedrug_brandname":"KALETRA",
+        "metric_total":59,
+        "metric_active":33,
+        "metric_watchlist":26,
+        "list_events":"Progressive multifocal leukoencephalopathy, Hepatic encephalopathy, Hepatic failure"
+    },
+    {
+        "aedrug_id":490,
+        "aedrug_brandname":"ALVESCO",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Anaphylactic reaction, Blood pressure increased"
+    },
+    {
+        "aedrug_id":491,
+        "aedrug_brandname":"ENTEREG",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Respiratory failure, Tachycardia, Hypotension"
+    },
+    {
+        "aedrug_id":492,
+        "aedrug_brandname":"INDERAL",
+        "metric_total":41,
+        "metric_active":16,
+        "metric_watchlist":25,
+        "list_events":"Intestinal infarction, Completed suicide, Grand mal convulsion"
+    },
+    {
+        "aedrug_id":495,
+        "aedrug_brandname":"AMARYL",
+        "metric_total":47,
+        "metric_active":26,
+        "metric_watchlist":21,
+        "list_events":"Pancreatitis acute, Hepatic necrosis, Renal failure acute"
+    },
+    {
+        "aedrug_id":497,
+        "aedrug_brandname":"AMBIEN CR",
+        "metric_total":7,
+        "metric_active":6,
+        "metric_watchlist":1,
+        "list_events":"Rib fracture, Loss of consciousness, Delirium"
+    },
+    {
+        "aedrug_id":499,
+        "aedrug_brandname":"LETAIRIS",
+        "metric_total":37,
+        "metric_active":15,
+        "metric_watchlist":22,
+        "list_events":"Acute respiratory failure, Pulmonary fibrosis, Respiratory failure"
+    },
+    {
+        "aedrug_id":535,
+        "aedrug_brandname":"AMITIZA",
+        "metric_total":10,
+        "metric_active":6,
+        "metric_watchlist":4,
+        "list_events":"Anaphylactic shock, Pancreatitis, Loss of consciousness"
+    },
+    {
+        "aedrug_id":544,
+        "aedrug_brandname":"CADUET",
+        "metric_total":8,
+        "metric_active":5,
+        "metric_watchlist":3,
+        "list_events":"Lung neoplasm malignant, Nephrolithiasis, Hearing impaired"
+    },
+    {
+        "aedrug_id":553,
+        "aedrug_brandname":"TASIGNA",
+        "metric_total":19,
+        "metric_active":7,
+        "metric_watchlist":12,
+        "list_events":"Acute respiratory failure, Arterial stenosis, Gangrene"
+    },
+    {
+        "aedrug_id":556,
+        "aedrug_brandname":"AUGMENTIN",
+        "metric_total":55,
+        "metric_active":32,
+        "metric_watchlist":23,
+        "list_events":"Anaphylactic shock, Anaphylactoid shock, Anaphylactic reaction"
+    },
+    {
+        "aedrug_id":569,
+        "aedrug_brandname":"AMRIX",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Completed suicide"
+    },
+    {
+        "aedrug_id":570,
+        "aedrug_brandname":"ELAVIL",
+        "metric_total":27,
+        "metric_active":15,
+        "metric_watchlist":12,
+        "list_events":"Acute respiratory distress syndrome, Disseminated intravascular coagulation, Cardiotoxicity"
+    },
+    {
+        "aedrug_id":588,
+        "aedrug_brandname":"ARIMIDEX",
+        "metric_total":29,
+        "metric_active":7,
+        "metric_watchlist":22,
+        "list_events":"Deafness unilateral, Retinal haemorrhage, Glaucoma"
+    },
+    {
+        "aedrug_id":597,
+        "aedrug_brandname":"ANDRODERM",
+        "metric_total":5,
+        "metric_active":5,
+        "metric_watchlist":0,
+        "list_events":"Haemorrhage, Anger, Aggression"
+    },
+    {
+        "aedrug_id":606,
+        "aedrug_brandname":"ANGELIQ",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Muscle spasms"
+    },
+    {
+        "aedrug_id":608,
+        "aedrug_brandname":"ERAXIS",
+        "metric_total":6,
+        "metric_active":6,
+        "metric_watchlist":0,
+        "list_events":"Respiratory failure, Renal failure, Renal failure acute"
+    },
+    {
+        "aedrug_id":638,
+        "aedrug_brandname":"ANTIVERT",
+        "metric_total":8,
+        "metric_active":5,
+        "metric_watchlist":3,
+        "list_events":"Completed suicide, Diabetes mellitus, Amnesia"
+    },
+    {
+        "aedrug_id":644,
+        "aedrug_brandname":"TAXOL",
+        "metric_total":36,
+        "metric_active":20,
+        "metric_watchlist":16,
+        "list_events":"Acute respiratory distress syndrome, Pancytopenia, Pulmonary toxicity"
+    },
+    {
+        "aedrug_id":656,
+        "aedrug_brandname":"APIDRA",
+        "metric_total":10,
+        "metric_active":4,
+        "metric_watchlist":6,
+        "list_events":"Glaucoma, Visual impairment, Visual acuity reduced"
+    },
+    {
+        "aedrug_id":658,
+        "aedrug_brandname":"ELIQUIS",
+        "metric_total":6,
+        "metric_active":1,
+        "metric_watchlist":5,
+        "list_events":"Hearing impaired, Acute myocardial infarction, Cardiac failure"
+    },
+    {
+        "aedrug_id":665,
+        "aedrug_brandname":"DEPACON",
+        "metric_total":21,
+        "metric_active":13,
+        "metric_watchlist":8,
+        "list_events":"Neuroleptic malignant syndrome, Aplasia pure red cell, Hepatic encephalopathy"
+    },
+    {
+        "aedrug_id":669,
+        "aedrug_brandname":"APOKYN",
+        "metric_total":11,
+        "metric_active":8,
+        "metric_watchlist":3,
+        "list_events":"Haemolytic anaemia, Hip fracture, Dementia"
+    },
+    {
+        "aedrug_id":674,
+        "aedrug_brandname":"ARAVA",
+        "metric_total":62,
+        "metric_active":33,
+        "metric_watchlist":29,
+        "list_events":"Aplastic anaemia, Liver transplant, Progressive multifocal leukoencephalopathy"
+    },
+    {
+        "aedrug_id":677,
+        "aedrug_brandname":"PRINZIDE",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Completed suicide"
+    },
+    {
+        "aedrug_id":678,
+        "aedrug_brandname":"GLUCOPHAGE",
+        "metric_total":65,
+        "metric_active":26,
+        "metric_watchlist":39,
+        "list_events":"Renal failure acute, Pancreatitis acute, Hepatitis acute"
+    },
+    {
+        "aedrug_id":679,
+        "aedrug_brandname":"PRILOSEC",
+        "metric_total":33,
+        "metric_active":8,
+        "metric_watchlist":25,
+        "list_events":"Renal failure acute, Oesophageal carcinoma, Adenocarcinoma"
+    },
+    {
+        "aedrug_id":681,
+        "aedrug_brandname":"PAXIL",
+        "metric_total":13,
+        "metric_active":7,
+        "metric_watchlist":6,
+        "list_events":"Neuroleptic malignant syndrome, Aortic stenosis, Anger"
+    },
+    {
+        "aedrug_id":690,
+        "aedrug_brandname":"EMEND",
+        "metric_total":17,
+        "metric_active":7,
+        "metric_watchlist":10,
+        "list_events":"Agranulocytosis, Bone marrow failure, Pancytopenia"
+    },
+    {
+        "aedrug_id":693,
+        "aedrug_brandname":"DESOGEN",
+        "metric_total":10,
+        "metric_active":7,
+        "metric_watchlist":3,
+        "list_events":"Epilepsy, Nephrolithiasis, Hypothyroidism"
+    },
+    {
+        "aedrug_id":699,
+        "aedrug_brandname":"APTIVUS",
+        "metric_total":12,
+        "metric_active":6,
+        "metric_watchlist":6,
+        "list_events":"Pancytopenia, Renal impairment, Lymphoma"
+    },
+    {
+        "aedrug_id":715,
+        "aedrug_brandname":"ARANESP",
+        "metric_total":29,
+        "metric_active":10,
+        "metric_watchlist":19,
+        "list_events":"Bone marrow failure, Pancytopenia, Haemolytic anaemia"
+    },
+    {
+        "aedrug_id":717,
+        "aedrug_brandname":"ARCALYST",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Pulmonary hypertension, Hypertension, Arthralgia"
+    },
+    {
+        "aedrug_id":721,
+        "aedrug_brandname":"ZOLOFT",
+        "metric_total":36,
+        "metric_active":13,
+        "metric_watchlist":23,
+        "list_events":"Neuroleptic malignant syndrome, Foetal damage, Coeliac disease"
+    },
+    {
+        "aedrug_id":725,
+        "aedrug_brandname":"BROVANA",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Pneumonia"
+    },
+    {
+        "aedrug_id":734,
+        "aedrug_brandname":"NUVIGIL",
+        "metric_total":11,
+        "metric_active":5,
+        "metric_watchlist":6,
+        "list_events":"Mood altered, Somnolence, Anger"
+    },
+    {
+        "aedrug_id":753,
+        "aedrug_brandname":"ARTHROTEC",
+        "metric_total":5,
+        "metric_active":1,
+        "metric_watchlist":4,
+        "list_events":"Haemorrhage, Angina pectoris, Hyperkalaemia"
+    },
+    {
+        "aedrug_id":761,
+        "aedrug_brandname":"ASACOL",
+        "metric_total":19,
+        "metric_active":12,
+        "metric_watchlist":7,
+        "list_events":"Pulmonary fibrosis, Bone marrow failure, Pancytopenia"
+    },
+    {
+        "aedrug_id":779,
+        "aedrug_brandname":"NOVOLOG",
+        "metric_total":13,
+        "metric_active":5,
+        "metric_watchlist":8,
+        "list_events":"Maternal drugs affecting foetus, Pancreatic carcinoma, Loss of consciousness"
+    },
+    {
+        "aedrug_id":792,
+        "aedrug_brandname":"REYATAZ",
+        "metric_total":37,
+        "metric_active":19,
+        "metric_watchlist":18,
+        "list_events":"Hepatitis acute, Haemolytic anaemia, Progressive multifocal leukoencephalopathy"
+    },
+    {
+        "aedrug_id":804,
+        "aedrug_brandname":"STRATTERA",
+        "metric_total":13,
+        "metric_active":3,
+        "metric_watchlist":10,
+        "list_events":"Anger, Muscle twitching, Accidental overdose"
+    },
+    {
+        "aedrug_id":807,
+        "aedrug_brandname":"LIPITOR",
+        "metric_total":59,
+        "metric_active":16,
+        "metric_watchlist":43,
+        "list_events":"Amyotrophic lateral sclerosis, Deafness, Polymyositis"
+    },
+    {
+        "aedrug_id":814,
+        "aedrug_brandname":"ATRIPLA",
+        "metric_total":8,
+        "metric_active":2,
+        "metric_watchlist":6,
+        "list_events":"Liver transplant, Haemolytic anaemia, Pancytopenia"
+    },
+    {
+        "aedrug_id":835,
+        "aedrug_brandname":"AVANDAMET",
+        "metric_total":26,
+        "metric_active":17,
+        "metric_watchlist":9,
+        "list_events":"Sudden cardiac death, Myocardial ischaemia, Aortic stenosis"
+    },
+    {
+        "aedrug_id":836,
+        "aedrug_brandname":"AVANDARYL",
+        "metric_total":10,
+        "metric_active":7,
+        "metric_watchlist":3,
+        "list_events":"Myocardial ischaemia, Atrial fibrillation, Coronary artery disease"
+    },
+    {
+        "aedrug_id":837,
+        "aedrug_brandname":"AVANDIA",
+        "metric_total":36,
+        "metric_active":20,
+        "metric_watchlist":16,
+        "list_events":"Sudden cardiac death, Cor pulmonale, Myocardial ischaemia"
+    },
+    {
+        "aedrug_id":839,
+        "aedrug_brandname":"REMERON",
+        "metric_total":38,
+        "metric_active":14,
+        "metric_watchlist":24,
+        "list_events":"Neuroleptic malignant syndrome, Hepatitis acute, Sudden death"
+    },
+    {
+        "aedrug_id":840,
+        "aedrug_brandname":"AVAPRO",
+        "metric_total":23,
+        "metric_active":6,
+        "metric_watchlist":17,
+        "list_events":"Agranulocytosis, Sudden death, Polymyositis"
+    },
+    {
+        "aedrug_id":849,
+        "aedrug_brandname":"AVONEX",
+        "metric_total":68,
+        "metric_active":33,
+        "metric_watchlist":35,
+        "list_events":"Pulmonary thrombosis, Thyroid cancer, Myelitis transverse"
+    },
+    {
+        "aedrug_id":850,
+        "aedrug_brandname":"AVINZA",
+        "metric_total":6,
+        "metric_active":5,
+        "metric_watchlist":1,
+        "list_events":"Completed suicide, Respiratory failure, Renal failure"
+    },
+    {
+        "aedrug_id":878,
+        "aedrug_brandname":"AZILECT",
+        "metric_total":7,
+        "metric_active":2,
+        "metric_watchlist":5,
+        "list_events":"Atrial fibrillation, Muscle spasms, Suicidal ideation"
+    },
+    {
+        "aedrug_id":883,
+        "aedrug_brandname":"AZOPT",
+        "metric_total":9,
+        "metric_active":8,
+        "metric_watchlist":1,
+        "list_events":"Deafness, Intraocular pressure increased, Bronchospasm"
+    },
+    {
+        "aedrug_id":915,
+        "aedrug_brandname":"COLAZAL",
+        "metric_total":7,
+        "metric_active":7,
+        "metric_watchlist":0,
+        "list_events":"Pancreatitis, Neutropenia, Maternal drugs affecting foetus"
+    },
+    {
+        "aedrug_id":921,
+        "aedrug_brandname":"BARACLUDE",
+        "metric_total":15,
+        "metric_active":11,
+        "metric_watchlist":4,
+        "list_events":"Liver transplant, Hepatitis fulminant, Haemolytic anaemia"
+    },
+    {
+        "aedrug_id":928,
+        "aedrug_brandname":"LANTUS",
+        "metric_total":49,
+        "metric_active":20,
+        "metric_watchlist":29,
+        "list_events":"Blindness, Blindness unilateral, Eye haemorrhage"
+    },
+    {
+        "aedrug_id":939,
+        "aedrug_brandname":"NEXAVAR",
+        "metric_total":40,
+        "metric_active":19,
+        "metric_watchlist":21,
+        "list_events":"Hepatic encephalopathy, Hepatitis acute, Sudden death"
+    },
+    {
+        "aedrug_id":942,
+        "aedrug_brandname":"CIPRO",
+        "metric_total":50,
+        "metric_active":22,
+        "metric_watchlist":28,
+        "list_events":"Deafness permanent, Intravascular haemolysis, Deafness unilateral"
+    },
+    {
+        "aedrug_id":989,
+        "aedrug_brandname":"LOTENSIN",
+        "metric_total":18,
+        "metric_active":7,
+        "metric_watchlist":11,
+        "list_events":"Agranulocytosis, Rhabdomyolysis, Dysphagia"
+    },
+    {
+        "aedrug_id":990,
+        "aedrug_brandname":"LOTENSIN HCT",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Loss of consciousness, Confusional state"
+    },
+    {
+        "aedrug_id":991,
+        "aedrug_brandname":"TREANDA",
+        "metric_total":29,
+        "metric_active":16,
+        "metric_watchlist":13,
+        "list_events":"Progressive multifocal leukoencephalopathy, Haemolytic anaemia, Pancytopenia"
+    },
+    {
+        "aedrug_id":1029,
+        "aedrug_brandname":"VESICARE",
+        "metric_total":12,
+        "metric_active":4,
+        "metric_watchlist":8,
+        "list_events":"Dementia, Atrioventricular block complete, Intraocular pressure increased"
+    },
+    {
+        "aedrug_id":1031,
+        "aedrug_brandname":"BESIVANCE",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Hypersensitivity"
+    },
+    {
+        "aedrug_id":1040,
+        "aedrug_brandname":"BETASERON",
+        "metric_total":82,
+        "metric_active":34,
+        "metric_watchlist":48,
+        "list_events":"Blindness transient, Blindness unilateral, Blindness"
+    },
+    {
+        "aedrug_id":1056,
+        "aedrug_brandname":"TARGRETIN",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Renal failure acute"
+    },
+    {
+        "aedrug_id":1067,
+        "aedrug_brandname":"PRADAXA",
+        "metric_total":26,
+        "metric_active":9,
+        "metric_watchlist":17,
+        "list_events":"Intestinal infarction, Acute respiratory failure, Renal failure acute"
+    },
+    {
+        "aedrug_id":1069,
+        "aedrug_brandname":"CASODEX",
+        "metric_total":33,
+        "metric_active":18,
+        "metric_watchlist":15,
+        "list_events":"Aplastic anaemia, Disseminated intravascular coagulation, Torsade de pointes"
+    },
+    {
+        "aedrug_id":1081,
+        "aedrug_brandname":"LUMIGAN",
+        "metric_total":7,
+        "metric_active":3,
+        "metric_watchlist":4,
+        "list_events":"Retinal detachment, Intraocular pressure increased, Skin discolouration"
+    },
+    {
+        "aedrug_id":1101,
+        "aedrug_brandname":"EPIVIR",
+        "metric_total":97,
+        "metric_active":56,
+        "metric_watchlist":41,
+        "list_events":"Liver transplant, Hepatic encephalopathy, Hepatic failure"
+    },
+    {
+        "aedrug_id":1117,
+        "aedrug_brandname":"MICARDIS",
+        "metric_total":22,
+        "metric_active":11,
+        "metric_watchlist":11,
+        "list_events":"Hepatitis acute, Sudden death, Large intestine carcinoma"
+    },
+    {
+        "aedrug_id":1118,
+        "aedrug_brandname":"VIRAMUNE",
+        "metric_total":43,
+        "metric_active":22,
+        "metric_watchlist":21,
+        "list_events":"Liver transplant, Pancreatitis acute, Pancreatitis"
+    },
+    {
+        "aedrug_id":1120,
+        "aedrug_brandname":"VOLTAREN XR",
+        "metric_total":4,
+        "metric_active":3,
+        "metric_watchlist":1,
+        "list_events":"Respiratory failure, Cardiac arrest, Loss of consciousness"
+    },
+    {
+        "aedrug_id":1122,
+        "aedrug_brandname":"LAMICTAL",
+        "metric_total":26,
+        "metric_active":11,
+        "metric_watchlist":15,
+        "list_events":"Neuroleptic malignant syndrome, Maternal drugs affecting foetus, Drug-induced liver injury"
+    },
+    {
+        "aedrug_id":1126,
+        "aedrug_brandname":"VELCADE",
+        "metric_total":47,
+        "metric_active":31,
+        "metric_watchlist":16,
+        "list_events":"Intestinal infarction, Pancytopenia, Bone marrow failure"
+    },
+    {
+        "aedrug_id":1129,
+        "aedrug_brandname":"CELEBREX",
+        "metric_total":29,
+        "metric_active":4,
+        "metric_watchlist":25,
+        "list_events":"Cardiovascular disorder, Candidiasis, Connective tissue disorder"
+    },
+    {
+        "aedrug_id":1135,
+        "aedrug_brandname":"TRUVADA",
+        "metric_total":32,
+        "metric_active":14,
+        "metric_watchlist":18,
+        "list_events":"Stevens-Johnson syndrome, Haemolytic anaemia, Agranulocytosis"
+    },
+    {
+        "aedrug_id":1136,
+        "aedrug_brandname":"INSPRA",
+        "metric_total":19,
+        "metric_active":7,
+        "metric_watchlist":12,
+        "list_events":"Sudden death, Renal failure acute, Renal failure"
+    },
+    {
+        "aedrug_id":1138,
+        "aedrug_brandname":"TOVIAZ",
+        "metric_total":6,
+        "metric_active":3,
+        "metric_watchlist":3,
+        "list_events":"Dementia, Hearing impaired, Dysphagia"
+    },
+    {
+        "aedrug_id":1139,
+        "aedrug_brandname":"BONIVA",
+        "metric_total":35,
+        "metric_active":16,
+        "metric_watchlist":19,
+        "list_events":"Hip fracture, Spinal fracture, Spinal compression fracture"
+    },
+    {
+        "aedrug_id":1143,
+        "aedrug_brandname":"SELZENTRY",
+        "metric_total":8,
+        "metric_active":5,
+        "metric_watchlist":3,
+        "list_events":"Renal failure acute, Hodgkin's disease, Colon cancer"
+    },
+    {
+        "aedrug_id":1145,
+        "aedrug_brandname":"XOLAIR",
+        "metric_total":27,
+        "metric_active":11,
+        "metric_watchlist":16,
+        "list_events":"Acute respiratory failure, Lower respiratory tract infection, Aspergillosis"
+    },
+    {
+        "aedrug_id":1146,
+        "aedrug_brandname":"TAMIFLU",
+        "metric_total":41,
+        "metric_active":15,
+        "metric_watchlist":26,
+        "list_events":"Acute respiratory distress syndrome, Respiratory failure, Sudden death"
+    },
+    {
+        "aedrug_id":1151,
+        "aedrug_brandname":"LUCENTIS",
+        "metric_total":37,
+        "metric_active":21,
+        "metric_watchlist":16,
+        "list_events":"Sudden hearing loss, Optic ischaemic neuropathy, Deafness"
+    },
+    {
+        "aedrug_id":1152,
+        "aedrug_brandname":"RITUXAN",
+        "metric_total":77,
+        "metric_active":35,
+        "metric_watchlist":42,
+        "list_events":"Agranulocytosis, Pulmonary fibrosis, Acute respiratory failure"
+    },
+    {
+        "aedrug_id":1155,
+        "aedrug_brandname":"SUTENT",
+        "metric_total":17,
+        "metric_active":6,
+        "metric_watchlist":11,
+        "list_events":"Bone marrow failure, Hepatic encephalopathy, Sudden death"
+    },
+    {
+        "aedrug_id":1156,
+        "aedrug_brandname":"VIREAD",
+        "metric_total":39,
+        "metric_active":24,
+        "metric_watchlist":15,
+        "list_events":"Hepatic encephalopathy, Progressive multifocal leukoencephalopathy, Hepatic failure"
+    },
+    {
+        "aedrug_id":1158,
+        "aedrug_brandname":"PREMPRO",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Adenocarcinoma, Coeliac disease, Non-Hodgkin's lymphoma"
+    },
+    {
+        "aedrug_id":1163,
+        "aedrug_brandname":"CHANTIX",
+        "metric_total":7,
+        "metric_active":3,
+        "metric_watchlist":4,
+        "list_events":"Anger, Candidiasis, Restlessness"
+    },
+    {
+        "aedrug_id":1165,
+        "aedrug_brandname":"GEODON",
+        "metric_total":14,
+        "metric_active":5,
+        "metric_watchlist":9,
+        "list_events":"Aggression, Hallucination, Abnormal behaviour"
+    },
+    {
+        "aedrug_id":1170,
+        "aedrug_brandname":"COUMADIN",
+        "metric_total":23,
+        "metric_active":8,
+        "metric_watchlist":15,
+        "list_events":"Intestinal infarction, Gangrene, Ischaemic stroke"
+    },
+    {
+        "aedrug_id":1172,
+        "aedrug_brandname":"LEXAPRO",
+        "metric_total":30,
+        "metric_active":14,
+        "metric_watchlist":16,
+        "list_events":"Deafness unilateral, Sudden death, Maternal drugs affecting foetus"
+    },
+    {
+        "aedrug_id":1173,
+        "aedrug_brandname":"YERVOY",
+        "metric_total":29,
+        "metric_active":11,
+        "metric_watchlist":18,
+        "list_events":"Acute respiratory failure, Cardiopulmonary failure, Cerebral haemorrhage"
+    },
+    {
+        "aedrug_id":1175,
+        "aedrug_brandname":"ONGLYZA",
+        "metric_total":11,
+        "metric_active":2,
+        "metric_watchlist":9,
+        "list_events":"Pancreatic carcinoma, Cholelithiasis, Renal failure acute"
+    },
+    {
+        "aedrug_id":1177,
+        "aedrug_brandname":"SIMPONI",
+        "metric_total":20,
+        "metric_active":2,
+        "metric_watchlist":18,
+        "list_events":"Nephrolithiasis, Colitis, Acute respiratory distress syndrome"
+    },
+    {
+        "aedrug_id":1178,
+        "aedrug_brandname":"REMICADE",
+        "metric_total":44,
+        "metric_active":9,
+        "metric_watchlist":35,
+        "list_events":"Amyotrophic lateral sclerosis, Acute respiratory distress syndrome, Sudden hearing loss"
+    },
+    {
+        "aedrug_id":1181,
+        "aedrug_brandname":"INVEGA",
+        "metric_total":7,
+        "metric_active":6,
+        "metric_watchlist":1,
+        "list_events":"Delirium, Aggression, Accidental exposure to product"
+    },
+    {
+        "aedrug_id":1182,
+        "aedrug_brandname":"RISPERDAL",
+        "metric_total":36,
+        "metric_active":13,
+        "metric_watchlist":23,
+        "list_events":"Serotonin syndrome, Self injurious behaviour, Intentional self-injury"
+    },
+    {
+        "aedrug_id":1183,
+        "aedrug_brandname":"NUCYNTA",
+        "metric_total":14,
+        "metric_active":8,
+        "metric_watchlist":6,
+        "list_events":"Delirium, Loss of consciousness, Electrocardiogram QT prolonged"
+    },
+    {
+        "aedrug_id":1195,
+        "aedrug_brandname":"VICTRELIS",
+        "metric_total":36,
+        "metric_active":10,
+        "metric_watchlist":26,
+        "list_events":"Hepatic encephalopathy, Liver transplant, Deafness unilateral"
+    },
+    {
+        "aedrug_id":1207,
+        "aedrug_brandname":"ZYBAN",
+        "metric_total":18,
+        "metric_active":6,
+        "metric_watchlist":12,
+        "list_events":"Sudden death, Left ventricular failure, Dermatitis bullous"
+    },
+    {
+        "aedrug_id":1209,
+        "aedrug_brandname":"TRACLEER",
+        "metric_total":55,
+        "metric_active":30,
+        "metric_watchlist":25,
+        "list_events":"Pulmonary fibrosis, Respiratory failure, Acute respiratory failure"
+    },
+    {
+        "aedrug_id":1211,
+        "aedrug_brandname":"BOTOX",
+        "metric_total":4,
+        "metric_active":4,
+        "metric_watchlist":0,
+        "list_events":"Deafness unilateral, Paralysis, Accidental exposure"
+    },
+    {
+        "aedrug_id":1260,
+        "aedrug_brandname":"BYETTA",
+        "metric_total":12,
+        "metric_active":6,
+        "metric_watchlist":6,
+        "list_events":"Adenocarcinoma pancreas, Pancreatic carcinoma, Thyroid cancer"
+    },
+    {
+        "aedrug_id":1273,
+        "aedrug_brandname":"WELLBUTRIN",
+        "metric_total":22,
+        "metric_active":9,
+        "metric_watchlist":13,
+        "list_events":"Serotonin syndrome, Cardiotoxicity, Angle closure glaucoma"
+    },
+    {
+        "aedrug_id":1274,
+        "aedrug_brandname":"SYMBICORT",
+        "metric_total":26,
+        "metric_active":8,
+        "metric_watchlist":18,
+        "list_events":"Lung neoplasm malignant, Neoplasm malignant, Pulmonary thrombosis"
+    },
+    {
+        "aedrug_id":1298,
+        "aedrug_brandname":"BYSTOLIC",
+        "metric_total":17,
+        "metric_active":9,
+        "metric_watchlist":8,
+        "list_events":"Pulmonary fibrosis, Cardiac failure, Hyperkalaemia"
+    },
+    {
+        "aedrug_id":1306,
+        "aedrug_brandname":"PARAPLATIN",
+        "metric_total":53,
+        "metric_active":29,
+        "metric_watchlist":24,
+        "list_events":"Pancytopenia, Progressive multifocal leukoencephalopathy, Acute respiratory distress syndrome"
+    },
+    {
+        "aedrug_id":1313,
+        "aedrug_brandname":"CIALIS",
+        "metric_total":17,
+        "metric_active":9,
+        "metric_watchlist":8,
+        "list_events":"Prostate cancer, Retinal detachment, Retinal haemorrhage"
+    },
+    {
+        "aedrug_id":1382,
+        "aedrug_brandname":"ZOLINZA",
+        "metric_total":33,
+        "metric_active":25,
+        "metric_watchlist":8,
+        "list_events":"Respiratory failure, Pancytopenia, Acute respiratory distress syndrome"
+    },
+    {
+        "aedrug_id":1386,
+        "aedrug_brandname":"XELODA",
+        "metric_total":28,
+        "metric_active":11,
+        "metric_watchlist":17,
+        "list_events":"Intestinal infarction, Haemolytic anaemia, Small intestinal perforation"
+    },
+    {
+        "aedrug_id":1394,
+        "aedrug_brandname":"QUTENZA",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Hypersensitivity"
+    },
+    {
+        "aedrug_id":1403,
+        "aedrug_brandname":"CARBATROL",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Loss of consciousness, Tremor"
+    },
+    {
+        "aedrug_id":1409,
+        "aedrug_brandname":"STALEVO",
+        "metric_total":35,
+        "metric_active":20,
+        "metric_watchlist":15,
+        "list_events":"Acute respiratory failure, Sudden death, Hip fracture"
+    },
+    {
+        "aedrug_id":1441,
+        "aedrug_brandname":"CATAFLAM",
+        "metric_total":5,
+        "metric_active":4,
+        "metric_watchlist":1,
+        "list_events":"Loss of consciousness, Cardiac arrest, Hypersensitivity"
+    },
+    {
+        "aedrug_id":1443,
+        "aedrug_brandname":"CATAPRES",
+        "metric_total":26,
+        "metric_active":15,
+        "metric_watchlist":11,
+        "list_events":"Completed suicide, Grand mal convulsion, Respiratory depression"
+    },
+    {
+        "aedrug_id":1447,
+        "aedrug_brandname":"TORISEL",
+        "metric_total":23,
+        "metric_active":11,
+        "metric_watchlist":12,
+        "list_events":"Acute respiratory failure, Pulmonary fibrosis, Respiratory failure"
+    },
+    {
+        "aedrug_id":1450,
+        "aedrug_brandname":"COMBIVIR",
+        "metric_total":39,
+        "metric_active":21,
+        "metric_watchlist":18,
+        "list_events":"Aplastic anaemia, Pancytopenia, Haemolytic anaemia"
+    },
+    {
+        "aedrug_id":1453,
+        "aedrug_brandname":"CIMZIA",
+        "metric_total":20,
+        "metric_active":8,
+        "metric_watchlist":12,
+        "list_events":"Nephrolithiasis, Intestinal perforation, Large intestine perforation"
+    },
+    {
+        "aedrug_id":1505,
+        "aedrug_brandname":"CELLCEPT",
+        "metric_total":26,
+        "metric_active":16,
+        "metric_watchlist":10,
+        "list_events":"Acute respiratory distress syndrome, Agranulocytosis, Intestinal infarction"
+    },
+    {
+        "aedrug_id":1532,
+        "aedrug_brandname":"CEREZYME",
+        "metric_total":79,
+        "metric_active":46,
+        "metric_watchlist":33,
+        "list_events":"Liver transplant, Epilepsy, Respiratory failure"
+    },
+    {
+        "aedrug_id":1533,
+        "aedrug_brandname":"SANCTURA",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Dysphagia"
+    },
+    {
+        "aedrug_id":1617,
+        "aedrug_brandname":"TRILIPIX",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Renal impairment, Rash generalised, Blood glucose increased"
+    },
+    {
+        "aedrug_id":1639,
+        "aedrug_brandname":"ORTHO TRI-CYCLEN",
+        "metric_total":5,
+        "metric_active":2,
+        "metric_watchlist":3,
+        "list_events":"Coeliac disease, Hypothyroidism, Nephrolithiasis"
+    },
+    {
+        "aedrug_id":1646,
+        "aedrug_brandname":"SENSIPAR",
+        "metric_total":16,
+        "metric_active":6,
+        "metric_watchlist":10,
+        "list_events":"Gastric haemorrhage, Dysphagia, Muscle twitching"
+    },
+    {
+        "aedrug_id":1649,
+        "aedrug_brandname":"CINRYZE",
+        "metric_total":8,
+        "metric_active":7,
+        "metric_watchlist":1,
+        "list_events":"Angioedema, Staphylococcal infection, Sepsis"
+    },
+    {
+        "aedrug_id":1699,
+        "aedrug_brandname":"CLEVIPREX",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Tachycardia"
+    },
+    {
+        "aedrug_id":1709,
+        "aedrug_brandname":"CLIMARA",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Skin discolouration"
+    },
+    {
+        "aedrug_id":1717,
+        "aedrug_brandname":"CLINORIL",
+        "metric_total":2,
+        "metric_active":1,
+        "metric_watchlist":1,
+        "list_events":"Maternal drugs affecting foetus, Pneumonia"
+    },
+    {
+        "aedrug_id":1732,
+        "aedrug_brandname":"CLOZARIL",
+        "metric_total":44,
+        "metric_active":22,
+        "metric_watchlist":22,
+        "list_events":"Intestinal infarction, Burkitt's lymphoma, Phaeochromocytoma"
+    },
+    {
+        "aedrug_id":1734,
+        "aedrug_brandname":"PROZAC",
+        "metric_total":46,
+        "metric_active":18,
+        "metric_watchlist":28,
+        "list_events":"Neuroleptic malignant syndrome, Pulmonary fibrosis, Liver transplant"
+    },
+    {
+        "aedrug_id":1750,
+        "aedrug_brandname":"COARTEM",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Haemolytic anaemia"
+    },
+    {
+        "aedrug_id":1765,
+        "aedrug_brandname":"DIOVAN",
+        "metric_total":99,
+        "metric_active":46,
+        "metric_watchlist":53,
+        "list_events":"Sudden death, Haemolytic anaemia, Deafness"
+    },
+    {
+        "aedrug_id":1797,
+        "aedrug_brandname":"COMBIPATCH",
+        "metric_total":7,
+        "metric_active":4,
+        "metric_watchlist":3,
+        "list_events":"Haemorrhage, Osteoporosis, Tremor"
+    },
+    {
+        "aedrug_id":1803,
+        "aedrug_brandname":"TAXOTERE",
+        "metric_total":44,
+        "metric_active":25,
+        "metric_watchlist":19,
+        "list_events":"Intestinal infarction, Sudden death, Hepatic failure"
+    },
+    {
+        "aedrug_id":1822,
+        "aedrug_brandname":"CONCERTA",
+        "metric_total":20,
+        "metric_active":9,
+        "metric_watchlist":11,
+        "list_events":"Self injurious behaviour, Intentional self-injury, Suicidal ideation"
+    },
+    {
+        "aedrug_id":1825,
+        "aedrug_brandname":"PREMARIN",
+        "metric_total":9,
+        "metric_active":2,
+        "metric_watchlist":7,
+        "list_events":"Coeliac disease, Adenocarcinoma, Deafness"
+    },
+    {
+        "aedrug_id":1850,
+        "aedrug_brandname":"COPAXONE",
+        "metric_total":20,
+        "metric_active":9,
+        "metric_watchlist":11,
+        "list_events":"Amyotrophic lateral sclerosis, Paralysis, Oesophageal carcinoma"
+    },
+    {
+        "aedrug_id":1914,
+        "aedrug_brandname":"XELJANZ",
+        "metric_total":2,
+        "metric_active":0,
+        "metric_watchlist":2,
+        "list_events":"Muscle spasms, Swelling face"
+    },
+    {
+        "aedrug_id":1920,
+        "aedrug_brandname":"QUIXIN",
+        "metric_total":14,
+        "metric_active":12,
+        "metric_watchlist":2,
+        "list_events":"Disseminated intravascular coagulation, Rhabdomyolysis, Renal impairment"
+    },
+    {
+        "aedrug_id":1922,
+        "aedrug_brandname":"CREON",
+        "metric_total":12,
+        "metric_active":7,
+        "metric_watchlist":5,
+        "list_events":"Pancreatic carcinoma, Dermatitis bullous, Diabetes mellitus"
+    },
+    {
+        "aedrug_id":1928,
+        "aedrug_brandname":"CRESTOR",
+        "metric_total":34,
+        "metric_active":13,
+        "metric_watchlist":21,
+        "list_events":"Amyotrophic lateral sclerosis, Polymyositis, Coeliac disease"
+    },
+    {
+        "aedrug_id":1947,
+        "aedrug_brandname":"CUBICIN",
+        "metric_total":37,
+        "metric_active":18,
+        "metric_watchlist":19,
+        "list_events":"Acute respiratory distress syndrome, Acute respiratory failure, Acute hepatic failure"
+    },
+    {
+        "aedrug_id":1953,
+        "aedrug_brandname":"DEPO-PROVERA",
+        "metric_total":6,
+        "metric_active":4,
+        "metric_watchlist":2,
+        "list_events":"Ovarian cancer, Endometrial cancer, Mood swings"
+    },
+    {
+        "aedrug_id":2013,
+        "aedrug_brandname":"DACOGEN",
+        "metric_total":14,
+        "metric_active":9,
+        "metric_watchlist":5,
+        "list_events":"Respiratory failure, Haemolytic anaemia, Pulmonary fibrosis"
+    },
+    {
+        "aedrug_id":2055,
+        "aedrug_brandname":"PREZISTA",
+        "metric_total":35,
+        "metric_active":25,
+        "metric_watchlist":10,
+        "list_events":"Progressive multifocal leukoencephalopathy, Acute hepatic failure, Hepatic failure"
+    },
+    {
+        "aedrug_id":2058,
+        "aedrug_brandname":"SPRYCEL",
+        "metric_total":13,
+        "metric_active":5,
+        "metric_watchlist":8,
+        "list_events":"Acute respiratory failure, Respiratory failure, Squamous cell carcinoma"
+    },
+    {
+        "aedrug_id":2068,
+        "aedrug_brandname":"DAYPRO",
+        "metric_total":4,
+        "metric_active":1,
+        "metric_watchlist":3,
+        "list_events":"Dysphagia, Tremor, Arthralgia"
+    },
+    {
+        "aedrug_id":2095,
+        "aedrug_brandname":"DEFINITY",
+        "metric_total":1,
+        "metric_active":0,
+        "metric_watchlist":1,
+        "list_events":"Infusion related reaction"
+    },
+    {
+        "aedrug_id":2098,
+        "aedrug_brandname":"FIRMAGON",
+        "metric_total":7,
+        "metric_active":0,
+        "metric_watchlist":7,
+        "list_events":"Renal failure acute, Atrial fibrillation, Cardiac arrest"
+    },
+    {
+        "aedrug_id":2126,
+        "aedrug_brandname":"PROLIA",
+        "metric_total":8,
+        "metric_active":2,
+        "metric_watchlist":6,
+        "list_events":"Bone density decreased, Muscle spasms, Dementia"
+    },
+    {
+        "aedrug_id":2130,
+        "aedrug_brandname":"DEPAKOTE",
+        "metric_total":19,
+        "metric_active":10,
+        "metric_watchlist":9,
+        "list_events":"Neuroleptic malignant syndrome, Hepatic encephalopathy, Liver transplant"
+    },
+    {
+        "aedrug_id":2141,
+        "aedrug_brandname":"DEPODUR",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Loss of consciousness"
+    },
+    {
+        "aedrug_id":2145,
+        "aedrug_brandname":"DEPO-TESTOSTERONE",
+        "metric_total":9,
+        "metric_active":3,
+        "metric_watchlist":6,
+        "list_events":"Precocious puberty, Anger, Aggression"
+    },
+    {
+        "aedrug_id":2148,
+        "aedrug_brandname":"LUVOX",
+        "metric_total":35,
+        "metric_active":24,
+        "metric_watchlist":11,
+        "list_events":"Neuroleptic malignant syndrome, Rhabdomyolysis, Angle closure glaucoma"
+    },
+    {
+        "aedrug_id":2188,
+        "aedrug_brandname":"DESOXYN",
+        "metric_total":6,
+        "metric_active":5,
+        "metric_watchlist":1,
+        "list_events":"Amyotrophic lateral sclerosis, Completed suicide, Rhabdomyolysis"
+    },
+    {
+        "aedrug_id":2190,
+        "aedrug_brandname":"LEVEMIR",
+        "metric_total":6,
+        "metric_active":1,
+        "metric_watchlist":5,
+        "list_events":"Pancreatic carcinoma, Blindness, Hepatitis C"
+    },
+    {
+        "aedrug_id":2194,
+        "aedrug_brandname":"DEXEDRINE",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Agitation, Depression, Confusional state"
+    },
+    {
+        "aedrug_id":2202,
+        "aedrug_brandname":"DEXFERRUM",
+        "metric_total":6,
+        "metric_active":4,
+        "metric_watchlist":2,
+        "list_events":"Coma, Loss of consciousness, Infusion related reaction"
+    },
+    {
+        "aedrug_id":2204,
+        "aedrug_brandname":"FOCALIN",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Anger, Mental status changes, Agitation"
+    },
+    {
+        "aedrug_id":2260,
+        "aedrug_brandname":"VOLTAREN",
+        "metric_total":51,
+        "metric_active":28,
+        "metric_watchlist":23,
+        "list_events":"Liver transplant, Acute respiratory distress syndrome, Hepatic encephalopathy"
+    },
+    {
+        "aedrug_id":2265,
+        "aedrug_brandname":"DILAUDID",
+        "metric_total":12,
+        "metric_active":6,
+        "metric_watchlist":6,
+        "list_events":"Respiratory failure, Completed suicide, Delirium"
+    },
+    {
+        "aedrug_id":2285,
+        "aedrug_brandname":"TECFIDERA",
+        "metric_total":10,
+        "metric_active":3,
+        "metric_watchlist":7,
+        "list_events":"Memory impairment, Cognitive disorder, Muscle spasms"
+    },
+    {
+        "aedrug_id":2287,
+        "aedrug_brandname":"NATAZIA",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Ectopic pregnancy, Urinary tract infection"
+    },
+    {
+        "aedrug_id":2289,
+        "aedrug_brandname":"DIOVAN HCT",
+        "metric_total":69,
+        "metric_active":28,
+        "metric_watchlist":41,
+        "list_events":"Deafness, Cerebral infarction, Eye haemorrhage"
+    },
+    {
+        "aedrug_id":2322,
+        "aedrug_brandname":"EFFEXOR",
+        "metric_total":17,
+        "metric_active":6,
+        "metric_watchlist":11,
+        "list_events":"Neuroleptic malignant syndrome, Phaeochromocytoma, Hyperpyrexia"
+    },
+    {
+        "aedrug_id":2349,
+        "aedrug_brandname":"DORIBAX",
+        "metric_total":12,
+        "metric_active":12,
+        "metric_watchlist":0,
+        "list_events":"Septic shock, Renal impairment, Respiratory failure"
+    },
+    {
+        "aedrug_id":2354,
+        "aedrug_brandname":"TRUSOPT",
+        "metric_total":6,
+        "metric_active":3,
+        "metric_watchlist":3,
+        "list_events":"Bone marrow failure, Pancytopenia, Intraocular pressure increased"
+    },
+    {
+        "aedrug_id":2379,
+        "aedrug_brandname":"MULTAQ",
+        "metric_total":25,
+        "metric_active":10,
+        "metric_watchlist":15,
+        "list_events":"Acute hepatic failure, Hepatitis acute, Hepatic failure"
+    },
+    {
+        "aedrug_id":2381,
+        "aedrug_brandname":"YASMIN",
+        "metric_total":19,
+        "metric_active":7,
+        "metric_watchlist":12,
+        "list_events":"Cor pulmonale, Colitis ischaemic, Blindness unilateral"
+    },
+    {
+        "aedrug_id":2382,
+        "aedrug_brandname":"YAZ",
+        "metric_total":8,
+        "metric_active":3,
+        "metric_watchlist":5,
+        "list_events":"Colitis ischaemic, Nephrolithiasis, Cholelithiasis"
+    },
+    {
+        "aedrug_id":2393,
+        "aedrug_brandname":"DUAC",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Swelling face"
+    },
+    {
+        "aedrug_id":2414,
+        "aedrug_brandname":"DURAGESIC",
+        "metric_total":38,
+        "metric_active":7,
+        "metric_watchlist":31,
+        "list_events":"Delirium, Pancreatic carcinoma, Lung neoplasm malignant"
+    },
+    {
+        "aedrug_id":2444,
+        "aedrug_brandname":"DYSPORT",
+        "metric_total":10,
+        "metric_active":5,
+        "metric_watchlist":5,
+        "list_events":"Respiratory failure, Lower respiratory tract infection, Muscle twitching"
+    },
+    {
+        "aedrug_id":2486,
+        "aedrug_brandname":"EFFIENT",
+        "metric_total":11,
+        "metric_active":6,
+        "metric_watchlist":5,
+        "list_events":"Ventricular fibrillation, Sudden death, Colon cancer"
+    },
+    {
+        "aedrug_id":2496,
+        "aedrug_brandname":"ELAPRASE",
+        "metric_total":7,
+        "metric_active":3,
+        "metric_watchlist":4,
+        "list_events":"Infusion related reaction, Dysphagia, Agitation"
+    },
+    {
+        "aedrug_id":2500,
+        "aedrug_brandname":"ELESTAT",
+        "metric_total":8,
+        "metric_active":8,
+        "metric_watchlist":0,
+        "list_events":"Convulsion, Loss of consciousness, Hepatic function abnormal"
+    },
+    {
+        "aedrug_id":2501,
+        "aedrug_brandname":"RELPAX",
+        "metric_total":11,
+        "metric_active":2,
+        "metric_watchlist":9,
+        "list_events":"Colitis ischaemic, Colitis, Loss of consciousness"
+    },
+    {
+        "aedrug_id":2521,
+        "aedrug_brandname":"PROMACTA",
+        "metric_total":34,
+        "metric_active":14,
+        "metric_watchlist":20,
+        "list_events":"Colitis ischaemic, Hepatic failure, Haemolytic anaemia"
+    },
+    {
+        "aedrug_id":2526,
+        "aedrug_brandname":"ENBREL",
+        "metric_total":11,
+        "metric_active":2,
+        "metric_watchlist":9,
+        "list_events":"Arthralgia, Musculoskeletal pain, Pulmonary fibrosis"
+    },
+    {
+        "aedrug_id":2570,
+        "aedrug_brandname":"FUZEON",
+        "metric_total":13,
+        "metric_active":6,
+        "metric_watchlist":7,
+        "list_events":"Hepatic failure, Hodgkin's disease, Lymphoma"
+    },
+    {
+        "aedrug_id":2613,
+        "aedrug_brandname":"EPOGEN",
+        "metric_total":23,
+        "metric_active":12,
+        "metric_watchlist":11,
+        "list_events":"Bone marrow failure, Blindness transient, Haemolytic anaemia"
+    },
+    {
+        "aedrug_id":2624,
+        "aedrug_brandname":"EPZICOM",
+        "metric_total":20,
+        "metric_active":12,
+        "metric_watchlist":8,
+        "list_events":"Renal impairment, Pancytopenia, Drug reaction with eosinophilia and systemic symptoms"
+    },
+    {
+        "aedrug_id":2690,
+        "aedrug_brandname":"ESTRACE",
+        "metric_total":4,
+        "metric_active":2,
+        "metric_watchlist":2,
+        "list_events":"Colitis ischaemic, Liver injury, Cholelithiasis"
+    },
+    {
+        "aedrug_id":2694,
+        "aedrug_brandname":"VIVELLE",
+        "metric_total":7,
+        "metric_active":2,
+        "metric_watchlist":5,
+        "list_events":"Skin discolouration, Osteoporosis, Haemorrhage"
+    },
+    {
+        "aedrug_id":2703,
+        "aedrug_brandname":"ESTRING",
+        "metric_total":2,
+        "metric_active":0,
+        "metric_watchlist":2,
+        "list_events":"Haemorrhage, Infection"
+    },
+    {
+        "aedrug_id":2735,
+        "aedrug_brandname":"LODINE",
+        "metric_total":7,
+        "metric_active":4,
+        "metric_watchlist":3,
+        "list_events":"Aplastic anaemia, Drug eruption, Blood pressure decreased"
+    },
+    {
+        "aedrug_id":2737,
+        "aedrug_brandname":"NEXPLANON",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Mood swings, Mood altered, Accidental exposure to product"
+    },
+    {
+        "aedrug_id":2740,
+        "aedrug_brandname":"INTELENCE",
+        "metric_total":6,
+        "metric_active":3,
+        "metric_watchlist":3,
+        "list_events":"Pancytopenia, Lactic acidosis, Liver disorder"
+    },
+    {
+        "aedrug_id":2756,
+        "aedrug_brandname":"LEVOXYL",
+        "metric_total":16,
+        "metric_active":7,
+        "metric_watchlist":9,
+        "list_events":"Coeliac disease, Mental impairment, Mood altered"
+    },
+    {
+        "aedrug_id":2760,
+        "aedrug_brandname":"EVISTA",
+        "metric_total":58,
+        "metric_active":34,
+        "metric_watchlist":24,
+        "list_events":"Blindness unilateral, Optic ischaemic neuropathy, Colitis ischaemic"
+    },
+    {
+        "aedrug_id":2767,
+        "aedrug_brandname":"ORTHO EVRA",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Ectopic pregnancy, Skin discolouration"
+    },
+    {
+        "aedrug_id":2777,
+        "aedrug_brandname":"EXFORGE",
+        "metric_total":47,
+        "metric_active":21,
+        "metric_watchlist":26,
+        "list_events":"Deafness, Eye haemorrhage, Cerebrovascular accident"
+    },
+    {
+        "aedrug_id":2788,
+        "aedrug_brandname":"EXTAVIA",
+        "metric_total":33,
+        "metric_active":21,
+        "metric_watchlist":12,
+        "list_events":"Blindness, Paralysis, Mental impairment"
+    },
+    {
+        "aedrug_id":2798,
+        "aedrug_brandname":"ZETIA",
+        "metric_total":22,
+        "metric_active":4,
+        "metric_watchlist":18,
+        "list_events":"Amyotrophic lateral sclerosis, Muscle spasms, Tendon disorder"
+    },
+    {
+        "aedrug_id":2805,
+        "aedrug_brandname":"ZYPREXA",
+        "metric_total":44,
+        "metric_active":13,
+        "metric_watchlist":31,
+        "list_events":"Pancreatic necrosis, Intestinal infarction, Cor pulmonale"
+    },
+    {
+        "aedrug_id":2808,
+        "aedrug_brandname":"FABRAZYME",
+        "metric_total":26,
+        "metric_active":15,
+        "metric_watchlist":11,
+        "list_events":"Sudden hearing loss, Deafness unilateral, Deafness neurosensory"
+    },
+    {
+        "aedrug_id":2818,
+        "aedrug_brandname":"FARESTON",
+        "metric_total":5,
+        "metric_active":4,
+        "metric_watchlist":1,
+        "list_events":"Respiratory failure, Cardiac arrest, Hepatic steatosis"
+    },
+    {
+        "aedrug_id":2834,
+        "aedrug_brandname":"FAZACLO",
+        "metric_total":6,
+        "metric_active":5,
+        "metric_watchlist":1,
+        "list_events":"Acute respiratory failure, Respiratory failure, Completed suicide"
+    },
+    {
+        "aedrug_id":2837,
+        "aedrug_brandname":"ULORIC",
+        "metric_total":8,
+        "metric_active":5,
+        "metric_watchlist":3,
+        "list_events":"Toxic epidermal necrolysis, Renal impairment, Cardiac failure"
+    },
+    {
+        "aedrug_id":2844,
+        "aedrug_brandname":"FELDENE",
+        "metric_total":14,
+        "metric_active":8,
+        "metric_watchlist":6,
+        "list_events":"Colitis ischaemic, Bone marrow failure, Maternal drugs affecting foetus"
+    },
+    {
+        "aedrug_id":2871,
+        "aedrug_brandname":"FENTORA",
+        "metric_total":2,
+        "metric_active":1,
+        "metric_watchlist":1,
+        "list_events":"Neoplasm malignant, Tremor"
+    },
+    {
+        "aedrug_id":2873,
+        "aedrug_brandname":"VENOFER",
+        "metric_total":16,
+        "metric_active":6,
+        "metric_watchlist":10,
+        "list_events":"Haemolysis, Infusion related reaction, Venous thrombosis"
+    },
+    {
+        "aedrug_id":2912,
+        "aedrug_brandname":"FLECTOR",
+        "metric_total":5,
+        "metric_active":0,
+        "metric_watchlist":5,
+        "list_events":"Angina pectoris, Hypersensitivity, Musculoskeletal pain"
+    },
+    {
+        "aedrug_id":2978,
+        "aedrug_brandname":"FLUORESCITE",
+        "metric_total":15,
+        "metric_active":10,
+        "metric_watchlist":5,
+        "list_events":"Loss of consciousness, Respiratory arrest, Angioedema"
+    },
+    {
+        "aedrug_id":3010,
+        "aedrug_brandname":"PLAN B",
+        "metric_total":4,
+        "metric_active":1,
+        "metric_watchlist":3,
+        "list_events":"Mood altered, Haemorrhage, Muscle spasms"
+    },
+    {
+        "aedrug_id":3015,
+        "aedrug_brandname":"FORADIL",
+        "metric_total":14,
+        "metric_active":9,
+        "metric_watchlist":5,
+        "list_events":"Respiratory failure, Lung neoplasm malignant, Glaucoma"
+    },
+    {
+        "aedrug_id":3030,
+        "aedrug_brandname":"FORTAMET",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Renal failure acute, Renal failure"
+    },
+    {
+        "aedrug_id":3033,
+        "aedrug_brandname":"FORTEO",
+        "metric_total":94,
+        "metric_active":34,
+        "metric_watchlist":60,
+        "list_events":"Sudden hearing loss, Spinal fracture, Hip fracture"
+    },
+    {
+        "aedrug_id":3040,
+        "aedrug_brandname":"LEXIVA",
+        "metric_total":15,
+        "metric_active":7,
+        "metric_watchlist":8,
+        "list_events":"Rhabdomyolysis, Drug reaction with eosinophilia and systemic symptoms, Drug rash with eosinophilia and systemic symptoms"
+    },
+    {
+        "aedrug_id":3075,
+        "aedrug_brandname":"GILENYA",
+        "metric_total":41,
+        "metric_active":14,
+        "metric_watchlist":27,
+        "list_events":"Progressive multifocal leukoencephalopathy, Basal cell carcinoma, Malignant melanoma"
+    },
+    {
+        "aedrug_id":3102,
+        "aedrug_brandname":"MULTIHANCE",
+        "metric_total":6,
+        "metric_active":3,
+        "metric_watchlist":3,
+        "list_events":"Depressed level of consciousness, Cardiac arrest, Bronchospasm"
+    },
+    {
+        "aedrug_id":3103,
+        "aedrug_brandname":"OMNISCAN",
+        "metric_total":9,
+        "metric_active":6,
+        "metric_watchlist":3,
+        "list_events":"Liver transplant, Pulmonary fibrosis, Sepsis"
+    },
+    {
+        "aedrug_id":3106,
+        "aedrug_brandname":"PROHANCE",
+        "metric_total":5,
+        "metric_active":3,
+        "metric_watchlist":2,
+        "list_events":"Coma, Bronchospasm, Skin discolouration"
+    },
+    {
+        "aedrug_id":3107,
+        "aedrug_brandname":"GADAVIST",
+        "metric_total":1,
+        "metric_active":0,
+        "metric_watchlist":1,
+        "list_events":"Respiratory failure"
+    },
+    {
+        "aedrug_id":3169,
+        "aedrug_brandname":"MS CONTIN",
+        "metric_total":18,
+        "metric_active":9,
+        "metric_watchlist":9,
+        "list_events":"Respiratory failure, Hypoventilation, Neoplasm malignant"
+    },
+    {
+        "aedrug_id":3170,
+        "aedrug_brandname":"HALDOL",
+        "metric_total":40,
+        "metric_active":18,
+        "metric_watchlist":22,
+        "list_events":"Serotonin syndrome, Completed suicide, Hepatitis acute"
+    },
+    {
+        "aedrug_id":3179,
+        "aedrug_brandname":"VIMOVO",
+        "metric_total":7,
+        "metric_active":2,
+        "metric_watchlist":5,
+        "list_events":"Musculoskeletal pain, Palpitations, Diabetes mellitus"
+    },
+    {
+        "aedrug_id":3185,
+        "aedrug_brandname":"OXYCONTIN",
+        "metric_total":34,
+        "metric_active":13,
+        "metric_watchlist":21,
+        "list_events":"Completed suicide, Neoplasm malignant, Delirium"
+    },
+    {
+        "aedrug_id":3190,
+        "aedrug_brandname":"RITALIN",
+        "metric_total":37,
+        "metric_active":20,
+        "metric_watchlist":17,
+        "list_events":"Aplastic anaemia, Serotonin syndrome, Completed suicide"
+    },
+    {
+        "aedrug_id":3193,
+        "aedrug_brandname":"ZOCOR",
+        "metric_total":62,
+        "metric_active":20,
+        "metric_watchlist":42,
+        "list_events":"Amyotrophic lateral sclerosis, Pancreatic necrosis, Pulmonary fibrosis"
+    },
+    {
+        "aedrug_id":3195,
+        "aedrug_brandname":"SYNTHROID",
+        "metric_total":22,
+        "metric_active":5,
+        "metric_watchlist":17,
+        "list_events":"Coeliac disease, Candidiasis, Mood swings"
+    },
+    {
+        "aedrug_id":3200,
+        "aedrug_brandname":"ZESTRIL",
+        "metric_total":6,
+        "metric_active":1,
+        "metric_watchlist":5,
+        "list_events":"Lactic acidosis, Pancytopenia, Coma"
+    },
+    {
+        "aedrug_id":3247,
+        "aedrug_brandname":"GLUCOVANCE",
+        "metric_total":8,
+        "metric_active":4,
+        "metric_watchlist":4,
+        "list_events":"Vision blurred, Asthenia, Tremor"
+    },
+    {
+        "aedrug_id":3325,
+        "aedrug_brandname":"HALFLYTELY AND BISACODYL",
+        "metric_total":8,
+        "metric_active":8,
+        "metric_watchlist":0,
+        "list_events":"Loss of consciousness, Haemorrhage, Muscle spasms"
+    },
+    {
+        "aedrug_id":3352,
+        "aedrug_brandname":"HERCEPTIN",
+        "metric_total":34,
+        "metric_active":11,
+        "metric_watchlist":23,
+        "list_events":"Colitis ischaemic, Deafness, Hepatic failure"
+    },
+    {
+        "aedrug_id":3444,
+        "aedrug_brandname":"HYCAMTIN",
+        "metric_total":46,
+        "metric_active":27,
+        "metric_watchlist":19,
+        "list_events":"Agranulocytosis, Pulmonary fibrosis, Sudden death"
+    },
+    {
+        "aedrug_id":3521,
+        "aedrug_brandname":"NEOPROFEN",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Pulmonary hypertension, Completed suicide"
+    },
+    {
+        "aedrug_id":3534,
+        "aedrug_brandname":"IFEX",
+        "metric_total":5,
+        "metric_active":5,
+        "metric_watchlist":0,
+        "list_events":"Hyperpyrexia, Blood magnesium decreased, Accidental exposure"
+    },
+    {
+        "aedrug_id":3545,
+        "aedrug_brandname":"VENTAVIS",
+        "metric_total":22,
+        "metric_active":9,
+        "metric_watchlist":13,
+        "list_events":"Liver transplant, Acute respiratory failure, Sudden death"
+    },
+    {
+        "aedrug_id":3570,
+        "aedrug_brandname":"IMPLANON",
+        "metric_total":6,
+        "metric_active":2,
+        "metric_watchlist":4,
+        "list_events":"Mood swings, Mood altered, Suicidal ideation"
+    },
+    {
+        "aedrug_id":3576,
+        "aedrug_brandname":"INCRELEX",
+        "metric_total":2,
+        "metric_active":1,
+        "metric_watchlist":1,
+        "list_events":"Aggression, Loss of consciousness"
+    },
+    {
+        "aedrug_id":3577,
+        "aedrug_brandname":"ARCAPTA",
+        "metric_total":21,
+        "metric_active":15,
+        "metric_watchlist":6,
+        "list_events":"Pulmonary fibrosis, Respiratory failure, Sudden death"
+    },
+    {
+        "aedrug_id":3585,
+        "aedrug_brandname":"INDOCIN",
+        "metric_total":20,
+        "metric_active":12,
+        "metric_watchlist":8,
+        "list_events":"Acute respiratory distress syndrome, Serotonin syndrome, Maternal drugs affecting foetus"
+    },
+    {
+        "aedrug_id":3593,
+        "aedrug_brandname":"INFED",
+        "metric_total":8,
+        "metric_active":6,
+        "metric_watchlist":2,
+        "list_events":"Coma, Loss of consciousness, Infusion related reaction"
+    },
+    {
+        "aedrug_id":3605,
+        "aedrug_brandname":"REMODULIN",
+        "metric_total":5,
+        "metric_active":1,
+        "metric_watchlist":4,
+        "list_events":"Staphylococcal infection, Respiratory failure, Pneumonia"
+    },
+    {
+        "aedrug_id":3628,
+        "aedrug_brandname":"ROFERON A",
+        "metric_total":13,
+        "metric_active":9,
+        "metric_watchlist":4,
+        "list_events":"Pulmonary fibrosis, Agranulocytosis, Malignant melanoma"
+    },
+    {
+        "aedrug_id":3639,
+        "aedrug_brandname":"INVIRASE",
+        "metric_total":23,
+        "metric_active":16,
+        "metric_watchlist":7,
+        "list_events":"Hepatic failure, Maternal drugs affecting foetus, Lactic acidosis"
+    },
+    {
+        "aedrug_id":3675,
+        "aedrug_brandname":"ISENTRESS",
+        "metric_total":48,
+        "metric_active":23,
+        "metric_watchlist":25,
+        "list_events":"Haemolytic anaemia, Progressive multifocal leukoencephalopathy, Hepatic encephalopathy"
+    },
+    {
+        "aedrug_id":3726,
+        "aedrug_brandname":"JANUMET",
+        "metric_total":18,
+        "metric_active":8,
+        "metric_watchlist":10,
+        "list_events":"Adenocarcinoma pancreas, Pancreatic carcinoma, Colon cancer"
+    },
+    {
+        "aedrug_id":3727,
+        "aedrug_brandname":"JANUVIA",
+        "metric_total":17,
+        "metric_active":5,
+        "metric_watchlist":12,
+        "list_events":"Pancreatic carcinoma, Adenocarcinoma pancreas, Drug-induced liver injury"
+    },
+    {
+        "aedrug_id":3741,
+        "aedrug_brandname":"KADIAN",
+        "metric_total":8,
+        "metric_active":5,
+        "metric_watchlist":3,
+        "list_events":"Completed suicide, Cardiac arrest, Delirium"
+    },
+    {
+        "aedrug_id":3748,
+        "aedrug_brandname":"DEXILANT",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Loss of consciousness, Haemorrhage, Hypotension"
+    },
+    {
+        "aedrug_id":3770,
+        "aedrug_brandname":"KEPPRA",
+        "metric_total":35,
+        "metric_active":16,
+        "metric_watchlist":19,
+        "list_events":"Aplastic anaemia, Agranulocytosis, Sudden death"
+    },
+    {
+        "aedrug_id":3778,
+        "aedrug_brandname":"KETEK",
+        "metric_total":37,
+        "metric_active":13,
+        "metric_watchlist":24,
+        "list_events":"Hepatic encephalopathy, Acute respiratory distress syndrome, Stevens-Johnson syndrome"
+    },
+    {
+        "aedrug_id":3782,
+        "aedrug_brandname":"TORADOL",
+        "metric_total":10,
+        "metric_active":4,
+        "metric_watchlist":6,
+        "list_events":"Respiratory failure, Paralysis, Nephrolithiasis"
+    },
+    {
+        "aedrug_id":3815,
+        "aedrug_brandname":"KYTRIL",
+        "metric_total":14,
+        "metric_active":10,
+        "metric_watchlist":4,
+        "list_events":"Serotonin syndrome, Bone marrow failure, Hepatic failure"
+    },
+    {
+        "aedrug_id":3820,
+        "aedrug_brandname":"VIMPAT",
+        "metric_total":22,
+        "metric_active":9,
+        "metric_watchlist":13,
+        "list_events":"Acute hepatic failure, Sudden death, Toxic epidermal necrolysis"
+    },
+    {
+        "aedrug_id":3837,
+        "aedrug_brandname":"TYKERB",
+        "metric_total":26,
+        "metric_active":9,
+        "metric_watchlist":17,
+        "list_events":"Cardiotoxicity, Cardiopulmonary failure, Pulmonary thrombosis"
+    },
+    {
+        "aedrug_id":3849,
+        "aedrug_brandname":"LATISSE",
+        "metric_total":6,
+        "metric_active":3,
+        "metric_watchlist":3,
+        "list_events":"Eye haemorrhage, Muscle twitching, Intraocular pressure increased"
+    },
+    {
+        "aedrug_id":3853,
+        "aedrug_brandname":"LEVITRA",
+        "metric_total":5,
+        "metric_active":2,
+        "metric_watchlist":3,
+        "list_events":"Eye haemorrhage, Retinal detachment, Ventricular fibrillation"
+    },
+    {
+        "aedrug_id":3859,
+        "aedrug_brandname":"TYZEKA",
+        "metric_total":13,
+        "metric_active":10,
+        "metric_watchlist":3,
+        "list_events":"Hepatic failure, Renal impairment, Renal failure acute"
+    },
+    {
+        "aedrug_id":3890,
+        "aedrug_brandname":"XYZAL",
+        "metric_total":15,
+        "metric_active":12,
+        "metric_watchlist":3,
+        "list_events":"Maternal drugs affecting foetus, Loss of consciousness, Erythema multiforme"
+    },
+    {
+        "aedrug_id":3893,
+        "aedrug_brandname":"MIRENA",
+        "metric_total":5,
+        "metric_active":3,
+        "metric_watchlist":2,
+        "list_events":"Sudden hearing loss, Endometrial cancer, Penile pain"
+    },
+    {
+        "aedrug_id":3898,
+        "aedrug_brandname":"LEXISCAN",
+        "metric_total":5,
+        "metric_active":4,
+        "metric_watchlist":1,
+        "list_events":"Loss of consciousness, Extravasation, Bronchospasm"
+    },
+    {
+        "aedrug_id":3928,
+        "aedrug_brandname":"PRAVACHOL",
+        "metric_total":34,
+        "metric_active":17,
+        "metric_watchlist":17,
+        "list_events":"Amyotrophic lateral sclerosis, Pulmonary fibrosis, Hepatic necrosis"
+    },
+    {
+        "aedrug_id":3945,
+        "aedrug_brandname":"PRINIVIL",
+        "metric_total":15,
+        "metric_active":3,
+        "metric_watchlist":12,
+        "list_events":"Pancreatic necrosis, Completed suicide, Lactic acidosis"
+    },
+    {
+        "aedrug_id":3955,
+        "aedrug_brandname":"LIVALO",
+        "metric_total":7,
+        "metric_active":1,
+        "metric_watchlist":6,
+        "list_events":"Musculoskeletal pain, Diabetes mellitus, Chest pain"
+    },
+    {
+        "aedrug_id":4005,
+        "aedrug_brandname":"LOVAZA",
+        "metric_total":14,
+        "metric_active":3,
+        "metric_watchlist":11,
+        "list_events":"Pancreatitis acute, Angina unstable, Dysphagia"
+    },
+    {
+        "aedrug_id":4061,
+        "aedrug_brandname":"MAGNEVIST",
+        "metric_total":18,
+        "metric_active":7,
+        "metric_watchlist":11,
+        "list_events":"Pulmonary fibrosis, Depressed level of consciousness, Skin discolouration"
+    },
+    {
+        "aedrug_id":4082,
+        "aedrug_brandname":"MARINOL",
+        "metric_total":4,
+        "metric_active":4,
+        "metric_watchlist":0,
+        "list_events":"Pneumonia, Urinary tract infection, Tremor"
+    },
+    {
+        "aedrug_id":4085,
+        "aedrug_brandname":"TYSABRI",
+        "metric_total":21,
+        "metric_active":6,
+        "metric_watchlist":15,
+        "list_events":"Myelitis transverse, Cognitive disorder, Ankle fracture"
+    },
+    {
+        "aedrug_id":4096,
+        "aedrug_brandname":"REGLAN",
+        "metric_total":8,
+        "metric_active":2,
+        "metric_watchlist":6,
+        "list_events":"Phaeochromocytoma, Muscle twitching, Serotonin syndrome"
+    },
+    {
+        "aedrug_id":4132,
+        "aedrug_brandname":"MOBIC",
+        "metric_total":22,
+        "metric_active":10,
+        "metric_watchlist":12,
+        "list_events":"Aplastic anaemia, Haemolytic anaemia, Haemorrhage"
+    },
+    {
+        "aedrug_id":4163,
+        "aedrug_brandname":"METADATE",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Muscle twitching, Anger"
+    },
+    {
+        "aedrug_id":4182,
+        "aedrug_brandname":"MIRCERA",
+        "metric_total":9,
+        "metric_active":3,
+        "metric_watchlist":6,
+        "list_events":"Sudden death, Renal impairment, Hyperkalaemia"
+    },
+    {
+        "aedrug_id":4219,
+        "aedrug_brandname":"PROMETRIUM",
+        "metric_total":4,
+        "metric_active":3,
+        "metric_watchlist":1,
+        "list_events":"Maternal drugs affecting foetus, Pharyngeal oedema, Palpitations"
+    },
+    {
+        "aedrug_id":4233,
+        "aedrug_brandname":"ZAVESCA",
+        "metric_total":12,
+        "metric_active":11,
+        "metric_watchlist":1,
+        "list_events":"Epilepsy, Convulsion, Respiratory failure"
+    },
+    {
+        "aedrug_id":4238,
+        "aedrug_brandname":"SAVELLA",
+        "metric_total":13,
+        "metric_active":3,
+        "metric_watchlist":10,
+        "list_events":"Mood altered, Mood swings, Pharyngeal oedema"
+    },
+    {
+        "aedrug_id":4309,
+        "aedrug_brandname":"MONOPRIL",
+        "metric_total":5,
+        "metric_active":2,
+        "metric_watchlist":3,
+        "list_events":"Renal impairment, Dermatitis bullous, Rhabdomyolysis"
+    },
+    {
+        "aedrug_id":4310,
+        "aedrug_brandname":"MONOPRIL-HCT",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Rhabdomyolysis, Hypocalcaemia, Drug rash with eosinophilia and systemic symptoms"
+    },
+    {
+        "aedrug_id":4331,
+        "aedrug_brandname":"MOVIPREP",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Blood pressure decreased, Dysphagia, Muscle spasms"
+    },
+    {
+        "aedrug_id":4333,
+        "aedrug_brandname":"NOXAFIL",
+        "metric_total":13,
+        "metric_active":10,
+        "metric_watchlist":3,
+        "list_events":"Septic shock, Pancytopenia, Pancreatitis"
+    },
+    {
+        "aedrug_id":4336,
+        "aedrug_brandname":"MOZOBIL",
+        "metric_total":21,
+        "metric_active":18,
+        "metric_watchlist":3,
+        "list_events":"Bone marrow failure, Respiratory failure, Septic shock"
+    },
+    {
+        "aedrug_id":4337,
+        "aedrug_brandname":"MYOZYME/LUMIZYME",
+        "metric_total":18,
+        "metric_active":15,
+        "metric_watchlist":3,
+        "list_events":"Sudden death, Acute respiratory distress syndrome, Septic shock"
+    },
+    {
+        "aedrug_id":4369,
+        "aedrug_brandname":"MYFORTIC",
+        "metric_total":21,
+        "metric_active":6,
+        "metric_watchlist":15,
+        "list_events":"Pancytopenia, Bone marrow failure, Respiratory failure"
+    },
+    {
+        "aedrug_id":4386,
+        "aedrug_brandname":"RELAFEN",
+        "metric_total":7,
+        "metric_active":3,
+        "metric_watchlist":4,
+        "list_events":"Haemorrhage, Skin discolouration, Hepatitis"
+    },
+    {
+        "aedrug_id":4391,
+        "aedrug_brandname":"NAMENDA",
+        "metric_total":48,
+        "metric_active":18,
+        "metric_watchlist":30,
+        "list_events":"Dementia, Delirium, Atrioventricular block complete"
+    },
+    {
+        "aedrug_id":4401,
+        "aedrug_brandname":"REVIA",
+        "metric_total":7,
+        "metric_active":4,
+        "metric_watchlist":3,
+        "list_events":"Delirium, Abnormal behaviour, Amnesia"
+    },
+    {
+        "aedrug_id":4434,
+        "aedrug_brandname":"STARLIX",
+        "metric_total":40,
+        "metric_active":18,
+        "metric_watchlist":22,
+        "list_events":"Sudden death, Pancreatitis acute, Renal impairment"
+    },
+    {
+        "aedrug_id":4464,
+        "aedrug_brandname":"NEORAL",
+        "metric_total":58,
+        "metric_active":36,
+        "metric_watchlist":22,
+        "list_events":"Aplastic anaemia, Haemolytic anaemia, Liver transplant"
+    },
+    {
+        "aedrug_id":4474,
+        "aedrug_brandname":"NEUPRO",
+        "metric_total":21,
+        "metric_active":7,
+        "metric_watchlist":14,
+        "list_events":"Sudden death, Hip fracture, Femur fracture"
+    },
+    {
+        "aedrug_id":4490,
+        "aedrug_brandname":"NIASPAN",
+        "metric_total":2,
+        "metric_active":0,
+        "metric_watchlist":2,
+        "list_events":"Coeliac disease, Muscle spasms"
+    },
+    {
+        "aedrug_id":4541,
+        "aedrug_brandname":"NORCO",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Loss of consciousness, Confusional state, Depression"
+    },
+    {
+        "aedrug_id":4566,
+        "aedrug_brandname":"NOVOLOG MIX",
+        "metric_total":13,
+        "metric_active":6,
+        "metric_watchlist":7,
+        "list_events":"Sudden death, Loss of consciousness, Acute myocardial infarction"
+    },
+    {
+        "aedrug_id":4574,
+        "aedrug_brandname":"NPLATE",
+        "metric_total":44,
+        "metric_active":24,
+        "metric_watchlist":20,
+        "list_events":"Aplastic anaemia, Acute respiratory failure, Pancytopenia"
+    },
+    {
+        "aedrug_id":4584,
+        "aedrug_brandname":"NUVARING",
+        "metric_total":40,
+        "metric_active":16,
+        "metric_watchlist":24,
+        "list_events":"Ectopic pregnancy, Nephrolithiasis, Right ventricular failure"
+    },
+    {
+        "aedrug_id":4593,
+        "aedrug_brandname":"OCTAGAM",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Neutropenia, Infusion related reaction, Confusional state"
+    },
+    {
+        "aedrug_id":4609,
+        "aedrug_brandname":"SYMBYAX",
+        "metric_total":2,
+        "metric_active":1,
+        "metric_watchlist":1,
+        "list_events":"Diabetes mellitus, Myocardial infarction"
+    },
+    {
+        "aedrug_id":4621,
+        "aedrug_brandname":"ZOFRAN",
+        "metric_total":51,
+        "metric_active":27,
+        "metric_watchlist":24,
+        "list_events":"Serotonin syndrome, Colitis ischaemic, Hepatitis acute"
+    },
+    {
+        "aedrug_id":4631,
+        "aedrug_brandname":"OPTIMARK",
+        "metric_total":28,
+        "metric_active":26,
+        "metric_watchlist":2,
+        "list_events":"Respiratory failure, Renal failure, Carotid artery stenosis"
+    },
+    {
+        "aedrug_id":4658,
+        "aedrug_brandname":"ORUDIS",
+        "metric_total":13,
+        "metric_active":4,
+        "metric_watchlist":9,
+        "list_events":"Colitis ischaemic, Colitis, Hepatic steatosis"
+    },
+    {
+        "aedrug_id":4664,
+        "aedrug_brandname":"OSMOPREP",
+        "metric_total":10,
+        "metric_active":9,
+        "metric_watchlist":1,
+        "list_events":"Myocardial infarction, Blood potassium decreased, Tremor"
+    },
+    {
+        "aedrug_id":4678,
+        "aedrug_brandname":"TRILEPTAL",
+        "metric_total":38,
+        "metric_active":18,
+        "metric_watchlist":20,
+        "list_events":"Sudden death, Dermatitis bullous, Atrioventricular block complete"
+    },
+    {
+        "aedrug_id":4710,
+        "aedrug_brandname":"VECTIBIX",
+        "metric_total":42,
+        "metric_active":23,
+        "metric_watchlist":19,
+        "list_events":"Neutropenia, Disseminated intravascular coagulation, Pancytopenia"
+    },
+    {
+        "aedrug_id":4740,
+        "aedrug_brandname":"VOTRIENT",
+        "metric_total":14,
+        "metric_active":2,
+        "metric_watchlist":12,
+        "list_events":"Retinal detachment, Hypocalcaemia, Hepatic failure"
+    },
+    {
+        "aedrug_id":4744,
+        "aedrug_brandname":"PEG-INTRON",
+        "metric_total":50,
+        "metric_active":19,
+        "metric_watchlist":31,
+        "list_events":"Liver transplant, Hepatic encephalopathy, Pulmonary fibrosis"
+    },
+    {
+        "aedrug_id":4745,
+        "aedrug_brandname":"PEGASYS",
+        "metric_total":48,
+        "metric_active":17,
+        "metric_watchlist":31,
+        "list_events":"Hepatic encephalopathy, Liver transplant, Pulmonary fibrosis"
+    },
+    {
+        "aedrug_id":4764,
+        "aedrug_brandname":"PENTASA",
+        "metric_total":14,
+        "metric_active":7,
+        "metric_watchlist":7,
+        "list_events":"Maternal drugs affecting foetus, Nephrolithiasis, Pneumonia"
+    },
+    {
+        "aedrug_id":4800,
+        "aedrug_brandname":"PERJETA",
+        "metric_total":4,
+        "metric_active":4,
+        "metric_watchlist":0,
+        "list_events":"Renal failure acute, Pulmonary embolism, Pneumonia"
+    },
+    {
+        "aedrug_id":4907,
+        "aedrug_brandname":"PREMPHASE",
+        "metric_total":1,
+        "metric_active":0,
+        "metric_watchlist":1,
+        "list_events":"Haemorrhage"
+    },
+    {
+        "aedrug_id":4929,
+        "aedrug_brandname":"PROAIR HFA",
+        "metric_total":1,
+        "metric_active":0,
+        "metric_watchlist":1,
+        "list_events":"Palpitations"
+    },
+    {
+        "aedrug_id":4938,
+        "aedrug_brandname":"PROCRIT",
+        "metric_total":25,
+        "metric_active":7,
+        "metric_watchlist":18,
+        "list_events":"Bone marrow failure, Liver transplant, Haemolytic anaemia"
+    },
+    {
+        "aedrug_id":4961,
+        "aedrug_brandname":"RYTHMOL",
+        "metric_total":20,
+        "metric_active":10,
+        "metric_watchlist":10,
+        "list_events":"Completed suicide, Cardiotoxicity, Loss of consciousness"
+    },
+    {
+        "aedrug_id":5023,
+        "aedrug_brandname":"SEROQUEL",
+        "metric_total":13,
+        "metric_active":3,
+        "metric_watchlist":10,
+        "list_events":"Serotonin syndrome, Anger, Mood swings"
+    },
+    {
+        "aedrug_id":5046,
+        "aedrug_brandname":"ROZEREM",
+        "metric_total":6,
+        "metric_active":1,
+        "metric_watchlist":5,
+        "list_events":"Restlessness, Serotonin syndrome, Mental impairment"
+    },
+    {
+        "aedrug_id":5049,
+        "aedrug_brandname":"RANEXA",
+        "metric_total":17,
+        "metric_active":11,
+        "metric_watchlist":6,
+        "list_events":"Torsade de pointes, Sudden death, Rhabdomyolysis"
+    },
+    {
+        "aedrug_id":5053,
+        "aedrug_brandname":"RAPAFLO",
+        "metric_total":7,
+        "metric_active":4,
+        "metric_watchlist":3,
+        "list_events":"Loss of consciousness, Erectile dysfunction, Swelling face"
+    },
+    {
+        "aedrug_id":5079,
+        "aedrug_brandname":"RELISTOR",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Tachycardia, Chest pain"
+    },
+    {
+        "aedrug_id":5095,
+        "aedrug_brandname":"RENVELA",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Cardiac arrest"
+    },
+    {
+        "aedrug_id":5108,
+        "aedrug_brandname":"RESTASIS",
+        "metric_total":5,
+        "metric_active":3,
+        "metric_watchlist":2,
+        "list_events":"Conjunctival haemorrhage, Eye haemorrhage, Intraocular pressure increased"
+    },
+    {
+        "aedrug_id":5116,
+        "aedrug_brandname":"VIAGRA",
+        "metric_total":16,
+        "metric_active":9,
+        "metric_watchlist":7,
+        "list_events":"Sudden death, Prostate cancer, Retinal detachment"
+    },
+    {
+        "aedrug_id":5121,
+        "aedrug_brandname":"RHEUMATREX",
+        "metric_total":14,
+        "metric_active":10,
+        "metric_watchlist":4,
+        "list_events":"Pulmonary fibrosis, Acute respiratory distress syndrome, Renal impairment"
+    },
+    {
+        "aedrug_id":5140,
+        "aedrug_brandname":"XIFAXAN",
+        "metric_total":5,
+        "metric_active":5,
+        "metric_watchlist":0,
+        "list_events":"Hepatic failure, Renal failure acute, Renal failure"
+    },
+    {
+        "aedrug_id":5154,
+        "aedrug_brandname":"RISPERDAL CONSTA",
+        "metric_total":19,
+        "metric_active":6,
+        "metric_watchlist":13,
+        "list_events":"Delirium, Cytolytic hepatitis, Aggression"
+    },
+    {
+        "aedrug_id":5158,
+        "aedrug_brandname":"XARELTO",
+        "metric_total":18,
+        "metric_active":4,
+        "metric_watchlist":14,
+        "list_events":"Acute hepatic failure, Renal impairment, Hepatitis acute"
+    },
+    {
+        "aedrug_id":5181,
+        "aedrug_brandname":"REQUIP XL",
+        "metric_total":7,
+        "metric_active":4,
+        "metric_watchlist":3,
+        "list_events":"Dementia, Restlessness, Aggression"
+    },
+    {
+        "aedrug_id":5184,
+        "aedrug_brandname":"ROWASA",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Maternal drugs affecting foetus, Haemorrhage, Myalgia"
+    },
+    {
+        "aedrug_id":5196,
+        "aedrug_brandname":"SABRIL",
+        "metric_total":3,
+        "metric_active":0,
+        "metric_watchlist":3,
+        "list_events":"Respiratory arrest, Anger, Agitation"
+    },
+    {
+        "aedrug_id":5207,
+        "aedrug_brandname":"SEREVENT",
+        "metric_total":8,
+        "metric_active":4,
+        "metric_watchlist":4,
+        "list_events":"Sudden death, Respiratory failure, Respiratory arrest"
+    },
+    {
+        "aedrug_id":5215,
+        "aedrug_brandname":"SANDOSTATIN",
+        "metric_total":25,
+        "metric_active":12,
+        "metric_watchlist":13,
+        "list_events":"Septic shock, Hepatic failure, Disseminated intravascular coagulation"
+    },
+    {
+        "aedrug_id":5271,
+        "aedrug_brandname":"SIMCOR",
+        "metric_total":1,
+        "metric_active":0,
+        "metric_watchlist":1,
+        "list_events":"Musculoskeletal pain"
+    },
+    {
+        "aedrug_id":5309,
+        "aedrug_brandname":"SOLIRIS",
+        "metric_total":29,
+        "metric_active":5,
+        "metric_watchlist":24,
+        "list_events":"Aplastic anaemia, Basal cell carcinoma, Haemoglobinuria"
+    },
+    {
+        "aedrug_id":5322,
+        "aedrug_brandname":"SOMATULINE DEPOT",
+        "metric_total":12,
+        "metric_active":5,
+        "metric_watchlist":7,
+        "list_events":"Neoplasm malignant, Loss of consciousness, Liver disorder"
+    },
+    {
+        "aedrug_id":5323,
+        "aedrug_brandname":"SOMAVERT",
+        "metric_total":4,
+        "metric_active":2,
+        "metric_watchlist":2,
+        "list_events":"Cholelithiasis, Hepatitis, Pulmonary embolism"
+    },
+    {
+        "aedrug_id":5337,
+        "aedrug_brandname":"SPIRIVA",
+        "metric_total":6,
+        "metric_active":2,
+        "metric_watchlist":4,
+        "list_events":"Cor pulmonale, Lung neoplasm malignant, Acute respiratory failure"
+    },
+    {
+        "aedrug_id":5349,
+        "aedrug_brandname":"ZERIT",
+        "metric_total":68,
+        "metric_active":44,
+        "metric_watchlist":24,
+        "list_events":"Progressive multifocal leukoencephalopathy, Hepatic necrosis, Hepatic encephalopathy"
+    },
+    {
+        "aedrug_id":5415,
+        "aedrug_brandname":"VYTORIN",
+        "metric_total":32,
+        "metric_active":18,
+        "metric_watchlist":14,
+        "list_events":"Hepatic necrosis, Blindness unilateral, Polymyositis"
+    },
+    {
+        "aedrug_id":5442,
+        "aedrug_brandname":"TACLONEX",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Adrenal insufficiency, Dermatitis exfoliative"
+    },
+    {
+        "aedrug_id":5482,
+        "aedrug_brandname":"XENAZINE",
+        "metric_total":10,
+        "metric_active":6,
+        "metric_watchlist":4,
+        "list_events":"Dementia, Aggression, Anger"
+    },
+    {
+        "aedrug_id":5487,
+        "aedrug_brandname":"EFFEXOR XR",
+        "metric_total":12,
+        "metric_active":6,
+        "metric_watchlist":6,
+        "list_events":"Phaeochromocytoma, Cardiotoxicity, Coeliac disease"
+    },
+    {
+        "aedrug_id":5488,
+        "aedrug_brandname":"THALOMID",
+        "metric_total":29,
+        "metric_active":9,
+        "metric_watchlist":20,
+        "list_events":"Intestinal infarction, Respiratory failure, Sudden death"
+    },
+    {
+        "aedrug_id":5515,
+        "aedrug_brandname":"LEVOTHYROXINE",
+        "metric_total":23,
+        "metric_active":10,
+        "metric_watchlist":13,
+        "list_events":"Completed suicide, Basedow's disease, Dermatitis bullous"
+    },
+    {
+        "aedrug_id":5527,
+        "aedrug_brandname":"TYGACIL",
+        "metric_total":11,
+        "metric_active":5,
+        "metric_watchlist":6,
+        "list_events":"Disseminated intravascular coagulation, Encephalopathy, Infusion related reaction"
+    },
+    {
+        "aedrug_id":5546,
+        "aedrug_brandname":"ACTEMRA",
+        "metric_total":49,
+        "metric_active":23,
+        "metric_watchlist":26,
+        "list_events":"Colitis ischaemic, Disseminated intravascular coagulation, Acute respiratory failure"
+    },
+    {
+        "aedrug_id":5574,
+        "aedrug_brandname":"TRAVATAN",
+        "metric_total":5,
+        "metric_active":3,
+        "metric_watchlist":2,
+        "list_events":"Retinal haemorrhage, Intraocular pressure increased, Arrhythmia"
+    },
+    {
+        "aedrug_id":5581,
+        "aedrug_brandname":"TREXIMET",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Musculoskeletal pain"
+    },
+    {
+        "aedrug_id":5629,
+        "aedrug_brandname":"TRIZIVIR",
+        "metric_total":20,
+        "metric_active":12,
+        "metric_watchlist":8,
+        "list_events":"Pancytopenia, Drug rash with eosinophilia and systemic symptoms, Maternal drugs affecting foetus"
+    },
+    {
+        "aedrug_id":5679,
+        "aedrug_brandname":"ONFI",
+        "metric_total":7,
+        "metric_active":2,
+        "metric_watchlist":5,
+        "list_events":"Maternal drugs affecting foetus, Anger, Coma"
+    },
+    {
+        "aedrug_id":5700,
+        "aedrug_brandname":"VAGIFEM",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Atrial fibrillation"
+    },
+    {
+        "aedrug_id":5703,
+        "aedrug_brandname":"EXFORGE HCT",
+        "metric_total":6,
+        "metric_active":4,
+        "metric_watchlist":2,
+        "list_events":"Coronary artery occlusion, Cerebrovascular accident, Cholelithiasis"
+    },
+    {
+        "aedrug_id":5704,
+        "aedrug_brandname":"VALTREX",
+        "metric_total":38,
+        "metric_active":15,
+        "metric_watchlist":23,
+        "list_events":"Renal impairment, Agranulocytosis, Deafness"
+    },
+    {
+        "aedrug_id":5716,
+        "aedrug_brandname":"CAPRELSA",
+        "metric_total":11,
+        "metric_active":6,
+        "metric_watchlist":5,
+        "list_events":"Angina pectoris, Pulmonary embolism, Cholelithiasis"
+    },
+    {
+        "aedrug_id":5745,
+        "aedrug_brandname":"VERAMYST",
+        "metric_total":7,
+        "metric_active":5,
+        "metric_watchlist":2,
+        "list_events":"Eye haemorrhage, Intraocular pressure increased, Bronchospasm"
+    },
+    {
+        "aedrug_id":5753,
+        "aedrug_brandname":"VERSED",
+        "metric_total":48,
+        "metric_active":28,
+        "metric_watchlist":20,
+        "list_events":"Ventricular fibrillation, Toxic epidermal necrolysis, Hepatic encephalopathy"
+    },
+    {
+        "aedrug_id":5763,
+        "aedrug_brandname":"VIGAMOX",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Retinal detachment, Intraocular pressure increased"
+    },
+    {
+        "aedrug_id":5766,
+        "aedrug_brandname":"ONCOVIN",
+        "metric_total":86,
+        "metric_active":64,
+        "metric_watchlist":22,
+        "list_events":"Bone marrow failure, Pancytopenia, Hepatitis fulminant"
+    },
+    {
+        "aedrug_id":5774,
+        "aedrug_brandname":"VISICOL",
+        "metric_total":8,
+        "metric_active":6,
+        "metric_watchlist":2,
+        "list_events":"Depressed level of consciousness, Colitis, Blood pressure decreased"
+    },
+    {
+        "aedrug_id":5793,
+        "aedrug_brandname":"VIVITROL",
+        "metric_total":2,
+        "metric_active":1,
+        "metric_watchlist":1,
+        "list_events":"Loss of consciousness, Tremor"
+    },
+    {
+        "aedrug_id":5811,
+        "aedrug_brandname":"WELLBUTRIN XL",
+        "metric_total":4,
+        "metric_active":2,
+        "metric_watchlist":2,
+        "list_events":"Anger, Accidental overdose, Serotonin syndrome"
+    },
+    {
+        "aedrug_id":5842,
+        "aedrug_brandname":"XYREM",
+        "metric_total":58,
+        "metric_active":34,
+        "metric_watchlist":24,
+        "list_events":"Pulmonary thrombosis, Spinal fracture, Paralysis"
+    },
+    {
+        "aedrug_id":5858,
+        "aedrug_brandname":"ZEMAIRA",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Respiratory failure, Infusion related reaction"
+    },
+    {
+        "aedrug_id":5859,
+        "aedrug_brandname":"ZEMPLAR",
+        "metric_total":24,
+        "metric_active":13,
+        "metric_watchlist":11,
+        "list_events":"Gangrene, Aortic stenosis, Acute myocardial infarction"
+    },
+    {
+        "aedrug_id":5860,
+        "aedrug_brandname":"ZEMURON",
+        "metric_total":15,
+        "metric_active":9,
+        "metric_watchlist":6,
+        "list_events":"Acute respiratory distress syndrome, Rhabdomyolysis, Respiratory failure"
+    },
+    {
+        "aedrug_id":5866,
+        "aedrug_brandname":"ZESTORETIC",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Rhabdomyolysis, Loss of consciousness"
+    },
+    {
+        "aedrug_id":5878,
+        "aedrug_brandname":"ZOMIG",
+        "metric_total":11,
+        "metric_active":2,
+        "metric_watchlist":9,
+        "list_events":"Epilepsy, Coeliac disease, Grand mal convulsion"
+    },
+    {
+        "aedrug_id":5900,
+        "aedrug_brandname":"ZYLOPRIM",
+        "metric_total":8,
+        "metric_active":6,
+        "metric_watchlist":2,
+        "list_events":"Drug rash with eosinophilia and systemic symptoms, Sepsis, Cardiac failure"
+    },
+    {
+        "aedrug_id":5905,
+        "aedrug_brandname":"AMPYRA",
+        "metric_total":43,
+        "metric_active":21,
+        "metric_watchlist":22,
+        "list_events":"Nephrolithiasis, Loss of consciousness, Paralysis"
+    },
+    {
+        "aedrug_id":5906,
+        "aedrug_brandname":"ARZERRA",
+        "metric_total":8,
+        "metric_active":3,
+        "metric_watchlist":5,
+        "list_events":"Respiratory failure, Renal failure acute, Hypokalaemia"
+    },
+    {
+        "aedrug_id":5911,
+        "aedrug_brandname":"COLCRYS",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Renal failure acute, Maternal drugs affecting foetus"
+    },
+    {
+        "aedrug_id":5912,
+        "aedrug_brandname":"EMBEDA",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Hypersensitivity, Agitation"
+    },
+    {
+        "aedrug_id":5913,
+        "aedrug_brandname":"FANAPT",
+        "metric_total":8,
+        "metric_active":5,
+        "metric_watchlist":3,
+        "list_events":"Loss of consciousness, Swollen tongue, Muscle twitching"
+    },
+    {
+        "aedrug_id":5914,
+        "aedrug_brandname":"FERAHEME",
+        "metric_total":19,
+        "metric_active":12,
+        "metric_watchlist":7,
+        "list_events":"Acute respiratory failure, Acute myocardial infarction, Cardiac arrest"
+    },
+    {
+        "aedrug_id":5915,
+        "aedrug_brandname":"FOLOTYN",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Renal failure acute, Pneumonia, Hypotension"
+    },
+    {
+        "aedrug_id":5917,
+        "aedrug_brandname":"ONSOLIS",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Neoplasm malignant"
+    },
+    {
+        "aedrug_id":5919,
+        "aedrug_brandname":"PENNSAID",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Renal failure"
+    },
+    {
+        "aedrug_id":5921,
+        "aedrug_brandname":"PROVENGE",
+        "metric_total":25,
+        "metric_active":19,
+        "metric_watchlist":6,
+        "list_events":"Renal failure acute, Pancytopenia, Acute myocardial infarction"
+    },
+    {
+        "aedrug_id":5922,
+        "aedrug_brandname":"SAPHRIS",
+        "metric_total":7,
+        "metric_active":3,
+        "metric_watchlist":4,
+        "list_events":"Muscle twitching, Agitation, Anger"
+    },
+    {
+        "aedrug_id":5923,
+        "aedrug_brandname":"STELARA",
+        "metric_total":13,
+        "metric_active":3,
+        "metric_watchlist":10,
+        "list_events":"Type 2 diabetes mellitus, Dermatitis exfoliative, Hepatic steatosis"
+    },
+    {
+        "aedrug_id":5925,
+        "aedrug_brandname":"VIBATIV",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Thrombocytopenia"
+    },
+    {
+        "aedrug_id":5926,
+        "aedrug_brandname":"VICTOZA",
+        "metric_total":6,
+        "metric_active":3,
+        "metric_watchlist":3,
+        "list_events":"Adenocarcinoma pancreas, Pancreatic carcinoma, Cholelithiasis"
+    },
+    {
+        "aedrug_id":5933,
+        "aedrug_brandname":"BOSULIF",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Atrial fibrillation, Cardiac failure congestive, Dysphagia"
+    },
+    {
+        "aedrug_id":5979,
+        "aedrug_brandname":"DULERA",
+        "metric_total":5,
+        "metric_active":2,
+        "metric_watchlist":3,
+        "list_events":"Muscle spasms, Aggression, Palpitations"
+    },
+    {
+        "aedrug_id":5981,
+        "aedrug_brandname":"JALYN",
+        "metric_total":3,
+        "metric_active":1,
+        "metric_watchlist":2,
+        "list_events":"Loss of consciousness, Muscle spasms, Myalgia"
+    },
+    {
+        "aedrug_id":5987,
+        "aedrug_brandname":"HALAVEN",
+        "metric_total":7,
+        "metric_active":7,
+        "metric_watchlist":0,
+        "list_events":"Acute respiratory failure, Bone marrow failure, Respiratory failure"
+    },
+    {
+        "aedrug_id":5992,
+        "aedrug_brandname":"INTUNIV",
+        "metric_total":6,
+        "metric_active":6,
+        "metric_watchlist":0,
+        "list_events":"Pancreatitis, Suicidal ideation, Loss of consciousness"
+    },
+    {
+        "aedrug_id":5993,
+        "aedrug_brandname":"JEVTANA",
+        "metric_total":10,
+        "metric_active":8,
+        "metric_watchlist":2,
+        "list_events":"Disseminated intravascular coagulation, Pancytopenia, Sudden death"
+    },
+    {
+        "aedrug_id":6012,
+        "aedrug_brandname":"SERAX",
+        "metric_total":24,
+        "metric_active":16,
+        "metric_watchlist":8,
+        "list_events":"Toxic epidermal necrolysis, Completed suicide, Respiratory failure"
+    },
+    {
+        "aedrug_id":6066,
+        "aedrug_brandname":"VPRIV",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Infusion related reaction"
+    },
+    {
+        "aedrug_id":6118,
+        "aedrug_brandname":"POMALYST",
+        "metric_total":6,
+        "metric_active":5,
+        "metric_watchlist":1,
+        "list_events":"Pancytopenia, Bone marrow failure, Atrial flutter"
+    },
+    {
+        "aedrug_id":6122,
+        "aedrug_brandname":"SIGNIFOR",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Urinary tract infection"
+    },
+    {
+        "aedrug_id":6150,
+        "aedrug_brandname":"NESINA",
+        "metric_total":6,
+        "metric_active":4,
+        "metric_watchlist":2,
+        "list_events":"Pancreatic carcinoma, Cerebral infarction, Cardiac failure"
+    },
+    {
+        "aedrug_id":6156,
+        "aedrug_brandname":"STIVARGA",
+        "metric_total":9,
+        "metric_active":4,
+        "metric_watchlist":5,
+        "list_events":"Delirium, Skin discolouration, Swollen tongue"
+    },
+    {
+        "aedrug_id":6184,
+        "aedrug_brandname":"FERRIPROX",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Asthenia"
+    },
+    {
+        "aedrug_id":6297,
+        "aedrug_brandname":"WELLBUTRIN SR",
+        "metric_total":10,
+        "metric_active":4,
+        "metric_watchlist":6,
+        "list_events":"Mental impairment, Anger, Drug eruption"
+    },
+    {
+        "aedrug_id":6301,
+        "aedrug_brandname":"INCIVEK",
+        "metric_total":31,
+        "metric_active":14,
+        "metric_watchlist":17,
+        "list_events":"Hepatic encephalopathy, Neutropenia, Renal impairment"
+    },
+    {
+        "aedrug_id":6306,
+        "aedrug_brandname":"DALIRESP",
+        "metric_total":20,
+        "metric_active":5,
+        "metric_watchlist":15,
+        "list_events":"Respiratory failure, Pneumonia, Gynaecomastia"
+    },
+    {
+        "aedrug_id":6308,
+        "aedrug_brandname":"BEYAZ",
+        "metric_total":5,
+        "metric_active":4,
+        "metric_watchlist":1,
+        "list_events":"Coeliac disease, Mood altered, Mood swings"
+    },
+    {
+        "aedrug_id":6309,
+        "aedrug_brandname":"XGEVA",
+        "metric_total":10,
+        "metric_active":5,
+        "metric_watchlist":5,
+        "list_events":"Hypomagnesaemia, Blood potassium increased, Musculoskeletal pain"
+    },
+    {
+        "aedrug_id":6315,
+        "aedrug_brandname":"PLAQUENIL",
+        "metric_total":47,
+        "metric_active":26,
+        "metric_watchlist":21,
+        "list_events":"Torsade de pointes, Toxic epidermal necrolysis, Progressive multifocal leukoencephalopathy"
+    },
+    {
+        "aedrug_id":6317,
+        "aedrug_brandname":"EGRIFTA",
+        "metric_total":7,
+        "metric_active":3,
+        "metric_watchlist":4,
+        "list_events":"Nephrolithiasis, Gynaecomastia, Tendonitis"
+    },
+    {
+        "aedrug_id":6350,
+        "aedrug_brandname":"KOMBIGLYZE XR",
+        "metric_total":5,
+        "metric_active":0,
+        "metric_watchlist":5,
+        "list_events":"Dysphagia, Vision blurred, Muscle spasms"
+    },
+    {
+        "aedrug_id":6351,
+        "aedrug_brandname":"LATUDA",
+        "metric_total":4,
+        "metric_active":3,
+        "metric_watchlist":1,
+        "list_events":"Anaphylactic reaction, Hallucination, Hypersensitivity"
+    },
+    {
+        "aedrug_id":6352,
+        "aedrug_brandname":"TRADJENTA",
+        "metric_total":11,
+        "metric_active":2,
+        "metric_watchlist":9,
+        "list_events":"Pancreatic carcinoma, Drug eruption, Renal impairment"
+    },
+    {
+        "aedrug_id":6394,
+        "aedrug_brandname":"ADRIAMYCIN",
+        "metric_total":25,
+        "metric_active":18,
+        "metric_watchlist":7,
+        "list_events":"Progressive multifocal leukoencephalopathy, Hepatic encephalopathy, Pulmonary fibrosis"
+    },
+    {
+        "aedrug_id":6475,
+        "aedrug_brandname":"TYVASO",
+        "metric_total":13,
+        "metric_active":8,
+        "metric_watchlist":5,
+        "list_events":"Acute respiratory failure, Respiratory failure, Sudden death"
+    },
+    {
+        "aedrug_id":6514,
+        "aedrug_brandname":"REVATIO",
+        "metric_total":15,
+        "metric_active":8,
+        "metric_watchlist":7,
+        "list_events":"Pulmonary fibrosis, Acute respiratory failure, Respiratory failure"
+    },
+    {
+        "aedrug_id":6597,
+        "aedrug_brandname":"EPIVIR-HBV",
+        "metric_total":14,
+        "metric_active":12,
+        "metric_watchlist":2,
+        "list_events":"Hepatic encephalopathy, Liver transplant, Hepatic failure"
+    },
+    {
+        "aedrug_id":6611,
+        "aedrug_brandname":"MAKENA",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Maternal drugs affecting foetus"
+    },
+    {
+        "aedrug_id":6620,
+        "aedrug_brandname":"EDARBI",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Cardiac failure, Loss of consciousness"
+    },
+    {
+        "aedrug_id":6623,
+        "aedrug_brandname":"BENLYSTA",
+        "metric_total":20,
+        "metric_active":9,
+        "metric_watchlist":11,
+        "list_events":"Arthralgia, Skin discolouration, Bone pain"
+    },
+    {
+        "aedrug_id":6626,
+        "aedrug_brandname":"POTIGA",
+        "metric_total":7,
+        "metric_active":4,
+        "metric_watchlist":3,
+        "list_events":"Aggression, Cognitive disorder, Abnormal behaviour"
+    },
+    {
+        "aedrug_id":6645,
+        "aedrug_brandname":"BRILINTA",
+        "metric_total":11,
+        "metric_active":5,
+        "metric_watchlist":6,
+        "list_events":"Ventricular fibrillation, Cardiac arrest, Drug eruption"
+    },
+    {
+        "aedrug_id":6648,
+        "aedrug_brandname":"LASTACAFT",
+        "metric_total":5,
+        "metric_active":5,
+        "metric_watchlist":0,
+        "list_events":"Swelling face, Hypersensitivity, Visual acuity reduced"
+    },
+    {
+        "aedrug_id":6649,
+        "aedrug_brandname":"KRYSTEXXA",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Cardiac arrest, Cerebrovascular accident"
+    },
+    {
+        "aedrug_id":6659,
+        "aedrug_brandname":"GLASSIA",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Pneumonia, Infusion related reaction"
+    },
+    {
+        "aedrug_id":6729,
+        "aedrug_brandname":"ADCETRIS",
+        "metric_total":33,
+        "metric_active":29,
+        "metric_watchlist":4,
+        "list_events":"Acute respiratory distress syndrome, Respiratory failure, Bone marrow failure"
+    },
+    {
+        "aedrug_id":6734,
+        "aedrug_brandname":"KYPROLIS",
+        "metric_total":12,
+        "metric_active":10,
+        "metric_watchlist":2,
+        "list_events":"Pancytopenia, Respiratory failure, Atrial fibrillation"
+    },
+    {
+        "aedrug_id":6775,
+        "aedrug_brandname":"CYTOXAN",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Pancytopenia"
+    },
+    {
+        "aedrug_id":6776,
+        "aedrug_brandname":"REQUIP",
+        "metric_total":8,
+        "metric_active":3,
+        "metric_watchlist":5,
+        "list_events":"Pulmonary fibrosis, Restlessness, Abnormal behaviour"
+    },
+    {
+        "aedrug_id":6777,
+        "aedrug_brandname":"SANDOSTATIN LAR",
+        "metric_total":29,
+        "metric_active":13,
+        "metric_watchlist":16,
+        "list_events":"Nephrolithiasis, Intestinal perforation, Rib fracture"
+    },
+    {
+        "aedrug_id":6783,
+        "aedrug_brandname":"DEPAKENE",
+        "metric_total":38,
+        "metric_active":21,
+        "metric_watchlist":17,
+        "list_events":"Hepatic necrosis, Liver transplant, Hepatic encephalopathy"
+    },
+    {
+        "aedrug_id":6799,
+        "aedrug_brandname":"METHOTREXATE",
+        "metric_total":72,
+        "metric_active":36,
+        "metric_watchlist":36,
+        "list_events":"Pulmonary fibrosis, Progressive multifocal leukoencephalopathy, Acute respiratory distress syndrome"
+    },
+    {
+        "aedrug_id":6813,
+        "aedrug_brandname":"XALKORI",
+        "metric_total":7,
+        "metric_active":3,
+        "metric_watchlist":4,
+        "list_events":"Cytolytic hepatitis, Dysphagia, Hepatitis"
+    },
+    {
+        "aedrug_id":6820,
+        "aedrug_brandname":"KEPPRA XR",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Cerebrovascular accident"
+    },
+    {
+        "aedrug_id":6821,
+        "aedrug_brandname":"ZELBORAF",
+        "metric_total":24,
+        "metric_active":9,
+        "metric_watchlist":15,
+        "list_events":"Epilepsy, Cerebral haemorrhage, Intestinal perforation"
+    },
+    {
+        "aedrug_id":6822,
+        "aedrug_brandname":"VIIBRYD",
+        "metric_total":13,
+        "metric_active":3,
+        "metric_watchlist":10,
+        "list_events":"Muscle twitching, Anger, Mood altered"
+    },
+    {
+        "aedrug_id":6852,
+        "aedrug_brandname":"HORIZANT",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Hallucination"
+    },
+    {
+        "aedrug_id":6869,
+        "aedrug_brandname":"FIRAZYR",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Loss of consciousness"
+    },
+    {
+        "aedrug_id":6895,
+        "aedrug_brandname":"GRALISE",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Loss of consciousness"
+    },
+    {
+        "aedrug_id":6900,
+        "aedrug_brandname":"KADCYLA",
+        "metric_total":2,
+        "metric_active":1,
+        "metric_watchlist":1,
+        "list_events":"Sepsis, Pneumonia"
+    },
+    {
+        "aedrug_id":6994,
+        "aedrug_brandname":"DOXORUBICIN",
+        "metric_total":18,
+        "metric_active":14,
+        "metric_watchlist":4,
+        "list_events":"Progressive multifocal leukoencephalopathy, Hepatic encephalopathy, Pancytopenia"
+    },
+    {
+        "aedrug_id":6996,
+        "aedrug_brandname":"LOESTRIN",
+        "metric_total":9,
+        "metric_active":7,
+        "metric_watchlist":2,
+        "list_events":"Suicidal ideation, Haemorrhage, Mood swings"
+    },
+    {
+        "aedrug_id":6997,
+        "aedrug_brandname":"LO LOESTRIN FE",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Haemorrhage, Muscle spasms"
+    },
+    {
+        "aedrug_id":7005,
+        "aedrug_brandname":"CLIMARA PRO",
+        "metric_total":2,
+        "metric_active":1,
+        "metric_watchlist":1,
+        "list_events":"Mood swings, Palpitations"
+    },
+    {
+        "aedrug_id":7024,
+        "aedrug_brandname":"JAKAFI",
+        "metric_total":24,
+        "metric_active":14,
+        "metric_watchlist":10,
+        "list_events":"Pancytopenia, Acute respiratory distress syndrome, Respiratory failure"
+    },
+    {
+        "aedrug_id":7029,
+        "aedrug_brandname":"EYLEA",
+        "metric_total":4,
+        "metric_active":3,
+        "metric_watchlist":1,
+        "list_events":"Sudden death, Dementia, Neoplasm malignant"
+    },
+    {
+        "aedrug_id":7030,
+        "aedrug_brandname":"BYDUREON",
+        "metric_total":3,
+        "metric_active":1,
+        "metric_watchlist":2,
+        "list_events":"Pancreatic carcinoma, Rash generalised, Cholelithiasis"
+    },
+    {
+        "aedrug_id":7031,
+        "aedrug_brandname":"ERIVEDGE",
+        "metric_total":12,
+        "metric_active":8,
+        "metric_watchlist":4,
+        "list_events":"Squamous cell carcinoma, Pulmonary embolism, Atrial fibrillation"
+    },
+    {
+        "aedrug_id":7036,
+        "aedrug_brandname":"KALYDECO",
+        "metric_total":3,
+        "metric_active":1,
+        "metric_watchlist":2,
+        "list_events":"Staphylococcal infection, Pneumonia, Infection"
+    },
+    {
+        "aedrug_id":7053,
+        "aedrug_brandname":"ZIOPTAN",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Intraocular pressure increased, Hypersensitivity, Arthralgia"
+    },
+    {
+        "aedrug_id":7063,
+        "aedrug_brandname":"CYCLOSPORINE",
+        "metric_total":35,
+        "metric_active":28,
+        "metric_watchlist":7,
+        "list_events":"Liver transplant, Aplastic anaemia, Bone marrow failure"
+    },
+    {
+        "aedrug_id":7071,
+        "aedrug_brandname":"FOCALIN XR",
+        "metric_total":4,
+        "metric_active":4,
+        "metric_watchlist":0,
+        "list_events":"Suicidal ideation, Agitation, Confusional state"
+    },
+    {
+        "aedrug_id":7074,
+        "aedrug_brandname":"BUTRANS",
+        "metric_total":11,
+        "metric_active":5,
+        "metric_watchlist":6,
+        "list_events":"Neoplasm malignant, Delirium, Suicidal ideation"
+    },
+    {
+        "aedrug_id":7084,
+        "aedrug_brandname":"MYRBETRIQ",
+        "metric_total":6,
+        "metric_active":2,
+        "metric_watchlist":4,
+        "list_events":"Intraocular pressure increased, Swollen tongue, Arrhythmia"
+    },
+    {
+        "aedrug_id":7085,
+        "aedrug_brandname":"VELETRI",
+        "metric_total":4,
+        "metric_active":4,
+        "metric_watchlist":0,
+        "list_events":"Renal failure, Atrial fibrillation, Mental status changes"
+    },
+    {
+        "aedrug_id":7086,
+        "aedrug_brandname":"AVENTYL",
+        "metric_total":7,
+        "metric_active":5,
+        "metric_watchlist":2,
+        "list_events":"Delirium, Coma, Cardiac arrest"
+    },
+    {
+        "aedrug_id":7087,
+        "aedrug_brandname":"EXALGO",
+        "metric_total":4,
+        "metric_active":4,
+        "metric_watchlist":0,
+        "list_events":"Respiratory failure, Delirium, Loss of consciousness"
+    },
+    {
+        "aedrug_id":7097,
+        "aedrug_brandname":"ESTRADERM",
+        "metric_total":29,
+        "metric_active":20,
+        "metric_watchlist":9,
+        "list_events":"Deafness, Pulmonary fibrosis, Basal cell carcinoma"
+    },
+    {
+        "aedrug_id":7113,
+        "aedrug_brandname":"RITALIN LA",
+        "metric_total":8,
+        "metric_active":8,
+        "metric_watchlist":0,
+        "list_events":"Suicidal ideation, Loss of consciousness, Agitation"
+    },
+    {
+        "aedrug_id":7135,
+        "aedrug_brandname":"METHYLIN",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Completed suicide, Agitation"
+    },
+    {
+        "aedrug_id":7136,
+        "aedrug_brandname":"XANAX XR",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Blood pressure increased, Hypersensitivity, Hypertension"
+    },
+    {
+        "aedrug_id":7150,
+        "aedrug_brandname":"VESANOID",
+        "metric_total":16,
+        "metric_active":14,
+        "metric_watchlist":2,
+        "list_events":"Bone marrow failure, Pancytopenia, Neutropenia"
+    },
+    {
+        "aedrug_id":7152,
+        "aedrug_brandname":"ACCUTANE",
+        "metric_total":4,
+        "metric_active":3,
+        "metric_watchlist":1,
+        "list_events":"Nephrolithiasis, Anger, Abnormal behaviour"
+    },
+    {
+        "aedrug_id":7160,
+        "aedrug_brandname":"AUBAGIO",
+        "metric_total":30,
+        "metric_active":14,
+        "metric_watchlist":16,
+        "list_events":"Paralysis, Nephrolithiasis, Foot fracture"
+    },
+    {
+        "aedrug_id":7195,
+        "aedrug_brandname":"SOLODYN",
+        "metric_total":3,
+        "metric_active":3,
+        "metric_watchlist":0,
+        "list_events":"Convulsion, Loss of consciousness, Confusional state"
+    },
+    {
+        "aedrug_id":7205,
+        "aedrug_brandname":"IMURAN",
+        "metric_total":31,
+        "metric_active":21,
+        "metric_watchlist":10,
+        "list_events":"Aplasia pure red cell, Aplastic anaemia, Pancreatitis acute"
+    },
+    {
+        "aedrug_id":7221,
+        "aedrug_brandname":"CATAPRES-TTS",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Skin discolouration"
+    },
+    {
+        "aedrug_id":7226,
+        "aedrug_brandname":"SANCTURA XR",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Muscle spasms"
+    },
+    {
+        "aedrug_id":7243,
+        "aedrug_brandname":"ULTRAM ER",
+        "metric_total":4,
+        "metric_active":4,
+        "metric_watchlist":0,
+        "list_events":"Transient ischaemic attack, Loss of consciousness, Confusional state"
+    },
+    {
+        "aedrug_id":7253,
+        "aedrug_brandname":"TEGRETOL-XR",
+        "metric_total":11,
+        "metric_active":7,
+        "metric_watchlist":4,
+        "list_events":"Coma, Cerebral haemorrhage, Delirium"
+    },
+    {
+        "aedrug_id":7262,
+        "aedrug_brandname":"PAXIL CR",
+        "metric_total":6,
+        "metric_active":5,
+        "metric_watchlist":1,
+        "list_events":"Aortic stenosis, Anger, Mood swings"
+    },
+    {
+        "aedrug_id":7267,
+        "aedrug_brandname":"SEROQUEL XR",
+        "metric_total":5,
+        "metric_active":3,
+        "metric_watchlist":2,
+        "list_events":"Mood swings, Anger, Mood altered"
+    },
+    {
+        "aedrug_id":7278,
+        "aedrug_brandname":"FINACEA",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Skin discolouration, Hypersensitivity"
+    },
+    {
+        "aedrug_id":7320,
+        "aedrug_brandname":"COREG CR",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Arrhythmia"
+    },
+    {
+        "aedrug_id":7324,
+        "aedrug_brandname":"LEVOTHROID",
+        "metric_total":2,
+        "metric_active":2,
+        "metric_watchlist":0,
+        "list_events":"Completed suicide, Tremor"
+    },
+    {
+        "aedrug_id":7372,
+        "aedrug_brandname":"ICLUSIG",
+        "metric_total":5,
+        "metric_active":4,
+        "metric_watchlist":1,
+        "list_events":"Pancytopenia, Respiratory failure, Renal failure"
+    },
+    {
+        "aedrug_id":7587,
+        "aedrug_brandname":"MYORISAN",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Anger"
+    },
+    {
+        "aedrug_id":7633,
+        "aedrug_brandname":"PROLASTIN-C",
+        "metric_total":8,
+        "metric_active":6,
+        "metric_watchlist":2,
+        "list_events":"Sepsis, Infusion related reaction, Myalgia"
+    },
+    {
+        "aedrug_id":7653,
+        "aedrug_brandname":"XTANDI",
+        "metric_total":4,
+        "metric_active":1,
+        "metric_watchlist":3,
+        "list_events":"Dysphagia, Muscle twitching, Muscle spasms"
+    },
+    {
+        "aedrug_id":7657,
+        "aedrug_brandname":"TUDORZA PRESSAIR",
+        "metric_total":7,
+        "metric_active":3,
+        "metric_watchlist":4,
+        "list_events":"Swollen tongue, Accidental overdose, Palpitations"
+    },
+    {
+        "aedrug_id":7682,
+        "aedrug_brandname":"OMONTYS",
+        "metric_total":5,
+        "metric_active":5,
+        "metric_watchlist":0,
+        "list_events":"Cardiac arrest, Loss of consciousness, Vision blurred"
+    },
+    {
+        "aedrug_id":7683,
+        "aedrug_brandname":"QSYMIA",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Anger, Restlessness, Agitation"
+    },
+    {
+        "aedrug_id":7741,
+        "aedrug_brandname":"INVOKANA",
+        "metric_total":8,
+        "metric_active":2,
+        "metric_watchlist":6,
+        "list_events":"Nephrolithiasis, Atrial fibrillation, Myocardial infarction"
+    },
+    {
+        "aedrug_id":7756,
+        "aedrug_brandname":"LINZESS",
+        "metric_total":3,
+        "metric_active":1,
+        "metric_watchlist":2,
+        "list_events":"Accidental exposure to product, Accidental overdose, Palpitations"
+    },
+    {
+        "aedrug_id":7760,
+        "aedrug_brandname":"MINIVELLE",
+        "metric_total":3,
+        "metric_active":2,
+        "metric_watchlist":1,
+        "list_events":"Mood swings, Rash generalised, Palpitations"
+    },
+    {
+        "aedrug_id":7847,
+        "aedrug_brandname":"SOVALDI",
+        "metric_total":5,
+        "metric_active":2,
+        "metric_watchlist":3,
+        "list_events":"Accidental overdose, Visual impairment, Memory impairment"
+    },
+    {
+        "aedrug_id":7965,
+        "aedrug_brandname":"XOFIGO",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Bone pain"
+    },
+    {
+        "aedrug_id":7972,
+        "aedrug_brandname":"JUXTAPID",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Myalgia"
+    },
+    {
+        "aedrug_id":7988,
+        "aedrug_brandname":"BELVIQ",
+        "metric_total":1,
+        "metric_active":1,
+        "metric_watchlist":0,
+        "list_events":"Arthralgia"
+    }
+]

@@ -1,0 +1,147 @@
+
+<div xmlns:ui="http://angularui.org" class="navbar navbar-static-top">
+  <div class="container-fluid home-navbar-container">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+          <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+          <span class="icon-bar"></span></button>
+        <a ui-sref="home" href="/explorer/#/" class="navbar-brand"><img src="http://www.adverseevents.com/dev/rxsignal/assets/img/ae_logo2.png" class="img-responsive"></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right nav-bar-inverse" role="navigation">
+          <li class="links helpDesk"><a target='_new' href="https://adverseevents.freshdesk.com/support/home">Help </a>
+          <li class="dropdown links researchLinks">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a ui-sref="drugs.list">Drugs</a></li>
+              <li><a ui-sref="company.list">Companies</a></li>
+              <li><a ui-sref="druggroup.list({type:'drugclass'})">Classes</a></li>
+              <li><a ui-sref="druggroup.list({type:'indication'})">Indications</a></li>
+              <li><a ui-sref="druggroup.list({type:'mechanism'})">Mechanisms</a></li>
+
+              <li class="divider"></li>
+              <li><a href="http://www.adverseevents.com/advancedsearch.php">Custom Search</a></li>
+              <li><a ui-sref="portfolio.manager" ui-sref-opts="{reload: true}">{{ portfolioName }} Manager</a></li>
+              <li><a ui-sref="drugs.rxsignal">RxSignal</a></li>
+              <li class="divider"></li>
+              <li><a href="http://info.adverseevents.com/resource-content-center">Resource Center</a></li>
+              <li><a href="http://www.adverseevents.com/data" target="_blank">Popular Data</a></li>
+              <li class="li-head">Whitepapers</li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">Post
+                FDA-approval Drug Safety Data</a></li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">Long-term
+                Expenses from Adverse Drug Events</a></li>
+              <li class="li-head">Disease Resource Centers
+              </li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">
+                Multiple Sclerosis</a></li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">Hepatitis
+                C</a></li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">Type
+                2 Diabetes Mellitus</a></li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">Anticoagulant
+                &amp; Antiplatelet Drugs</a></li>
+              <li class="li-head">Research Papers
+              </li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">Comparative
+                Analysis of the Newly Approved Obesity Drug: Contrave</a></li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">An
+                Analysis of 48,971 Unreleased FAERS Reports</a></li>
+              <li class="li-content"><a href="http://info.adverseevents.com/resource-content-center">Examining
+                the Comparative Safety of Blood Thinners</a></li>
+              <li class="li-head">Published Research
+              </li>
+              <li class="li-content"><a target="_blank" href="http://info.adverseevents.com/resource-content-center">The
+                Weber Effect and FAERS: Analysis from 2006 to 2010</a></li>
+              <li class="li-content"><a target="_blank" href="http://info.adverseevents.com/resource-content-center">Stimulated
+                Reporting: The Impact of US Food and Drug Administration-Issued Alerts on FAERS</a></li>
+              <li class="li-content">
+                <a target="_blank" href="https://www.adverseevents.com/assets/pdf/bmj_tamiflu_min.pdf">Adverse
+                  effects of oseltamivir - BMJ </a></li>
+              <li class="li-content">
+                <a target="_blank" href="https://www.adverseevents.com/assets/pdf/rxfilter_publication_min.pdf">
+                  Development of a drug safety ePlatform - RxFilter<sup>®</sup> Paper </a></li>
+            </ul>
+          <li class="links homeLink"><a ui-sref="home">Home</a></li>
+          <li>
+            <button onClick="location.href = 'http://www.adverseevents.com/myaccount.php'" class="btn btn-sm accountButton">
+              <i class="fa fa-user fa-fw"></i> Account
+            </button>
+            <button onClick="location.href = 'http://www.adverseevents.com/logout.php'" class="btn btn-sm logoutButton">
+              <i class="fa fa-sign-out"></i> Logout
+            </button>
+
+
+          </li>
+
+        </ul>
+
+      </div>
+      <div class="pull-right" id="ColinSearchToolHome" ng-controller="HomeSearchCtrl" ng-if="$state.current.name !== 'home'" style="max-width:630px; min-width: 630px;">
+        <ui-select ng-model="item.selected" theme="bootstrap" reset-search-input="true">
+          <ui-select-match placeholder="Search any drug, company, indication, drug class or mechanism of action.">
+            {{ $select.selected.thisName }}
+          </ui-select-match>
+          <ui-select-choices repeat="item in items | propsFilter: {thisName: $select.search, thisClass: $select.search, thisSynonym: $select.search} | limitTo: 20" refresh="refreshItems($select.search)" refresh-delay="1">
+            <ui-select-choice>
+							<span>
+								<span ng-bind-html="item.thisName | highlight: $select.search"></span>
+								<span class="text-muted" ng-show="item.thisType === 'Drug'" ng-bind-html="item.thisClass | highlight: $select.search"></span>
+								<span class="pull-right text-muted" ng-bind-html="item.thisType"></span>
+							</span>
+            </ui-select-choice>
+          </ui-select-choices>
+        </ui-select>
+      </div>
+    </div>
+    <!--<div class="searchIconDiv"><i class="fa fa-search"></i</div>>-->
+  </div>
+</div>
+
+<style>
+  .ui-select-toggle {
+    display: none !important;
+  }
+  .homePageContainer > div > div {
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+
+  .homePageContainer > div > div > div {
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+
+  .ui-select-bootstrap > .ui-select-choices {
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+
+  div.ui-select-bootstrap {
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+  .navbar-nav .li-head {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 700;
+    line-height: 1.428571429;
+    color: rgb(190, 190, 190);
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+
+  .navbar-nav .li-content {
+    padding-left: 6px;
+  }
+  .homePageContainer .dropdown-menu {
+    float: none;
+    position: relative;
+  }
+</style>

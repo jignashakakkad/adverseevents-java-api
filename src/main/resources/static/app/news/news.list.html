@@ -1,0 +1,15 @@
+<div class="recentNewsList">
+    <h4>Recent Analysis and Insight:</h4>
+<div class="caption">
+    <ul>
+        <li ng-repeat="article in myData">
+            {{article.date}} - <a href="{{article.url}}">{{article.title}}</a>
+        </li>
+    </ul>
+    <div class="" ng-hide="totalServerItems == 0 ">
+        <pager class="pager-sm" direction-links="true" boundary-links="true" max-size="10"
+               ng-click="search()" total-items="totalServerItems" page="currentPage"
+               items-per-page="itemsPerPage"></pager>
+    </div>
+</div>
+</div>

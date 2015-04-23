@@ -1,0 +1,36 @@
+<!-- http://www.adverseevents.com/api/drugclass/J01MA/rxsignal-summary
+Provides data in following format.
+[{"aedrug_id":942,"product_drugnames":"CIPRO","metric_reac":52,"metric_rxsignal_active":26,"metric_rxsignal_watchlist":26,"metric_rxsignal_ime":31,"metric_rxsignal_dme":16,"old_ror":5.54,"ROR":9.562,"PRR":5.531,"metric_rxsignal_pscount":2653},
+-->
+<div class="clearfix"></div>
+<div class="h4"></div>
+<div class="col-md-12">
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div id="druggroup-rxsignal-bubblechart" ng-show="rxsignal_count > 0"></div>
+        </div>
+    </div>
+</div>
+    <div class="clearfix"></div>
+    <div class="row-fluid">
+        <div class="jumbotron" ng-show="rxsignal_count == 0"><h4>No RxSignal Data</h4></div>
+        <div class="panel panel-default rxSignalDetailGridPanel" ng-show="rxsignal_count > 0">
+            <div class="panel-heading">
+                <span class="text-muted panel-title">RxSignal Summary for {{DrugGroup.dimLabel}}</span>
+                <button class="btn btn-info btn-mini restoreSortButton rxSignalDetailDrugGroupGrid pull-right"
+                        ng-click="localStorageClear()"
+                        popover-append-to-body="true" popover-trigger="mouseenter"
+                        popover="Reload grid with default sorting order">
+                    Restore Default Settings
+                </button>
+            </div>
+            <div ng-grid="rxsignalSummary.options" class="gridStyle" ng-show="rxsignal_count > 0"></div>
+        </div>
+    </div>
+
+    <style>
+        .ngCellText span {
+            margin-left: 0;
+        }
+    </style>

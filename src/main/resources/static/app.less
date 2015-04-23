@@ -1,0 +1,135 @@
+@import "bower_components/bootstrap/less/bootstrap.less";
+//@import "bower_components/bootstrap/less/theme.less";
+//@import "bower_components/font-awesome/less/font-awesome.less";
+@fa-font-path: "bower_components/font-awesome/fonts";
+
+/* Component LESS */
+@import "less/main.less";
+@import "less/drugs.less";
+@import "less/dsm.less";
+@import "less/print.less";
+
+@import "less/rxsignal.less";
+
+@import "common/directives/tooltipHtmlUnsafe/tooltipHtmlUnsafe.less";
+@import "less/directives/popoverHtmlUnsafe/popoverHtmlUnsafe";
+@import "less/outcomes.less";
+@import "less/indications.less";
+@import "less/mechanisms.less";
+@import "app/events/events.less";
+@import "less/users.less";
+
+
+@import "less/drug-timeline.less";
+@import "app/lib/aex.utils.less";
+@import "app/lib/aex.mocks.less";
+@import "app/aex/aex.dataservice.less";
+@import "app/core/dataservice.less";
+
+@import "common/directives/MappedNames.less";
+
+
+@import "app/company/company.less";
+
+
+@import "company/company.services.less";
+/* Add Component LESS Above */
+
+/* Required for Angular UI Bootstrap */
+.nav, .pagination, .carousel a { cursor: pointer; }
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+
+#nav-content > div {
+  border-top: 7px solid rgb(23, 50, 65);
+  border-bottom: 4px outset rgb(170, 170, 170);
+}
+
+
+#nav-content {
+  background-color: #ffffff;
+  margin-bottom: -10px;
+}
+#nav-content  hr {
+margin: 0;
+  box-shadow: 1px rgba(244,244,244,0.5);
+  border-bottom: 10px #0e0e0e;
+}
+
+
+.report-chart-mockup {
+  padding: 1.5em;
+}
+
+.report-title {
+  color: white;
+  font-size: 1.7em;
+  line-height: 1.2em;
+  letter-spacing: -1px;
+  text-shadow: 1px 0px 4px rgba(111, 111, 111, 0.45);
+  text-rendering: optimizeLegibility;
+  webkit-font-smoothing: antialiased;
+
+}
+.nav-tabs > li:first-child.active > a {
+  border-radius: 4px 4px 1px 1px;
+}
+
+.report {
+  background-color: rgba(235, 155, 45, 1.2) !important;
+}
+
+.report-header {
+  font-size: 1.7em;
+  line-height: 1.2em;
+  text-rendering: optimizeLegibility;
+}
+
+.report-header .title {
+  color: rgb(255,255,248);
+  letter-spacing: -1px;  font-size: 1.9em;
+  text-shadow: 1px 0px 4px rgba(111, 111, 111, 0.15);
+  text-rendering: optimizeLegibility;
+}
+
+.report-header .subheader {
+  color: rgb(255,255,248);
+  letter-spacing: -1px;
+  text-shadow: 1px 0px 4px rgba(111, 111, 111, 0.15);
+
+}
+
+.report-header .badge-rxscore {
+  background-color: @label-danger-bg;
+  font-size: 27px;
+  color: #FFFFF0;
+  text-shadow: 1px 0px 4px rgba(111, 11, 111, 0.14);
+}
+.dmeBadge {
+  font-size:10px !important;
+  padding:2px 5px !important;
+}
+
+footer {
+  background-color: #dddddd;
+}
+footer > div.wrapper {
+
+  padding: 18px 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1180px;
+}
+
+
+
+#root {
+  background-color: #f5f5f5;
+}
+
+//Any HTML tag with ng-click attribute should have the pointer when the user mouse-overs
+[ng-click] {
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+{
+    "eventsGrid": [{
+            "field": "event_dt",
+            "pinned": true,
+            "cellClass": "drugName",
+            "width": "10%",
+            "visible": true,
+            "cellFilter": "date",
+            "displayName": "Date"
+        },
+        {
+            "field": "product_drugname",
+            "cellClass": "drugName",
+            "width": "20%",
+            "visible": true,
+            "displayName": "Product",
+            "cellTemplate": "<div class='ngCellText'><a ui-sref='drugs.detail.rxsignal({id:row.getProperty(\"aedrug_id\") })'>{{row.getProperty(col.field)  | pascalCaseFilter }}</a></div>"
+        },
+        {
+            "field": "alert_type",
+            "cellClass": "drugName",
+            "width": "50%",
+            "visible": true,
+            "displayName": "Headline",
+            "cellTemplate": "<div class='ngCellText monitor-headline'>{{row.getProperty(col.field)}}</div>"
+        },
+        {
+            "field": "event_type",
+            "cellClass": "drugName",
+            "width": "20%",
+            "visible": true,
+            "displayName": "Event Type"
+        }]
+}

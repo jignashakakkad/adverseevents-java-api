@@ -1,0 +1,54 @@
+<div id="company-detail" class="container">
+    <div id="fullscreenonly" fullscreen="isFullScreen">
+    <div class="panel panel-default">
+        <div class="custom-panel-heading report">
+            <div class="h3 report-header header-margin">
+                <div id="drugdetail-report-header" class="report-header-container pull-left">
+
+                    <div class="text-upper">
+                        <!-- end as of -->
+                        <div class='company-header-name'>   {{ Company.parent_label}} <a href="http://www.bloomberg.com/quote/{{Company.companyTicker}}" target="_blank" ng-show="Company.parent_ticker.length">({{ Company.parent_ticker}})</a>
+                            <!--Moves generic name up a little-->
+                        </div>
+                        <div ui-view="notImportant" onload=" "  style="margin-top: 11px;" >
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- rxscore here -->
+                <div class='rxscore-container'>
+                    <div ui-view="report-header-right" class="report-header-right"></div>
+                </div>
+            </div>
+            <div class="pull-left header-edit-buttons">
+                <div class="form-group inline">
+                    <button ng-click="goFullScreenViaWatcher()" class="btn btn-primary"><i class="fa aexicon-desktop"></i></button>
+                    <button ng-click="localStorageClearAll()" class="btn btn-primary">Reset Grids</button>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+            <div ui-view="nav-tabs"></div>
+            <div ui-view="tabcontent" class="tabContentDrug"></div>
+
+        <div class="panel-body"></div>
+    </div>
+    </div>
+</div>
+
+<style>
+    .c3-circle {
+        opacity: 0.8 !important;
+    }
+    .restoreSortButtonCompany button{
+
+        height:27px !important;
+        font-size:12px !important;
+
+    }
+    #drugdetail-report-header a {
+        font-size: .55em !important;
+    }
+</style>

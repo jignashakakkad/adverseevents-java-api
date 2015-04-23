@@ -1,0 +1,66 @@
+<div class='clearfix'></div>
+<div class="h4 invisible"></div>
+<div class='h4'></div>
+<div class='col-md-12'>
+    <div class="panel panel-default" ng-init="chartIsCollapsed = false">
+        <div class="panel-heading">
+            <h4 class="panel-title">Cost Breakdown by Drug & Drug Cost
+                <button class="pull-right btn btn-xs" ng-click="chartIsCollapsed = !chartIsCollapsed"><span
+                    class="text-center"
+                    ng-class="{'fa fa-plus': chartIsCollapsed, 'fa fa-minus': !chartIsCollapsed}"></span>
+                </button>
+            </h4>
+        </div>
+        <div class="panel-body small" collapse="chartIsCollapsed">
+            <div class="col-xs-12">
+                <highchart id="drugCostChart" config="costChartConfig" class="col-md-12"></highchart>
+            </div>
+        </div>
+    </div>
+</div>
+<div class='col-md-12'>
+    <div class='panel panel-default'>
+        <div class='panel-heading'>
+                <span class='text-muted panel-title'>
+                    <span id='costsGridTitle'>{{ costTitle}}</span>
+                    <!-- modal -->
+                    <span ng-controller="ModalDemoCtrl">
+                        <i class="fa fa-question-circle" ng-click="open('lg')"></i>
+                    </span>
+                </span>
+            <button class="btn btn-info btn-mini restoreSortButton pull-right"
+                    ng-click="localStorageClear(['outcomesCosts'])"
+                    popover-append-to-body="true" popover-trigger="mouseenter"
+                    popover="Reload grid with default sorting order.">Restore Default Settings
+            </button>
+        </div>
+        <div class='gridStyle' ng-grid='outcomesCosts.options' id='drugGroupPatientCostsGrid'></div>
+    </div>
+</div>
+<script type="text/ng-template" id="myModalContent.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Costs and ICD-9 Mapping</h3>
+    </div>
+    <div class="modal-body">
+        <p>The Healthcare Cost and Utilization Project (HCUP) is a compilation of patient data collected by the Agency for
+            Healthcare Research and Quality (AHRQ) coded to the International Classification of Diseases, Ninth Revision,
+            Clinical Modification (ICD-9-CM). We used this resource to obtain national hospitalization and aggregate costs for
+            specific diagnoses and procedures.
+        </p>
+        <p>Given that the FAERS database is MedDRA coded, we used BioPortal, a repository of biomedical ontologies, and a
+            ICD-9 mapping resource to assign ICD-9-CM codes to MedDRA Preferred Terms (PT). For case reports where no AE costs
+            were calculated we assigned a cost to such reports by using AHRQ “outcome” figures.  We were able to assign costs to
+            1,508 serious PTs. 1,213 (80%) of them were mapped using BioPortal to ICD-9-CM codes with available cost data.
+        </p>
+        <p>295 PTs (20%) that could not be assigned by the use of BioPortal were manually mapped using the ICD-9-CM coding manual with
+            the following hierarchy: 1) verbatim match (example: MedDRA PT “asphyxia” was mapped to ICD-9-CM “asphyxia” (799.01)), 2)
+            PTs matched to broader ICD categories (example: MedDRA PT “nephrogenic systemic fibrosis” was mapped to ICD-9-CM “other
+            specified diffuse diseases of connective tissue” (710.8)), and 3) for terms that were mapped to multiple ICD9 categories,
+            we obtained a weighted average of the relevant cost data (example: MedDRA PT “cardio-respiratory arrest” was mapped to
+            “cardiac arrest” (427.5) and “respiratory arrest” (799.1)).
+        </p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="cancel()">OK</button>
+    </div>
+</script>

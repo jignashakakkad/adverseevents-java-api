@@ -1,0 +1,22 @@
+<!-- rxscore@druggroup template -->
+<div class='clearfix'></div>
+<div class="h4 invisible"></div>
+<div class='col-md-12'>
+    <div class="panel panel-default" ng-init="chartIsCollapsed = false">
+        <div class="panel-heading">
+            <h4 class="panel-title">RxScore Comparison
+                <button class="pull-right btn btn-xs" ng-click="chartIsCollapsed = !chartIsCollapsed"><span
+                    class="text-center"
+                    ng-class="{'fa fa-plus': chartIsCollapsed, 'fa fa-minus': !chartIsCollapsed}"></span>
+                </button>
+            </h4>
+        </div>
+        <div class="panel-body small" collapse="chartIsCollapsed">
+            <div class="col-xs-12">
+
+                <highchart id="chart1" config="RxScoreModel.chartConfig" class="col-md-12"></highchart>
+            </div>
+        </div>
+    </div>
+</div>
+
